@@ -1,6 +1,9 @@
 import json
 import argparse
 import sys
+from pathlib import Path
+
+ROOT_DIR = Path(__file__).resolve().parent.parent
 
 
 def normalize_std(std_string):
@@ -74,4 +77,12 @@ if __name__ == "__main__":
     )
     args = parser.parse_args()
 
-    evaluate_results(args.results)
+    results_path = Path(args.results)
+    if not results_path.exists() and len(results_path.parts) == 1:
+        results_path = ROOT_DIR / 'data' / results_path.name
+
+    if not results_path.exists():
+        print(f"Results file not found: {args.results} (Tried: {results_path})")
+        sys.exit(1)
+
+    evaluate_results(str(results_path))

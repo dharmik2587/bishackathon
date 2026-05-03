@@ -1,107 +1,107 @@
 [
   {
-    "id": "PVT-001",
-    "query": "We manufacture hydrophobic cement designed for storage in humid conditions. Which BIS standard applies?",
+    "id": "PVT-003",
+    "query": "We produce high alumina cement for structural applications in cold climates. Applicable standard?",
     "expected_standards": [
-      "IS 8043: 1991"
+      "IS 6452: 1989"
     ]
   },
   {
-    "id": "PVT-002",
-    "query": "Which BIS standard covers sulphate resisting Portland cement used in aggressive soil conditions?",
+    "id": "PVT-008",
+    "query": "We produce prestressed concrete pipes for water supply. Applicable BIS standard?",
     "expected_standards": [
-      "IS 12330: 1988"
+      "IS 784: 2001"
     ]
   },
   {
-    "id": "PVT-005",
-    "query": "Looking for BIS standard for sand used specifically in masonry mortar.",
+    "id": "PVT-012",
+    "query": "Which standard specifies preformed expansion joint fillers made of bitumen impregnated fibre?",
     "expected_standards": [
-      "IS 2116: 1980"
+      "IS 1838 (Part 1): 1983"
     ]
   },
   {
-    "id": "PVT-006",
-    "query": "We manufacture precast reinforced concrete manhole covers. Which standard governs this?",
+    "id": "PVT-019",
+    "query": "We produce precast concrete coping blocks. Applicable BIS standard?",
     "expected_standards": [
-      "IS 12592: 2002"
+      "IS 5751: 1984"
     ]
   },
   {
-    "id": "PVT-007",
-    "query": "Which standard specifies precast ferrocement water tanks up to 10,000 litres?",
+    "id": "PVT-022",
+    "query": "Which standard governs asbestos cement building boards?",
     "expected_standards": [
-      "IS 13356: 1992"
+      "IS 2098: 1997"
     ]
   },
   {
-    "id": "PVT-009",
-    "query": "Which standard applies to porous concrete pipes used for under-drainage systems?",
+    "id": "PVT-027",
+    "query": "Which BIS standard governs aggregates testing for particle size and shape?",
     "expected_standards": [
-      "IS 4350: 1967"
+      "IS 2386 (Part 1): 1963"
     ]
   },
   {
-    "id": "PVT-014",
-    "query": "Which BIS standard applies to hollow concrete blocks used in load-bearing walls?",
+    "id": "PVT-032",
+    "query": "Which standard specifies gypsum building plasters?",
     "expected_standards": [
-      "IS 2185 (Part 1): 1979"
+      "IS 2547 (Part 1): 1976"
     ]
   },
   {
-    "id": "PVT-021",
-    "query": "Looking for BIS standard for asbestos cement flat sheets used in construction.",
+    "id": "PVT-039",
+    "query": "We produce safety glass. Applicable BIS standard?",
     "expected_standards": [
-      "IS 2096: 1992"
+      "IS 2553 (Part 1): 1990"
     ]
   },
   {
-    "id": "PVT-031",
-    "query": "We manufacture gypsum plaster boards. Which BIS standard applies?",
+    "id": "PVT-044",
+    "query": "Which standard applies to HDPE pipes?",
     "expected_standards": [
-      "IS 2095: 1982"
+      "IS 4984: 1995"
     ]
   },
   {
-    "id": "PVT-034",
-    "query": "Which standard governs plywood for general purpose use?",
+    "id": "PVT-050",
+    "query": "Which standard applies to rivets used in steel structures?",
     "expected_standards": [
-      "IS 303: 1989"
+      "IS 1929: 1982"
     ]
   },
   {
-    "id": "PVT-041",
-    "query": "Looking for BIS standard for bitumen used in road works.",
+    "id": "PVT-055",
+    "query": "Which standard applies to power cables?",
     "expected_standards": [
-      "IS 73: 2013"
+      "IS 1554 (Part 1): 1988"
     ]
   },
   {
-    "id": "PVT-043",
-    "query": "We manufacture PVC pipes for water supply. Which BIS standard applies?",
+    "id": "PVT-061",
+    "query": "Which standard applies to terrazzo tiles?",
     "expected_standards": [
-      "IS 4985: 2000"
+      "IS 1237: 2012"
     ]
   },
   {
-    "id": "PVT-047",
-    "query": "We manufacture welding electrodes. Which BIS standard applies?",
+    "id": "PVT-067",
+    "query": "Which standard applies to lime used in construction?",
     "expected_standards": [
-      "IS 814: 2004"
+      "IS 712: 1984"
     ]
   },
   {
-    "id": "PVT-056",
-    "query": "We manufacture switches and wiring accessories. Which BIS standard applies?",
+    "id": "PVT-075",
+    "query": "Which standard applies to rubber flooring materials?",
     "expected_standards": [
-      "IS 3854: 1997"
+      "IS 3462: 1986"
     ]
   },
   {
-    "id": "PVT-080",
-    "query": "We manufacture fire-resistant glass. Which BIS standard applies?",
+    "id": "PVT-091",
+    "query": "Which standard applies to circuit breakers?",
     "expected_standards": [
-      "IS 3614: 1992"
+      "IS 8828: 1996"
     ]
   }
 ]

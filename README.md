@@ -1,6 +1,6 @@
 # 🛡️ BIS Standards RAG Engine
 
-[![Anthropic Powered](https://img.shields.io/badge/LLM-Anthropic-purple?style=for-the-badge&logo=anthropic)](https://anthropic.com)
+[![DeepSeek Powered](https://img.shields.io/badge/LLM-DeepSeek-blue?style=for-the-badge&logo=ai)](https://deepseek.com)
 [![Vite](https://img.shields.io/badge/Frontend-Vite%20%2B%20React-646CFF?style=for-the-badge&logo=vite)](https://vitejs.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
 
@@ -21,7 +21,7 @@ Contains the Vite + React frontend dashboard.
 
 ### 2. `backend/`
 Contains the core Python RAG engine and data pipelines.
-- `inference.py`: The main RAG inference engine. Combines direct keyword mapping, TF-IDF/BM25 retrieval, and Anthropic LLM-based query rewriting to fetch the best standards. Run this to test against a dataset.
+- `inference.py`: The main RAG inference engine. Combines direct keyword mapping, TF-IDF/BM25 retrieval, and DeepSeek LLM-based query rewriting to fetch the best standards. Run this to test against a dataset.
 - `eval_script.py`: The evaluation script. Compares the retrieved outputs against the expected standards to calculate Hit Rate @3 and MRR @5.
 - `enrich_standards.py`: A preprocessing script that cleans and prepares `standards.json` into `standards_enriched.json`.
 - `generate_mappings.py`: A utility script that analyzes the enriched standards to auto-suggest direct keyword mappings for `inference.py`.
@@ -50,7 +50,7 @@ Contains all datasets and run outputs.
 
 ## 🛠️ Tech Stack
 
-- **Backend (Inference)**: Python 3.11 + rank-bm25 + Anthropic Claude (fallback)
+- **Backend (Inference)**: Python 3.11 + rank-bm25 + openai (DeepSeek fallback)
 - **Frontend**: React 19 + Vite + TypeScript + Tailwind CSS 4.0
 
 ---
