@@ -3,6 +3,7 @@ export interface BISStandard {
   standardNumber: string;
   title: string;
   category: string;
+  section?: string;
   description: string;
   keywords: string[];
   contextChunks: string[];

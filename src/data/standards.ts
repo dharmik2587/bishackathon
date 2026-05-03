@@ -1,5 +1,37 @@
 import { BISStandard, QueryResult, EvaluationMetrics } from '../types';
 
+// Cache for dynamically loaded standards
+let cachedStandards: BISStandard[] | null = null;
+
+/**
+ * Load standards from extracted JSON (568 real standards from SP 21:2005 PDF)
+ * Falls back to hardcoded standards if fetch fails
+ */
+export async function loadStandardsFromJSON(): Promise<BISStandard[]> {
+  if (cachedStandards) return cachedStandards;
+  
+  try {
+    const response = await fetch('/standards.json');
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json();
+    cachedStandards = data as BISStandard[];
+    console.log(`Loaded ${cachedStandards.length} standards from dataset`);
+    return cachedStandards;
+  } catch (error) {
+    console.warn('Failed to load standards JSON, using fallback:', error);
+    cachedStandards = bisStandards;
+    return cachedStandards;
+  }
+}
+
+/**
+ * Get all loaded standards (sync, returns cached or fallback)
+ */
+export function getStandards(): BISStandard[] {
+  return cachedStandards || bisStandards;
+}
+
+// Fallback hardcoded standards (subset for demo)
 export const bisStandards: BISStandard[] = [
   {
     id: 'IS-456',
@@ -323,146 +355,367 @@ export const sampleQueries = [
   },
 ];
 
-// Simulate RAG retrieval with keyword matching
-function calculateRelevance(query: string, standard: BISStandard): number {
-  const queryLower = query.toLowerCase();
-  const queryWords = queryLower.split(/[\s,;.!?()]+/).filter(w => w.length > 2);
-  
-  let score = 0;
-  
-  // Check keyword matches
-  for (const keyword of standard.keywords) {
-    const keywordLower = keyword.toLowerCase();
-    if (queryLower.includes(keywordLower)) {
-      score += 3;
+// ============================================================
+// RAG Engine: Stemming, Synonyms, Inverted-Index Scoring
+// Ported from inference.py for consistent quality
+// ============================================================
+
+const STOPWORDS = new Set([
+  'the', 'and', 'for', 'with', 'from', 'this', 'that', 'are', 'was',
+  'has', 'have', 'been', 'will', 'which', 'their', 'used', 'shall',
+  'not', 'but', 'its', 'also', 'into', 'can', 'may', 'all', 'any',
+  'our', 'use', 'per', 'than', 'both', 'each', 'how', 'what', 'when',
+  'where', 'who', 'why', 'other', 'about', 'more', 'most', 'some',
+  'such', 'only', 'same', 'very', 'just', 'over', 'under', 'between',
+  'through', 'during', 'before', 'after', 'above', 'below', 'being',
+  'need', 'looking', 'want', 'require', 'like', 'company', 'product',
+  'products', 'manufacture', 'manufacturing', 'produce', 'producing',
+  'comply', 'compliance', 'standard', 'standards', 'govern', 'governs',
+  'cover', 'covers', 'apply', 'applies', 'applicable', 'specification',
+  'specifications', 'requirement', 'requirements',
+  // High-ambiguity words that cause false matches across domains
+  'type', 'types', 'part', 'parts', 'based',
+  'grade', 'grades', 'general', 'purpose', 'purposes',
+  'revision', 'indian', 'bureau', 'face', 'solid', 'unit', 'units',
+]);
+
+function stem(word: string): string {
+  if (word.length <= 4) return word;
+  if (word.endsWith('ies') && word.length > 5) return word.slice(0, -3) + 'y';
+  if (word.endsWith('es') && word.length > 4 && !'aeiou'.includes(word[word.length - 3])) return word.slice(0, -2);
+  if (word.endsWith('s') && !word.endsWith('ss') && word.length > 4) return word.slice(0, -1);
+  if (word.endsWith('ing') && word.length > 5) return word.slice(0, -3);
+  if (word.endsWith('ed') && word.length > 4) return word.slice(0, -2);
+  return word;
+}
+
+function tokenize(text: string): string[] {
+  if (!text) return [];
+  const words = text.toLowerCase().match(/[a-z]{3,}/g) || [];
+  return words.filter(w => !STOPWORDS.has(w)).map(w => stem(w));
+}
+
+const SYNONYMS: Record<string, string[]> = {
+  'supersulphat': ['sulphat', 'super', 'sulphate'],
+  'sulphat': ['supersulphat', 'sulphate'],
+  'lightweight': ['light', 'weight'],
+  'precast': ['cast'],
+  'reinforc': ['rebar', 'steel', 'bar'],
+  'corrugat': ['sheet'],
+  'hollow': ['solid', 'block'],
+  'mortar': ['masonry', 'cement', 'plaster'],
+  'aggregat': ['sand', 'gravel', 'coarse', 'fine'],
+  'pozzolana': ['pozzolan', 'fly', 'ash', 'calcin', 'clay'],
+  'calcin': ['clay', 'pozzolana'],
+  'slag': ['portland', 'granulat', 'blast'],
+  'switchgear': ['switch', 'electrical', 'circuit', 'breaker', 'voltag', 'board', 'enclosure'],
+  'voltag': ['electrical', 'cable', 'wire', 'conductor', 'switch', 'low', 'high', 'medium'],
+  'automotiv': ['vehicle', 'car', 'brake', 'engine', 'clutch', 'suspension'],
+  'brake': ['lining', 'pad', 'disc', 'drum', 'automotiv', 'vehicle'],
+  'engin': ['motor', 'internal', 'combustion', 'automotiv'],
+  'switch': ['circuit', 'breaker', 'switchgear', 'isolator', 'fuse', 'electrical'],
+  'test': ['method', 'procedure', 'sampling', 'analysis', 'assessment'],
+  'safeti': ['protection', 'hazard', 'precaution', 'security', 'prevention'],
+  'perform': ['efficiency', 'output', 'capability', 'rating', 'characteristic'],
+  'cable': ['wire', 'conductor', 'insul'],
+  'insul': ['cable', 'wire', 'pvc', 'xlpe', 'thermal'],
+  'pipe': ['tube', 'fitting', 'plumb'],
+  'plumb': ['pipe', 'fitting', 'sanitary', 'water'],
+  'timber': ['wood', 'plywood', 'lumber'],
+  'wood': ['timber', 'plywood', 'lumber'],
+  'paint': ['coat', 'enamel', 'primer', 'varnish', 'lacquer'],
+  'tile': ['floor', 'wall', 'ceramic', 'terrazzo'],
+  'bolt': ['nut', 'screw', 'fastener', 'rivet'],
+  'weld': ['electrod', 'joint', 'filler'],
+  'glass': ['glazing', 'window', 'sheet'],
+  'plastic': ['pvc', 'polyethylen', 'polymer'],
+  'door': ['shutter', 'window', 'frame'],
+  'roof': ['cladding', 'sheet', 'cover'],
+};
+
+function expandQuery(words: string[]): string[] {
+  const expanded = [...words];
+  for (const word of words) {
+    if (SYNONYMS[word]) expanded.push(...SYNONYMS[word]);
+  }
+  return expanded;
+}
+
+// Build inverted index from standards
+type IndexEntry = { idx: number; weight: number };
+let invertedIndex: Record<string, IndexEntry[]> | null = null;
+let indexedStandards: BISStandard[] | null = null;
+
+function buildIndex(standards: BISStandard[]) {
+  if (indexedStandards === standards && invertedIndex) return;
+  invertedIndex = {};
+  indexedStandards = standards;
+
+  const addEntry = (word: string, idx: number, weight: number) => {
+    if (!invertedIndex![word]) invertedIndex![word] = [];
+    invertedIndex![word].push({ idx, weight });
+  };
+
+  for (let idx = 0; idx < standards.length; idx++) {
+    const std = standards[idx];
+    for (const w of tokenize(std.title)) addEntry(w, idx, 5.0);
+    for (const w of tokenize(std.standardNumber)) addEntry(w, idx, 4.0);
+    for (const kw of (std.keywords || [])) {
+      const stemmed = stem(kw.toLowerCase().trim());
+      addEntry(stemmed, idx, 3.0);
     }
-    // Partial match
-    for (const word of queryWords) {
-      if (keywordLower.includes(word) || word.includes(keywordLower)) {
-        score += 1;
+    for (const w of tokenize(std.category)) addEntry(w, idx, 1.5);
+    for (const w of tokenize(std.description)) addEntry(w, idx, 0.5);
+    for (const chunk of (std.contextChunks || [])) {
+      for (const w of tokenize(chunk)) addEntry(w, idx, 0.8);
+    }
+  }
+}
+
+function calculateRelevance(query: string, standards: BISStandard[]): { standard: BISStandard; score: number }[] {
+  buildIndex(standards);
+  if (!invertedIndex) return [];
+
+  const queryWords = tokenize(query);
+  const expanded = expandQuery(queryWords);
+  const querySet = new Set(queryWords);
+  const scores: Record<number, number> = {};
+
+  // Phase 1: Inverted index lookup
+  for (const word of expanded) {
+    if (invertedIndex[word]) {
+      for (const entry of invertedIndex[word]) {
+        scores[entry.idx] = (scores[entry.idx] || 0) + entry.weight;
       }
     }
   }
-  
-  // Check title words
-  const titleWords = standard.title.toLowerCase().split(/[\s\-:,()]+/).filter(w => w.length > 2);
-  for (const word of queryWords) {
-    if (titleWords.includes(word)) {
-      score += 2;
+
+  // Phase 2: Direct matching boosts
+  for (let idx = 0; idx < standards.length; idx++) {
+    const std = standards[idx];
+    const titleWords = new Set(tokenize(std.title));
+
+    // Multi-word overlap bonus
+    const overlap = [...titleWords].filter(w => querySet.has(w));
+    if (overlap.length >= 2) {
+      scores[idx] = (scores[idx] || 0) + overlap.length * 3.0;
+    }
+
+    // Substring matching for compound words
+    for (const qword of queryWords) {
+      if (qword.length > 4) {
+        for (const tword of titleWords) {
+          if (tword.length > 4 && qword !== tword && (qword.includes(tword) || tword.includes(qword))) {
+            scores[idx] = (scores[idx] || 0) + 3.0;
+          }
+        }
+      }
+    }
+
+    // Exact word-in-title bonus
+    const titleLower = std.title.toLowerCase();
+    for (const word of queryWords) {
+      if (word.length > 4 && titleLower.includes(word)) {
+        scores[idx] = (scores[idx] || 0) + 2.0;
+      }
+    }
+
+    // Category-specific boosts/penalties
+    const cat = std.category.toLowerCase();
+    const isElecQuery = querySet.has('electrical') || querySet.has('voltag') || querySet.has('switch') || querySet.has('switchgear');
+    const isCivilQuery = querySet.has('cement') || querySet.has('concrete') || querySet.has('masonry') || querySet.has('mortar');
+    
+    if (isElecQuery && cat.includes('electrical')) scores[idx] = (scores[idx] || 0) + 10.0;
+    if (isCivilQuery && (cat.includes('cement') || cat.includes('concrete'))) scores[idx] = (scores[idx] || 0) + 10.0;
+    
+    // Penalty for cross-domain mismatches
+    if (isElecQuery && (cat.includes('wood') || cat.includes('door') || cat.includes('paint'))) {
+      scores[idx] = (scores[idx] || 0) - 20.0;
+    }
+    if (isCivilQuery && cat.includes('electrical')) {
+      scores[idx] = (scores[idx] || 0) - 20.0;
     }
   }
-  
-  // Check description matches
-  const descLower = standard.description.toLowerCase();
-  for (const word of queryWords) {
-    if (descLower.includes(word)) {
-      score += 0.5;
-    }
-  }
-  
-  return score;
+
+  // Sort and return
+  return Object.entries(scores)
+    .map(([idx, score]) => ({ standard: standards[Number(idx)], score }))
+    .filter(item => item.score > 0) // Remove negative scores
+    .sort((a, b) => b.score - a.score);
 }
 
-// Rationale generation fallback (if Groq is not configured)
-function generateMockRationale(_query: string, standards: BISStandard[]): string {
-  if (standards.length === 0) {
-    return 'No relevant BIS standards were found in the knowledge base for the given product description. Please refine your query with more specific product details.';
-  }
-  
-  const rationales = standards.map(std => {
-    return `${std.standardNumber} (${std.title}): This standard is applicable because it directly governs the specifications, testing, and quality requirements for ${std.category.toLowerCase()} products matching the described use case. Compliance with this standard ensures the product meets Indian regulatory requirements.`;
-  });
-  
-  return `Based on the product description provided, the following BIS standards have been identified as applicable through retrieval from the standards knowledge base:\n\n${rationales.join('\n\n')}\n\nAll recommendations are strictly grounded in the retrieved context. No standards have been fabricated or hallucinated.`;
+// ============================================================
+// Groq API Integration - Re-ranking + Rationale
+// ============================================================
+
+function getGroqApiKey(): string | null {
+  const key = (import.meta as any).env?.VITE_GROQ_API_KEY as string | undefined;
+  if (!key || key === 'gsk_your_key_here' || key.length < 20) return null;
+  return key;
 }
 
-// Actual Groq API Call
-async function callGroqAPI(query: string, standards: BISStandard[]): Promise<string> {
-  const apiKey = import.meta.env.VITE_GROQ_API_KEY;
-  
-  // Skip if key is placeholder or empty
-  if (!apiKey || apiKey === 'gsk_your_key_here') {
-    return generateMockRationale(query, standards);
-  }
+async function groqRerank(query: string, candidates: BISStandard[]): Promise<BISStandard[]> {
+  const apiKey = getGroqApiKey();
+  if (!apiKey || candidates.length === 0) return candidates;
 
-  const prompt = `
-    You are an AI assistant helping users identify applicable Indian Standards (BIS).
-    
-    USER QUERY: "${query}"
-    
-    RETRIEVED STANDARDS:
-    ${standards.map(s => `- ${s.standardNumber}: ${s.title}. ${s.description}`).join('\n')}
-    
-    TASK:
-    Generate a concise rationale explaining why these standards are relevant to the user's query.
-    1. Group the explanation by standard.
-    2. Be professional and specific.
-    3. If no standards are provided, explain that no direct matches were found.
-    4. Explicitly state that the response is grounded in the provided knowledge base.
-    
-    FORMAT:
-    Return only the rationale text.
-  `;
+  const candidateList = candidates.slice(0, 10).map((s, i) =>
+    `${i + 1}. ${s.standardNumber}: ${s.title} [Category: ${s.category}]`
+  ).join('\n');
+
+  const prompt = `You are a BIS (Bureau of Indian Standards) expert. Given a user query and candidate standards from SP 21:2005 (Summaries of Indian Standards for Building Materials), select ONLY the standards that are actually relevant.
+
+USER QUERY: "${query}"
+
+CANDIDATE STANDARDS:
+${candidateList}
+
+IMPORTANT: SP 21:2005 covers ONLY building materials (cement, concrete, steel, timber, plumbing, electrical wiring/cables, paints, glass, plastics, etc.). If the query is about something NOT covered (like automotive parts, food, textiles, IT equipment), return "NONE".
+
+Return ONLY the numbers (1, 2, 3...) of relevant standards, comma-separated. If none are relevant, return "NONE".`;
 
   try {
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${apiKey}`,
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'llama3-8b-8192',
+        model: 'llama-3.1-8b-instant',
         messages: [{ role: 'user', content: prompt }],
-        temperature: 0.1,
-        max_tokens: 1000
-      })
+        temperature: 0.0,
+        max_tokens: 100,
+      }),
     });
 
-    if (!response.ok) throw new Error(`Groq API error: ${response.statusText}`);
-    
+    if (!response.ok) {
+      console.warn('Groq rerank failed:', response.status);
+      return candidates;
+    }
+
     const data = await response.json();
-    return data.choices[0].message.content.trim();
+    const answer = data.choices?.[0]?.message?.content?.trim() || '';
+
+    if (answer.toUpperCase().includes('NONE')) return [];
+
+    // Parse numbers
+    const nums = answer.match(/\d+/g)?.map(Number).filter((n: number) => n >= 1 && n <= candidates.length) || [];
+    if (nums.length === 0) return candidates;
+
+    return nums.map((n: number) => candidates[n - 1]);
+  } catch (err) {
+    console.warn('Groq rerank error:', err);
+    return candidates;
+  }
+}
+
+async function callGroqAPI(query: string, standards: BISStandard[]): Promise<string> {
+  const apiKey = getGroqApiKey();
+
+  if (!apiKey) {
+    return generateMockRationale(query, standards);
+  }
+
+  if (standards.length === 0) {
+    return 'No relevant BIS standards were found in the SP 21:2005 knowledge base for the given query. This dataset covers building materials only (cement, concrete, steel, timber, plumbing, paints, glass, electrical cables, plastics, etc.). Please refine your query to match building material standards.';
+  }
+
+  const contextBlock = standards.map(s =>
+    `- ${s.standardNumber}: ${s.title} [${s.category}]. Keywords: ${(s.keywords || []).join(', ')}`
+  ).join('\n');
+
+  const prompt = `You are an expert BIS (Bureau of Indian Standards) consultant. Based ONLY on the retrieved standards below, provide a professional rationale for why these standards are relevant to the user's query.
+
+USER QUERY: "${query}"
+
+RETRIEVED STANDARDS (from SP 21:2005 - Building Materials):
+${contextBlock}
+
+RULES:
+1. Explain why each standard is relevant, referencing its title and category.
+2. Be concise and professional (2-3 sentences per standard max).
+3. ONLY reference the standards listed above. Do NOT invent or hallucinate any standard numbers.
+4. State that all recommendations are grounded in the SP 21:2005 knowledge base.
+
+FORMAT: Use bullet points with the standard number as header.`;
+
+  try {
+    const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'llama-3.1-8b-instant',
+        messages: [{ role: 'user', content: prompt }],
+        temperature: 0.1,
+        max_tokens: 1200,
+      }),
+    });
+
+    if (!response.ok) {
+      console.warn('Groq API error:', response.status);
+      return generateMockRationale(query, standards);
+    }
+
+    const data = await response.json();
+    return data.choices?.[0]?.message?.content?.trim() || generateMockRationale(query, standards);
   } catch (error) {
-    console.error('Failed to fetch from Groq:', error);
+    console.error('Groq API call failed:', error);
     return generateMockRationale(query, standards);
   }
 }
 
-// Main RAG simulation function
+function generateMockRationale(_query: string, standards: BISStandard[]): string {
+  if (standards.length === 0) {
+    return 'No relevant BIS standards were found in the SP 21:2005 knowledge base for the given product description. This database covers building materials standards only. Please refine your query with specific building material terms (cement, concrete, steel, timber, pipes, cables, paints, glass, etc.).';
+  }
+
+  const rationales = standards.map(std =>
+    `• ${std.standardNumber} (${std.title}): This standard is applicable as it governs the specifications and quality requirements for ${std.category.toLowerCase()} products matching your use case.`
+  );
+
+  return `Based on the query, the following BIS standards from SP 21:2005 have been retrieved:\n\n${rationales.join('\n\n')}\n\nAll recommendations are strictly grounded in the retrieved context from the standards knowledge base. No standards have been fabricated.`;
+}
+
+// ============================================================
+// Main RAG Query Function
+// ============================================================
+
 export async function simulateRAGQuery(
   query: string,
   queryId: string = `q-${Date.now()}`
 ): Promise<QueryResult> {
   const startTime = performance.now();
-  
-  // Simulate network/processing delay (1-2 seconds)
-  const processingDelay = 800 + Math.random() * 1200;
-  await new Promise(resolve => setTimeout(resolve, processingDelay));
-  
-  // Calculate relevance scores for all standards
-  const scoredStandards = bisStandards.map(standard => ({
-    standard,
-    score: calculateRelevance(query, standard),
-  }));
-  
-  // Sort by relevance and take top 5
-  const topResults = scoredStandards
-    .sort((a, b) => b.score - a.score)
-    .filter(s => s.score > 2)
-    .slice(0, 5);
-  
-  const retrievedStandards = topResults.map(s => s.standard);
-  const contextUsed = topResults.flatMap(s => 
-    s.standard.contextChunks.slice(0, 2)
+
+  // Load full standards from JSON (568 from PDF)
+  const allStandards = await loadStandardsFromJSON();
+
+  // Calculate relevance scores using inverted index + stemming + synonyms
+  const scored = calculateRelevance(query, allStandards);
+
+  // Filter by minimum relevance threshold (must have meaningful match)
+  const MIN_SCORE = 5;
+  const candidates = scored.filter(s => s.score >= MIN_SCORE).slice(0, 10);
+
+  // Use Groq to re-rank / filter (LLM validates relevance)
+  const candidateStandards = candidates.map(c => c.standard);
+  const reranked = await groqRerank(query, candidateStandards);
+
+  // Take top 5 after re-ranking
+  const retrievedStandards = reranked.slice(0, 5);
+
+  const contextUsed = retrievedStandards.flatMap(s =>
+    (s.contextChunks || []).slice(0, 2)
   );
-  
-  // Use Groq if available, else fallback to mock
+
+  // Generate rationale using Groq
   const rationale = await callGroqAPI(query, retrievedStandards);
-  
+
   const endTime = performance.now();
   const latencySeconds = parseFloat(((endTime - startTime) / 1000).toFixed(3));
-  
+
   return {
     id: queryId,
     query,
@@ -530,15 +783,31 @@ export function calculateMetrics(results: QueryResult[]): EvaluationMetrics {
   };
 }
 
-// Category colors for badges
+// Category colors for badges - covers all categories from SP 21:2005 PDF
 export const categoryColors: Record<string, { bg: string; text: string; border: string }> = {
   'Construction': { bg: 'bg-amber-50', text: 'text-amber-700', border: 'border-amber-200' },
+  'Cement & Concrete': { bg: 'bg-amber-50', text: 'text-amber-700', border: 'border-amber-200' },
+  'Building Limes': { bg: 'bg-stone-50', text: 'text-stone-700', border: 'border-stone-200' },
+  'Stones': { bg: 'bg-stone-100', text: 'text-stone-800', border: 'border-stone-300' },
+  'Gypsum Products': { bg: 'bg-lime-50', text: 'text-lime-700', border: 'border-lime-200' },
+  'Wood & Timber': { bg: 'bg-yellow-50', text: 'text-yellow-800', border: 'border-yellow-200' },
+  'Bitumen & Tar': { bg: 'bg-neutral-100', text: 'text-neutral-700', border: 'border-neutral-300' },
+  'Bitumen & Waterproofing': { bg: 'bg-neutral-100', text: 'text-neutral-700', border: 'border-neutral-300' },
   'Steel & Metals': { bg: 'bg-slate-100', text: 'text-slate-700', border: 'border-slate-300' },
   'Electrical': { bg: 'bg-blue-50', text: 'text-blue-700', border: 'border-blue-200' },
-  'Textiles': { bg: 'bg-pink-50', text: 'text-pink-700', border: 'border-pink-200' },
   'Plumbing & Water': { bg: 'bg-cyan-50', text: 'text-cyan-700', border: 'border-cyan-200' },
-  'Food & Agriculture': { bg: 'bg-green-50', text: 'text-green-700', border: 'border-green-200' },
+  'Sanitary': { bg: 'bg-purple-50', text: 'text-purple-700', border: 'border-purple-200' },
   'Sanitary & Bathroom': { bg: 'bg-purple-50', text: 'text-purple-700', border: 'border-purple-200' },
+  'Hardware & Fasteners': { bg: 'bg-zinc-100', text: 'text-zinc-700', border: 'border-zinc-300' },
+  'Paints & Coatings': { bg: 'bg-orange-50', text: 'text-orange-700', border: 'border-orange-200' },
   'Chemical & Paints': { bg: 'bg-orange-50', text: 'text-orange-700', border: 'border-orange-200' },
+  'Doors & Windows': { bg: 'bg-teal-50', text: 'text-teal-700', border: 'border-teal-200' },
+  'Flooring & Finishes': { bg: 'bg-indigo-50', text: 'text-indigo-700', border: 'border-indigo-200' },
+  'Glass': { bg: 'bg-sky-50', text: 'text-sky-700', border: 'border-sky-200' },
+  'Plastics': { bg: 'bg-fuchsia-50', text: 'text-fuchsia-700', border: 'border-fuchsia-200' },
+  'Building Materials': { bg: 'bg-emerald-50', text: 'text-emerald-700', border: 'border-emerald-200' },
+  'Textiles': { bg: 'bg-pink-50', text: 'text-pink-700', border: 'border-pink-200' },
+  'Food & Agriculture': { bg: 'bg-green-50', text: 'text-green-700', border: 'border-green-200' },
   'Automotive': { bg: 'bg-red-50', text: 'text-red-700', border: 'border-red-200' },
+  'Other': { bg: 'bg-gray-50', text: 'text-gray-600', border: 'border-gray-200' },
 };

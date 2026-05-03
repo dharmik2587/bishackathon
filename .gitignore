@@ -94,3 +94,6 @@ Thumbs.db
 dist
 dist-ssr
 *.local
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
