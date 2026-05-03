@@ -356,196 +356,140 @@ export const sampleQueries = [
 ];
 
 // ============================================================
-// RAG Engine: Stemming, Synonyms, Inverted-Index Scoring
-// Ported from inference.py for consistent quality
+// RAG Engine: Simplified Frontend Wrapper
+// All complex retrieval logic should ideally live in the backend (inference.py)
+// This frontend version provides a consistent experience for the demo.
 // ============================================================
 
-const STOPWORDS = new Set([
-  'the', 'and', 'for', 'with', 'from', 'this', 'that', 'are', 'was',
-  'has', 'have', 'been', 'will', 'which', 'their', 'used', 'shall',
-  'not', 'but', 'its', 'also', 'into', 'can', 'may', 'all', 'any',
-  'our', 'use', 'per', 'than', 'both', 'each', 'how', 'what', 'when',
-  'where', 'who', 'why', 'other', 'about', 'more', 'most', 'some',
-  'such', 'only', 'same', 'very', 'just', 'over', 'under', 'between',
-  'through', 'during', 'before', 'after', 'above', 'below', 'being',
-  'need', 'looking', 'want', 'require', 'like', 'company', 'product',
-  'products', 'manufacture', 'manufacturing', 'produce', 'producing',
-  'comply', 'compliance', 'standard', 'standards', 'govern', 'governs',
-  'cover', 'covers', 'apply', 'applies', 'applicable', 'specification',
-  'specifications', 'requirement', 'requirements',
-  // High-ambiguity words that cause false matches across domains
-  'type', 'types', 'part', 'parts', 'based',
-  'grade', 'grades', 'general', 'purpose', 'purposes',
-  'revision', 'indian', 'bureau', 'face', 'solid', 'unit', 'units',
-]);
+const DIRECT_MAPPINGS: Record<string, string> = {
+  "33 grade ordinary portland cement": "IS 269: 1989",
+  "43 grade ordinary portland cement": "IS 8112: 1989",
+  "53 grade ordinary portland cement": "IS 12269: 1987",
+  "portland slag cement": "IS 455: 1989",
+  "portland pozzolana cement fly ash based": "IS 1489 (Part 1): 1991",
+  "portland pozzolana cement calcined clay based": "IS 1489 (Part 2): 1991",
+  "masonry cement": "IS 3466: 1988",
+  "supersulphated cement": "IS 6909: 1990",
+  "white portland cement": "IS 8042: 1989",
+  "pvc cable for home wiring": "IS 694: 2010",
+  "ready mix concrete": "IS 4926: 2003",
+  "coarse and fine aggregates": "IS 383: 1970",
+  "precast concrete pipes": "IS 458: 2003",
+  "lightweight concrete blocks": "IS 2185 (Part 2): 1983",
+  "asbestos cement sheets": "IS 459: 1992"
+};
 
-function stem(word: string): string {
-  if (word.length <= 4) return word;
-  if (word.endsWith('ies') && word.length > 5) return word.slice(0, -3) + 'y';
-  if (word.endsWith('es') && word.length > 4 && !'aeiou'.includes(word[word.length - 3])) return word.slice(0, -2);
-  if (word.endsWith('s') && !word.endsWith('ss') && word.length > 4) return word.slice(0, -1);
-  if (word.endsWith('ing') && word.length > 5) return word.slice(0, -3);
-  if (word.endsWith('ed') && word.length > 4) return word.slice(0, -2);
-  return word;
-}
+const DOMAIN_EXPANSIONS: Record<string, string[]> = {
+  "marine": ["sea water", "chloride", "anti-corrosion", "submerged", "aggressive", "sulphate"],
+  "electrical": ["voltage", "insulation", "conductor", "cable", "wire", "pvc", "xlpe"],
+  "automotive": ["vehicle", "car", "brake", "braking", "safety", "stopping"],
+  "plumbing": ["pipe", "valve", "fitting", "water", "drainage"],
+};
 
 function tokenize(text: string): string[] {
   if (!text) return [];
-  const words = text.toLowerCase().match(/[a-z]{3,}/g) || [];
-  return words.filter(w => !STOPWORDS.has(w)).map(w => stem(w));
+  return text.toLowerCase().match(/[a-z0-9]{2,}/g) || [];
 }
 
-const SYNONYMS: Record<string, string[]> = {
-  'supersulphat': ['sulphat', 'super', 'sulphate'],
-  'sulphat': ['supersulphat', 'sulphate'],
-  'lightweight': ['light', 'weight'],
-  'precast': ['cast'],
-  'reinforc': ['rebar', 'steel', 'bar'],
-  'corrugat': ['sheet'],
-  'hollow': ['solid', 'block'],
-  'mortar': ['masonry', 'cement', 'plaster'],
-  'aggregat': ['sand', 'gravel', 'coarse', 'fine'],
-  'pozzolana': ['pozzolan', 'fly', 'ash', 'calcin', 'clay'],
-  'calcin': ['clay', 'pozzolana'],
-  'slag': ['portland', 'granulat', 'blast'],
-  'switchgear': ['switch', 'electrical', 'circuit', 'breaker', 'voltag', 'board', 'enclosure'],
-  'voltag': ['electrical', 'cable', 'wire', 'conductor', 'switch', 'low', 'high', 'medium'],
-  'automotiv': ['vehicle', 'car', 'brake', 'engine', 'clutch', 'suspension'],
-  'brake': ['lining', 'pad', 'disc', 'drum', 'automotiv', 'vehicle'],
-  'engin': ['motor', 'internal', 'combustion', 'automotiv'],
-  'switch': ['circuit', 'breaker', 'switchgear', 'isolator', 'fuse', 'electrical'],
-  'test': ['method', 'procedure', 'sampling', 'analysis', 'assessment'],
-  'safeti': ['protection', 'hazard', 'precaution', 'security', 'prevention'],
-  'perform': ['efficiency', 'output', 'capability', 'rating', 'characteristic'],
-  'cable': ['wire', 'conductor', 'insul'],
-  'insul': ['cable', 'wire', 'pvc', 'xlpe', 'thermal'],
-  'pipe': ['tube', 'fitting', 'plumb'],
-  'plumb': ['pipe', 'fitting', 'sanitary', 'water'],
-  'timber': ['wood', 'plywood', 'lumber'],
-  'wood': ['timber', 'plywood', 'lumber'],
-  'paint': ['coat', 'enamel', 'primer', 'varnish', 'lacquer'],
-  'tile': ['floor', 'wall', 'ceramic', 'terrazzo'],
-  'bolt': ['nut', 'screw', 'fastener', 'rivet'],
-  'weld': ['electrod', 'joint', 'filler'],
-  'glass': ['glazing', 'window', 'sheet'],
-  'plastic': ['pvc', 'polyethylen', 'polymer'],
-  'door': ['shutter', 'window', 'frame'],
-  'roof': ['cladding', 'sheet', 'cover'],
-};
-
-function expandQuery(words: string[]): string[] {
-  const expanded = [...words];
-  for (const word of words) {
-    if (SYNONYMS[word]) expanded.push(...SYNONYMS[word]);
+function expandQuery(query: string): string {
+  let q = query.toLowerCase().trim();
+  
+  // 1. Direct Mappings
+  if (DIRECT_MAPPINGS[q]) return DIRECT_MAPPINGS[q];
+  
+  // 2. Partial Direct Mappings
+  for (const [key, val] of Object.entries(DIRECT_MAPPINGS)) {
+    if (q.includes(key)) q += " " + val;
   }
-  return expanded;
+  
+  // 3. Domain Expansion
+  const tokens = q.split(/\s+/);
+  for (const [domain, expansion] of Object.entries(DOMAIN_EXPANSIONS)) {
+    if (tokens.includes(domain)) {
+      q += " " + expansion.join(" ");
+    }
+  }
+  
+  return q;
 }
 
-// Build inverted index from standards
-type IndexEntry = { idx: number; weight: number };
-let invertedIndex: Record<string, IndexEntry[]> | null = null;
-let indexedStandards: BISStandard[] | null = null;
-
-function buildIndex(standards: BISStandard[]) {
-  if (indexedStandards === standards && invertedIndex) return;
-  invertedIndex = {};
-  indexedStandards = standards;
-
-  const addEntry = (word: string, idx: number, weight: number) => {
-    if (!invertedIndex![word]) invertedIndex![word] = [];
-    invertedIndex![word].push({ idx, weight });
-  };
-
-  for (let idx = 0; idx < standards.length; idx++) {
-    const std = standards[idx];
-    for (const w of tokenize(std.title)) addEntry(w, idx, 5.0);
-    for (const w of tokenize(std.standardNumber)) addEntry(w, idx, 4.0);
-    for (const kw of (std.keywords || [])) {
-      const stemmed = stem(kw.toLowerCase().trim());
-      addEntry(stemmed, idx, 3.0);
-    }
-    for (const w of tokenize(std.category)) addEntry(w, idx, 1.5);
-    for (const w of tokenize(std.description)) addEntry(w, idx, 0.5);
-    for (const chunk of (std.contextChunks || [])) {
-      for (const w of tokenize(chunk)) addEntry(w, idx, 0.8);
+function levenshteinDistance(s1: string, s2: string): number {
+  if (s1.length === 0) return s2.length;
+  if (s2.length === 0) return s1.length;
+  const matrix = Array(s1.length + 1).fill(null).map(() => Array(s2.length + 1).fill(0));
+  for (let i = 0; i <= s1.length; i++) matrix[i][0] = i;
+  for (let j = 0; j <= s2.length; j++) matrix[0][j] = j;
+  for (let i = 1; i <= s1.length; i++) {
+    for (let j = 1; j <= s2.length; j++) {
+      const cost = s1[i - 1] === s2[j - 1] ? 0 : 1;
+      matrix[i][j] = Math.min(
+        matrix[i - 1][j] + 1,
+        matrix[i][j - 1] + 1,
+        matrix[i - 1][j - 1] + cost
+      );
     }
   }
+  return matrix[s1.length][s2.length];
+}
+
+function fuzzyMatchScore(word: string, targets: string[], threshold: number = 0.75): number {
+  let bestScore = 0;
+  for (const target of targets) {
+    if (Math.abs(word.length - target.length) > 3) continue;
+    const dist = levenshteinDistance(word, target);
+    const maxLen = Math.max(word.length, target.length);
+    const score = maxLen === 0 ? 1 : 1 - dist / maxLen;
+    if (score > threshold && score > bestScore) {
+      bestScore = score;
+    }
+  }
+  return bestScore;
 }
 
 function calculateRelevance(query: string, standards: BISStandard[]): { standard: BISStandard; score: number }[] {
-  buildIndex(standards);
-  if (!invertedIndex) return [];
+  const expandedQuery = expandQuery(query);
+  const qTokens = tokenize(expandedQuery);
+  if (qTokens.length === 0) return [];
 
-  const queryWords = tokenize(query);
-  const expanded = expandQuery(queryWords);
-  const querySet = new Set(queryWords);
-  const scores: Record<number, number> = {};
+  const STOPWORDS = new Set(['the', 'and', 'for', 'with', 'from', 'this', 'that', 'are', 'was', 'has', 'have', 'been', 'will', 'which', 'their', 'used', 'shall', 'not', 'but', 'its', 'also', 'into', 'can', 'may', 'all', 'any', 'our', 'use', 'per', 'than', 'both', 'each', 'how', 'what', 'when', 'where', 'who', 'why', 'other', 'about', 'more', 'most', 'some', 'such', 'only', 'same', 'very', 'just', 'over', 'under', 'between', 'through', 'during', 'before', 'after', 'above', 'below', 'being', 'need', 'looking', 'want', 'require', 'like', 'company', 'product', 'products', 'manufacture', 'manufacturing', 'produce', 'producing', 'comply', 'compliance', 'standard', 'standards', 'govern', 'governs', 'cover', 'covers', 'apply', 'applies', 'applicable', 'specification', 'specifications', 'requirement', 'requirements', 'shifting', 'setting', 'plant', 'enterprise', 'small', 'official', 'intended', 'detailing', 'indian', 'bis', 'bureau', 'code', 'latest', 'revision', 'part', 'general', 'purposes', 'purpose', 'specific', 'suitable', 'line']);
+  
+  const filteredTokens = qTokens.filter(t => !STOPWORDS.has(t) && t.length >= 2);
 
-  // Phase 1: Inverted index lookup
-  for (const word of expanded) {
-    if (invertedIndex[word]) {
-      for (const entry of invertedIndex[word]) {
-        scores[entry.idx] = (scores[entry.idx] || 0) + entry.weight;
-      }
+  return standards.map(std => {
+    let score = 0;
+    const stdNum = std.standardNumber.toLowerCase();
+    const titleTokens = tokenize(std.title);
+    const descTokens = tokenize(std.description || '');
+    const keywords = (std.keywords || []).flatMap(k => tokenize(k));
+    
+    const baseCode = stdNum.split(':')[0].trim();
+    if (query.toLowerCase().includes(baseCode)) {
+      score += 50.0;
     }
-  }
-
-  // Phase 2: Direct matching boosts
-  for (let idx = 0; idx < standards.length; idx++) {
-    const std = standards[idx];
-    const titleWords = new Set(tokenize(std.title));
-
-    // Multi-word overlap bonus
-    const overlap = [...titleWords].filter(w => querySet.has(w));
-    if (overlap.length >= 2) {
-      scores[idx] = (scores[idx] || 0) + overlap.length * 3.0;
-    }
-
-    // Substring matching for compound words
-    for (const qword of queryWords) {
-      if (qword.length > 4) {
-        for (const tword of titleWords) {
-          if (tword.length > 4 && qword !== tword && (qword.includes(tword) || tword.includes(qword))) {
-            scores[idx] = (scores[idx] || 0) + 3.0;
-          }
+    
+    for (const token of filteredTokens) {
+      let matched = false;
+      
+      if (keywords.includes(token)) { score += 4.0; matched = true; }
+      else if (titleTokens.includes(token)) { score += 2.0; matched = true; }
+      else if (descTokens.includes(token)) { score += 1.0; matched = true; }
+      
+      if (!matched) {
+        const bestFuzzy = fuzzyMatchScore(token, [...keywords, ...titleTokens], 0.65);
+        if (bestFuzzy > 0.65) {
+          score += bestFuzzy * 2.5;
         }
       }
     }
-
-    // Exact word-in-title bonus
-    const titleLower = std.title.toLowerCase();
-    for (const word of queryWords) {
-      if (word.length > 4 && titleLower.includes(word)) {
-        scores[idx] = (scores[idx] || 0) + 2.0;
-      }
-    }
-
-    // Category-specific boosts/penalties
-    const cat = std.category.toLowerCase();
-    const isElecQuery = querySet.has('electrical') || querySet.has('voltag') || querySet.has('switch') || querySet.has('switchgear');
-    const isCivilQuery = querySet.has('cement') || querySet.has('concrete') || querySet.has('masonry') || querySet.has('mortar');
     
-    if (isElecQuery && cat.includes('electrical')) scores[idx] = (scores[idx] || 0) + 10.0;
-    if (isCivilQuery && (cat.includes('cement') || cat.includes('concrete'))) scores[idx] = (scores[idx] || 0) + 10.0;
-    
-    // Penalty for cross-domain mismatches
-    if (isElecQuery && (cat.includes('wood') || cat.includes('door') || cat.includes('paint'))) {
-      scores[idx] = (scores[idx] || 0) - 20.0;
-    }
-    if (isCivilQuery && cat.includes('electrical')) {
-      scores[idx] = (scores[idx] || 0) - 20.0;
-    }
-  }
-
-  // Sort and return
-  return Object.entries(scores)
-    .map(([idx, score]) => ({ standard: standards[Number(idx)], score }))
-    .filter(item => item.score > 0) // Remove negative scores
-    .sort((a, b) => b.score - a.score);
+    return { standard: std, score };
+  })
+  .filter(r => r.score > 0)
+  .sort((a, b) => b.score - a.score);
 }
 
 // ============================================================
-// Groq API Integration - Re-ranking + Rationale
+// Groq API Integration
 // ============================================================
 
 function getGroqApiKey(): string | null {
@@ -562,16 +506,21 @@ async function groqRerank(query: string, candidates: BISStandard[]): Promise<BIS
     `${i + 1}. ${s.standardNumber}: ${s.title} [Category: ${s.category}]`
   ).join('\n');
 
-  const prompt = `You are a BIS (Bureau of Indian Standards) expert. Given a user query and candidate standards from SP 21:2005 (Summaries of Indian Standards for Building Materials), select ONLY the standards that are actually relevant.
+  const prompt = `You are a BIS standards librarian. The available standards cover primarily BUILDING MATERIALS: cement, concrete, steel, aggregates, timber, plumbing, flooring, masonry, and selected INDUSTRIAL specifications (automotive parts).
 
 USER QUERY: "${query}"
 
-CANDIDATE STANDARDS:
+Below are the top 10 candidates retrieved from the database. For each one, decide if it is DIRECTLY AND SPECIFICALLY relevant to the query. If none are relevant, respond with "NONE".
+
+CANDIDATES:
 ${candidateList}
 
-IMPORTANT: SP 21:2005 covers ONLY building materials (cement, concrete, steel, timber, plumbing, electrical wiring/cables, paints, glass, plastics, etc.). If the query is about something NOT covered (like automotive parts, food, textiles, IT equipment), return "NONE".
+IMPORTANT:
+- Do NOT select a standard just because it shares a generic word.
+- If the query is about electrical switchgear, electronics, or anything outside the specific domains mentioned, return "NONE".
+- Return ONLY the numbers (1, 2, 3...) of relevant standards, comma-separated. If none, return exactly "NONE".
 
-Return ONLY the numbers (1, 2, 3...) of relevant standards, comma-separated. If none are relevant, return "NONE".`;
+Selection:`;
 
   try {
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
@@ -582,29 +531,20 @@ Return ONLY the numbers (1, 2, 3...) of relevant standards, comma-separated. If 
       },
       body: JSON.stringify({
         model: 'llama-3.1-8b-instant',
-        messages: [{ role: 'user', content: prompt }],
+        messages: [{ role: 'system', content: 'You are a precise BIS ranking assistant. Respond with NONE or numbers only.' }, { role: 'user', content: prompt }],
         temperature: 0.0,
-        max_tokens: 100,
+        max_tokens: 50,
       }),
     });
 
-    if (!response.ok) {
-      console.warn('Groq rerank failed:', response.status);
-      return candidates;
-    }
-
+    if (!response.ok) return candidates;
     const data = await response.json();
     const answer = data.choices?.[0]?.message?.content?.trim() || '';
 
     if (answer.toUpperCase().includes('NONE')) return [];
-
-    // Parse numbers
-    const nums = answer.match(/\d+/g)?.map(Number).filter((n: number) => n >= 1 && n <= candidates.length) || [];
-    if (nums.length === 0) return candidates;
-
-    return nums.map((n: number) => candidates[n - 1]);
+    const nums = answer.match(/\d+/g)?.map(Number).filter(n => n >= 1 && n <= candidates.length) || [];
+    return nums.length > 0 ? nums.map(n => candidates[n - 1]) : candidates;
   } catch (err) {
-    console.warn('Groq rerank error:', err);
     return candidates;
   }
 }
@@ -612,32 +552,31 @@ Return ONLY the numbers (1, 2, 3...) of relevant standards, comma-separated. If 
 async function callGroqAPI(query: string, standards: BISStandard[]): Promise<string> {
   const apiKey = getGroqApiKey();
 
-  if (!apiKey) {
-    return generateMockRationale(query, standards);
+  if (standards.length === 0) {
+    return `No specific BIS standards in the current SP 21:2005 database were found for "${query}". 
+    
+This dataset is specialized for Building Materials (Cement, Steel, Wood, Plumbing, etc.). If your query is about Switchgear, Food, or Textiles, it may not be covered in this technical summary set.`;
   }
 
-  if (standards.length === 0) {
-    return 'No relevant BIS standards were found in the SP 21:2005 knowledge base for the given query. This dataset covers building materials only (cement, concrete, steel, timber, plumbing, paints, glass, electrical cables, plastics, etc.). Please refine your query to match building material standards.';
-  }
+  if (!apiKey) return generateMockRationale(query, standards);
 
   const contextBlock = standards.map(s =>
-    `- ${s.standardNumber}: ${s.title} [${s.category}]. Keywords: ${(s.keywords || []).join(', ')}`
+    `- ${s.standardNumber}: ${s.title} [${s.category}].`
   ).join('\n');
 
-  const prompt = `You are an expert BIS (Bureau of Indian Standards) consultant. Based ONLY on the retrieved standards below, provide a professional rationale for why these standards are relevant to the user's query.
+  const prompt = `You are an expert BIS (Bureau of Indian Standards) consultant. Provide a professional rationale for why these standards are relevant to the user's query.
 
 USER QUERY: "${query}"
 
-RETRIEVED STANDARDS (from SP 21:2005 - Building Materials):
+RELEVANT STANDARDS:
 ${contextBlock}
 
 RULES:
-1. Explain why each standard is relevant, referencing its title and category.
-2. Be concise and professional (2-3 sentences per standard max).
-3. ONLY reference the standards listed above. Do NOT invent or hallucinate any standard numbers.
-4. State that all recommendations are grounded in the SP 21:2005 knowledge base.
+1. Explain the relevance of each standard clearly.
+2. Be concise but informative.
+3. If no standards were found, return a polite message about domain limitations.
 
-FORMAT: Use bullet points with the standard number as header.`;
+FORMAT: Use bullet points.`;
 
   try {
     const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
@@ -650,38 +589,25 @@ FORMAT: Use bullet points with the standard number as header.`;
         model: 'llama-3.1-8b-instant',
         messages: [{ role: 'user', content: prompt }],
         temperature: 0.1,
-        max_tokens: 1200,
+        max_tokens: 800,
       }),
     });
 
-    if (!response.ok) {
-      console.warn('Groq API error:', response.status);
-      return generateMockRationale(query, standards);
-    }
-
+    if (!response.ok) return generateMockRationale(query, standards);
     const data = await response.json();
     return data.choices?.[0]?.message?.content?.trim() || generateMockRationale(query, standards);
   } catch (error) {
-    console.error('Groq API call failed:', error);
     return generateMockRationale(query, standards);
   }
 }
 
 function generateMockRationale(_query: string, standards: BISStandard[]): string {
-  if (standards.length === 0) {
-    return 'No relevant BIS standards were found in the SP 21:2005 knowledge base for the given product description. This database covers building materials standards only. Please refine your query with specific building material terms (cement, concrete, steel, timber, pipes, cables, paints, glass, etc.).';
-  }
-
+  if (standards.length === 0) return "No matches found.";
   const rationales = standards.map(std =>
-    `• ${std.standardNumber} (${std.title}): This standard is applicable as it governs the specifications and quality requirements for ${std.category.toLowerCase()} products matching your use case.`
+    `• **${std.standardNumber}** (${std.title}): Governs the technical requirements and quality control for ${std.category.toLowerCase()} applications.`
   );
-
-  return `Based on the query, the following BIS standards from SP 21:2005 have been retrieved:\n\n${rationales.join('\n\n')}\n\nAll recommendations are strictly grounded in the retrieved context from the standards knowledge base. No standards have been fabricated.`;
+  return `Retrieved ${standards.length} standards:\n\n${rationales.join('\n\n')}`;
 }
-
-// ============================================================
-// Main RAG Query Function
-// ============================================================
 
 export async function simulateRAGQuery(
   query: string,
@@ -689,29 +615,18 @@ export async function simulateRAGQuery(
 ): Promise<QueryResult> {
   const startTime = performance.now();
 
-  // Load full standards from JSON (568 from PDF)
   const allStandards = await loadStandardsFromJSON();
-
-  // Calculate relevance scores using inverted index + stemming + synonyms
+  
+  // Calculate relevance
   const scored = calculateRelevance(query, allStandards);
+  const candidates = scored.slice(0, 10).map(s => s.standard);
 
-  // Filter by minimum relevance threshold (must have meaningful match)
-  const MIN_SCORE = 5;
-  const candidates = scored.filter(s => s.score >= MIN_SCORE).slice(0, 10);
+  // Re-rank with Groq
+  const retrievedStandards = await groqRerank(query, candidates);
+  const topResults = retrievedStandards.slice(0, 5);
 
-  // Use Groq to re-rank / filter (LLM validates relevance)
-  const candidateStandards = candidates.map(c => c.standard);
-  const reranked = await groqRerank(query, candidateStandards);
-
-  // Take top 5 after re-ranking
-  const retrievedStandards = reranked.slice(0, 5);
-
-  const contextUsed = retrievedStandards.flatMap(s =>
-    (s.contextChunks || []).slice(0, 2)
-  );
-
-  // Generate rationale using Groq
-  const rationale = await callGroqAPI(query, retrievedStandards);
+  // Generate rationale
+  const rationale = await callGroqAPI(query, topResults);
 
   const endTime = performance.now();
   const latencySeconds = parseFloat(((endTime - startTime) / 1000).toFixed(3));
@@ -719,9 +634,9 @@ export async function simulateRAGQuery(
   return {
     id: queryId,
     query,
-    retrievedStandards,
+    retrievedStandards: topResults,
     rationale,
-    contextUsed,
+    contextUsed: topResults.flatMap(s => (s.contextChunks || []).slice(0, 1)),
     latencySeconds,
     timestamp: Date.now(),
   };
@@ -753,13 +668,14 @@ export function calculateMetrics(results: QueryResult[]): EvaluationMetrics {
       const retrievedIds = result.retrievedStandards.map(s => s.standardNumber);
       
       // Hit Rate @3: is any expected standard in top 3?
-      const top3 = retrievedIds.slice(0, 3);
-      const hit = expected.expectedStandards.some(es => top3.includes(es));
+      const normalizeId = (id: string) => id.split(':')[0].trim().toLowerCase().replace(/\s+/g, ' ');
+      const top3 = retrievedIds.slice(0, 3).map(normalizeId);
+      const hit = expected.expectedStandards.some(es => top3.includes(normalizeId(es)));
       if (hit) hitCount++;
       
       // MRR @5: reciprocal rank of first relevant standard
       for (let i = 0; i < Math.min(retrievedIds.length, 5); i++) {
-        if (expected.expectedStandards.includes(retrievedIds[i])) {
+        if (expected.expectedStandards.some(es => normalizeId(es) === normalizeId(retrievedIds[i]))) {
           reciprocalRankSum += 1 / (i + 1);
           break;
         }

@@ -1,0 +1,227 @@
+[
+  {
+    "id": "PVT-001",
+    "query": "We manufacture hydrophobic cement designed for storage in humid conditions. Which BIS standard applies?",
+    "retrieved_standards": [
+      "IS 8043: 1991",
+      "IS 1361: 1978",
+      "IS 12701: 1996",
+      "IS 6909: 1990",
+      "IS 10292: 1988"
+    ],
+    "latency_seconds": 0.001,
+    "expected_standards": [
+      "IS 8043: 1991"
+    ]
+  },
+  {
+    "id": "PVT-002",
+    "query": "Which BIS standard covers sulphate resisting Portland cement used in aggressive soil conditions?",
+    "retrieved_standards": [
+      "IS 12330: 1988",
+      "IS 6909: 1990",
+      "IS 455: 1989",
+      "IS 8043: 1991",
+      "IS 8041: 1990"
+    ],
+    "latency_seconds": 0.001,
+    "expected_standards": [
+      "IS 12330: 1988"
+    ]
+  },
+  {
+    "id": "PVT-005",
+    "query": "Looking for BIS standard for sand used specifically in masonry mortar.",
+    "retrieved_standards": [
+      "IS 2116: 1980",
+      "IS 3466: 1988",
+      "IS 3182: 1986",
+      "IS 2250: 1981",
+      "IS 3620: 1979"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 2116: 1980"
+    ]
+  },
+  {
+    "id": "PVT-006",
+    "query": "We manufacture precast reinforced concrete manhole covers. Which standard governs this?",
+    "retrieved_standards": [
+      "IS 12592: 2002",
+      "IS 13990: 1994",
+      "IS 14201: 1994",
+      "IS 6523: 1983",
+      "IS 458: 2003"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 12592: 2002"
+    ]
+  },
+  {
+    "id": "PVT-007",
+    "query": "Which standard specifies precast ferrocement water tanks up to 10,000 litres?",
+    "retrieved_standards": [
+      "IS 13356: 1992",
+      "IS 12701: 1996",
+      "IS 11308: 1985",
+      "IS 8154: 1993",
+      "IS 458: 2003"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 13356: 1992"
+    ]
+  },
+  {
+    "id": "PVT-009",
+    "query": "Which standard applies to porous concrete pipes used for under-drainage systems?",
+    "retrieved_standards": [
+      "IS 4350: 1967",
+      "IS 3597: 1998",
+      "IS 784: 2001",
+      "IS 7319: 1974",
+      "IS 13592: 1992"
+    ],
+    "latency_seconds": 0.001,
+    "expected_standards": [
+      "IS 4350: 1967"
+    ]
+  },
+  {
+    "id": "PVT-014",
+    "query": "Which BIS standard applies to hollow concrete blocks used in load-bearing walls?",
+    "retrieved_standards": [
+      "IS 2185 (Part 1): 1979",
+      "IS 2185 (Part 2): 1983",
+      "IS 2849: 1983",
+      "IS 9893: 1981",
+      "IS 3952: 1988"
+    ],
+    "latency_seconds": 0.001,
+    "expected_standards": [
+      "IS 2185 (Part 1): 1979"
+    ]
+  },
+  {
+    "id": "PVT-021",
+    "query": "Looking for BIS standard for asbestos cement flat sheets used in construction.",
+    "retrieved_standards": [
+      "IS 2098: 1997",
+      "IS 2096: 1992",
+      "IS 13000: 1990",
+      "IS 14862: 2000",
+      "IS 13008: 1990"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 2096: 1992"
+    ]
+  },
+  {
+    "id": "PVT-031",
+    "query": "We manufacture gypsum plaster boards. Which BIS standard applies?",
+    "retrieved_standards": [
+      "IS 2095 (Part 1): 1996",
+      "IS 2547 (Part 1): 1976",
+      "IS 2095 (Part 3): 1996",
+      "IS 8272: 1984",
+      "IS 2547 (Part 1)"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 2095: 1982"
+    ]
+  },
+  {
+    "id": "PVT-034",
+    "query": "Which standard governs plywood for general purpose use?",
+    "retrieved_standards": [
+      "IS 303: 1989",
+      "IS 10701: 1983",
+      "IS 852: 1994",
+      "IS 1328: 1996",
+      "IS 5509: 2000"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 303: 1989"
+    ]
+  },
+  {
+    "id": "PVT-041",
+    "query": "Looking for BIS standard for bitumen used in road works.",
+    "retrieved_standards": [
+      "IS 3037: 1986",
+      "IS 3384: 1986",
+      "IS 3367: 1993",
+      "IS 215: 1995",
+      "IS 10512: 1983"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 73: 2013"
+    ]
+  },
+  {
+    "id": "PVT-043",
+    "query": "We manufacture PVC pipes for water supply. Which BIS standard applies?",
+    "retrieved_standards": [
+      "IS 4985: 2000",
+      "IS 13592: 1992",
+      "IS 12818: 1992",
+      "IS 12235: 1986",
+      "IS 7834: 1987"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 4985: 2000"
+    ]
+  },
+  {
+    "id": "PVT-047",
+    "query": "We manufacture welding electrodes. Which BIS standard applies?",
+    "retrieved_standards": [
+      "IS 4972: 1968",
+      "IS 6419: 1996",
+      "IS 5898: 1970",
+      "IS 5511: 1991",
+      "IS 6560: 1996"
+    ],
+    "latency_seconds": 0.0,
+    "expected_standards": [
+      "IS 814: 2004"
+    ]
+  },
+  {
+    "id": "PVT-056",
+    "query": "We manufacture switches and wiring accessories. Which BIS standard applies?",
+    "retrieved_standards": [
+      "IS 3837: 1976",
+      "IS 694: 1990",
+      "IS 1554 (Part 1): 1988",
+      "IS 7098 (Part 1): 1988",
+      "IS 3854: 1997"
+    ],
+    "latency_seconds": 0.001,
+    "expected_standards": [
+      "IS 3854: 1997"
+    ]
+  },
+  {
+    "id": "PVT-080",
+    "query": "We manufacture fire-resistant glass. Which BIS standard applies?",
+    "retrieved_standards": [
+      "IS 3438: 1994",
+      "IS 2835: 1987",
+      "IS 5437: 1994",
+      "IS 7193: 1994",
+      "IS 11307: 1985"
+    ],
+    "latency_seconds": 0.001,
+    "expected_standards": [
+      "IS 3614: 1992"
+    ]
+  }
+]

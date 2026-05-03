@@ -1,5 +1,0 @@
-# PDF Processing
-pdfplumber>=0.10.0
-
-# Data Processing
-numpy>=1.24.0

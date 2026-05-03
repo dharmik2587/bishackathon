@@ -5,13 +5,25 @@
     "title": "Coarse and fine aggregates from natural sources for concrete (second revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "Coarse and fine aggregates from natural sources for concrete - grading, quality, and testing requirements for river sand, crushed stone, gravel",
     "keywords": [
       "aggregate",
-      "concrete"
+      "sand",
+      "gravel",
+      "coarse",
+      "fine",
+      "natural",
+      "concrete",
+      "river",
+      "crushed stone",
+      "grading",
+      "sieve",
+      "particle",
+      "structural concrete"
     ],
     "contextChunks": [
-      "IS 383: 1970: Coarse and fine aggregates from natural sources for concrete (second revision)"
+      "IS 383: 1970 specifies requirements for coarse and fine aggregates derived from natural sources for use in concrete. Covers grading requirements for fine aggregates (Zones I-IV), coarse aggregates (nominal sizes 40mm, 20mm, 16mm, 12.5mm, 10mm), quality requirements for deleterious materials, organic impurities, clay, silt content, and mechanical properties.",
+      "IS 383: 1970 applies to river sand, quarry sand, crushed stone sand, gravel, and crushed stone used as aggregates in structural and plain concrete. Mandatory for any concrete mix design under IS 456."
     ]
   },
   {
@@ -55,15 +67,25 @@
     "title": "33 grade ordinary Portland cement (fourth revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "33 Grade Ordinary Portland Cement - chemical and physical requirements including compressive strength, setting time, soundness, fineness",
     "keywords": [
       "cement",
-      "grade",
+      "portland",
       "ordinary",
-      "portland"
+      "opc",
+      "33 grade",
+      "binding",
+      "mortar",
+      "concrete",
+      "construction",
+      "chemical",
+      "physical",
+      "strength",
+      "setting"
     ],
     "contextChunks": [
-      "IS 269: 1989: 33 grade ordinary Portland cement (fourth revision)"
+      "IS 269: 1989 covers 33 Grade Ordinary Portland Cement. Specifies chemical composition requirements: silica, alumina, iron oxide, calcium oxide, magnesia, sulphuric anhydride. Physical requirements: fineness minimum 225 m\u00b2/kg, initial setting time minimum 30 minutes, final setting time maximum 600 minutes, compressive strength minimum 16 MPa at 3 days and 22 MPa at 7 days, soundness by Le Chatelier not exceeding 10mm.",
+      "Use IS 269:1989 for manufacturing standard OPC 33 Grade cement used in general construction, masonry, plasterwork, and non-critical concrete work."
     ]
   },
   {
@@ -72,14 +94,23 @@
     "title": "Portland slag cement (fourth revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "Portland slag cement - manufactured by intergrinding or blending OPC clinker with granulated blast furnace slag",
     "keywords": [
       "cement",
       "portland",
-      "slag"
+      "slag",
+      "psc",
+      "blast furnace",
+      "granulated",
+      "intergrinding",
+      "blending",
+      "low heat",
+      "sulphate resistance",
+      "marine"
     ],
     "contextChunks": [
-      "IS 455: 1989: Portland slag cement (fourth revision)"
+      "IS 455: 1989 specifies requirements for Portland Slag Cement (PSC) manufactured by either intergrinding Portland cement clinker with granulated blast furnace slag or by intimately blending Portland cement with finely ground granulated blast furnace slag. Covers chemical and physical requirements including slag content (25-65%), compressive strength, setting time, soundness.",
+      "Portland Slag Cement per IS 455: 1989 is preferred for marine structures, mass concrete, and sulfate-resistant applications due to lower heat of hydration and improved durability."
     ]
   },
   {
@@ -105,15 +136,21 @@
     "title": "Portland pozzolana cement - Calcined clay based (third revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "Portland Pozzolana Cement - Calcined clay based (PPC) - manufactured using calcined clay or calcined shale as pozzolanic material",
     "keywords": [
       "cement",
-      "clay",
       "portland",
-      "pozzolana"
+      "pozzolana",
+      "ppc",
+      "calcined clay",
+      "calcined shale",
+      "fly ash",
+      "pozzolanic",
+      "blended cement"
     ],
     "contextChunks": [
-      "IS 1489 (Part 2): 1991: Portland pozzolana cement - Calcined clay based (third revision)"
+      "IS 1489 (Part 2): 1991 specifies requirements for Portland Pozzolana Cement (PPC) of the calcined clay based variety. Pozzolanic material is calcined clay or calcined shale. Covers chemical requirements, pozzolana content (15-35% by mass), physical requirements including fineness, setting time, strength, soundness.",
+      "IS 1489 Part 2 calcined clay based PPC is used for general construction, mass concrete, hydraulic structures, and where resistance to sulphate attack is needed."
     ]
   },
   {
@@ -122,13 +159,23 @@
     "title": "Masonry cement (second revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "Masonry cement for mortars in brick, stone, and block masonry - not for structural concrete, higher workability and plasticity",
     "keywords": [
       "cement",
-      "masonry"
+      "masonry",
+      "mortar",
+      "brick",
+      "stone",
+      "block",
+      "plaster",
+      "workability",
+      "plasticity",
+      "general purpose",
+      "non-structural"
     ],
     "contextChunks": [
-      "IS 3466: 1988: Masonry cement (second revision)"
+      "IS 3466: 1988 specifies requirements for masonry cement intended for use in mortars for masonry construction (brick, stone, concrete block). Masonry cement provides better workability and water retention than OPC but is NOT suitable for structural concrete. Covers compressive strength, setting time, fineness, air content.",
+      "IS 3466: 1988 masonry cement is used exclusively for mortar preparation in masonry works, plastering, and pointing, not for structural concrete elements."
     ]
   },
   {
@@ -152,13 +199,23 @@
     "title": "Super sulphated cement",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "Supersulphated cement for marine works, sewage works, aggressive ground conditions - made from granulated blast furnace slag, calcium sulphate and OPC clinker",
     "keywords": [
+      "supersulphated",
       "cement",
-      "sulphate"
+      "marine",
+      "sulphate",
+      "aggressive",
+      "sewage",
+      "chemical resistance",
+      "slag",
+      "calcium sulphate",
+      "ground water",
+      "seawater"
     ],
     "contextChunks": [
-      "IS 6909: 1990: Super sulphated cement"
+      "IS 6909: 1990 specifies requirements for supersulphated cement manufactured from granulated blast furnace slag (80-85%), calcium sulphate (anhydrite or gypsum, 10-15%), and a small amount of Portland cement clinker (1-5%). Exhibits excellent resistance to sulphate attack, seawater, and aggressive ground conditions.",
+      "IS 6909: 1990 supersulphated cement is specifically recommended for marine works, submerged foundations, sewage treatment plants, chemical plants, and any application involving contact with sulphate-bearing soils or aggressive waters."
     ]
   },
   {
@@ -183,14 +240,24 @@
     "title": "White Portland cement (second revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "White Portland cement for architectural, decorative, and ornamental work - low iron oxide content for white color",
     "keywords": [
+      "white",
       "cement",
       "portland",
-      "white"
+      "decorative",
+      "architectural",
+      "ornamental",
+      "terrazzo",
+      "mosaic",
+      "precast",
+      "color",
+      "aesthetic",
+      "low iron"
     ],
     "contextChunks": [
-      "IS 8042: 1989: White Portland cement (second revision)"
+      "IS 8042: 1989 specifies requirements for White Portland Cement characterized by very low iron oxide and manganese oxide content to achieve white color. Manufactured by careful selection of raw materials and fuel. Covers whiteness index, compressive strength, chemical and physical requirements.",
+      "IS 8042: 1989 white Portland cement is used for architectural features, decorative concrete, terrazzo floors, exposed aggregate finishes, precast cladding panels, and any application requiring aesthetic white color."
     ]
   },
   {
@@ -284,17 +351,26 @@
     "title": "Concrete masonry units - Hollow and solid lightweight concrete blocks (first revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "(Part 3) : 1984 Autocalved cellular aerated concrete blocks (first revision) 1.27",
+    "description": "Hollow and solid lightweight concrete masonry blocks - dimensions, compressive strength, water absorption requirements",
     "keywords": [
-      "block",
       "concrete",
+      "block",
+      "masonry",
       "hollow",
+      "solid",
       "lightweight",
-      "lock",
-      "masonry"
+      "aac",
+      "cellular",
+      "dimensions",
+      "wall",
+      "partition",
+      "aggregate",
+      "pumice",
+      "cinder"
     ],
     "contextChunks": [
-      "IS 2185 (Part 2): 1983: Concrete masonry units - Hollow and solid lightweight concrete blocks (first revision)"
+      "IS 2185 (Part 2): 1983 specifies requirements for hollow and solid lightweight concrete masonry blocks made with lightweight aggregates such as pumice, cinder, blast furnace slag, or expanded clay/shale. Covers dimensions (nominal sizes), compressive strength requirements, water absorption limits, and testing procedures.",
+      "IS 2185 Part 2 is the applicable standard for manufacturing lightweight concrete blocks used in load-bearing and non-load-bearing walls and partitions."
     ]
   },
   {
@@ -415,7 +491,7 @@
     "title": "Precast reinforced concrete door and window frames (first revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "SP 21 : 2005 Title Page",
+    "description": "Title Page",
     "keywords": [
       "concrete",
       "door",
@@ -592,15 +668,23 @@
     "title": "Corrugated and semi corrugated asbestos cement sheets.",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "Corrugated and semi-corrugated asbestos cement sheets for roofing and cladding - profile dimensions, physical and mechanical requirements",
     "keywords": [
       "asbestos",
       "cement",
       "corrugated",
-      "sheet"
+      "semi-corrugated",
+      "roofing",
+      "cladding",
+      "sheet",
+      "profile",
+      "ac sheet",
+      "industrial",
+      "shed"
     ],
     "contextChunks": [
-      "IS 459: 1992: Corrugated and semi corrugated asbestos cement sheets."
+      "IS 459: 1992 specifies requirements for corrugated and semi-corrugated asbestos cement sheets used for roofing and cladding of buildings. Covers profile dimensions, tolerances, water absorption, transverse breaking load, and impermeability tests.",
+      "IS 459: 1992 applies to manufacturing of standard profile AC (asbestos cement) corrugated sheets for industrial sheds, warehouses, agricultural buildings, and residential roofing."
     ]
   },
   {
@@ -797,16 +881,24 @@
     "title": "Precast concrete pipes (with and without reinforcement) (fourth revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "",
+    "description": "Precast concrete pipes with and without reinforcement for water mains, drainage, sewerage, culverts",
     "keywords": [
-      "cement",
+      "precast",
       "concrete",
       "pipe",
-      "precast",
-      "reinforcement"
+      "reinforcement",
+      "reinforced",
+      "water main",
+      "drainage",
+      "culvert",
+      "sewerage",
+      "non-pressure",
+      "pressure",
+      "rcc pipe"
     ],
     "contextChunks": [
-      "IS 458: 2003: Precast concrete pipes (with and without reinforcement) (fourth revision)"
+      "IS 458: 2003 specifies requirements for precast concrete pipes both with and without reinforcement intended for use as water mains, drains, sewers, and culverts. Covers NP (non-pressure) and P (pressure) classes. Specifies dimensions, tolerances, materials, reinforcement, concrete mix, testing including three-edge bearing test and hydrostatic test.",
+      "IS 458: 2003 applies to manufacturing of precast RCC pipes and plain concrete pipes for gravity flow and pressure applications in water supply and sanitation infrastructure."
     ]
   },
   {
@@ -861,7 +953,7 @@
     "title": "Specials for steel cylinder reinforced concrete pipes (first revision)",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "SP 21 : 2005 Title Page TREATMENT OF CONCRETE JOINTS",
+    "description": "Title Page TREATMENT OF CONCRETE JOINTS",
     "keywords": [
       "concrete",
       "pipe",
@@ -937,7 +1029,7 @@
     "title": "Two part polysulphide-based sealant 1.81 - General requirements",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "Note — IS 2645:2003 Integral cement water proofing compounds is covered under “water proofing” and damp-proofing materials (see section 9) SP 21 : 2005",
+    "description": "Note \u2014 IS 2645:2003 Integral cement water proofing compounds is covered under \u201cwater proofing\u201d and damp-proofing materials (see section 9) SUMMARY OF",
     "keywords": [
       "cement",
       "roofing",
@@ -955,7 +1047,7 @@
     "title": "ASBESTOS CEMENT BUILDING",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "PIPES AND PIPE FITTINGS, GUTTERS AND GUTER FITTINGS AND ROOF FITTINGS PART 3 ROOF FITTINGS",
+    "description": "PIPES AND PIPE FITTINGS, GUTTERS AND GUTER FITTINGS AND ROOF FITTINGS PART 3 ROOF FITTINGS (Second Revision)",
     "keywords": [
       "asbestos",
       "cement",
@@ -972,7 +1064,7 @@
     "title": "PRESTRESSED CONCRETE PIPES",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "(INCLUDING SPECIALS) (Second Revision) 1. Scope — Requirements of prestressed concrete to protect the steel cylinder and prestressing wires.",
+    "description": "(INCLUDING SPECIALS) (Second Revision) 1. Scope \u2014 Requirements of prestressed concrete to protect the steel cylinder and prestressing wires. cylinder and non- cylinder pipes (including specials)",
     "keywords": [
       "concrete",
       "pipe",
@@ -990,7 +1082,7 @@
     "title": "Methods of test for concrete pipes (second revision).",
     "section": "1. CEMENT AND CONCRETE",
     "category": "Cement & Concrete",
-    "description": "For detailed information, refer to IS 7319 : 1974 Specification for perforated concrete pipes. SP 21 : 2005 SUMMARY OF",
+    "description": "For detailed information, refer to IS 7319 : 1974 Specification for perforated concrete pipes. SUMMARY OF",
     "keywords": [
       "concrete",
       "pipe",
@@ -1151,7 +1243,7 @@
     "title": "Pulverized fuel ash-lime bricks (first Revision)",
     "section": "2. BUILDING LIMES",
     "category": "Building Limes",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "description": "SUMMARY OF",
     "keywords": [
       "brick",
       "lime"
@@ -1166,7 +1258,7 @@
     "title": "Methods of test for determining aggregate impact value of soft coarse aggregates.",
     "section": "2. BUILDING LIMES",
     "category": "Building Limes",
-    "description": "For detailed information, refer to IS 3068:1986 Specification for broken brick (burnt clay) coarse aggregate for use in lime concrete (second revision). SP 21 : 2005",
+    "description": "For detailed information, refer to IS 3068:1986 Specification for broken brick (burnt clay) coarse aggregate for use in lime concrete (second revision). SUMMARY OF",
     "keywords": [
       "aggregate",
       "brick",
@@ -1186,7 +1278,7 @@
     "title": "Methods of test for pozzolanic materials (first revision),relevent parts of IS 4031: Methods of physical tests for hydraulic",
     "section": "2. BUILDING LIMES",
     "category": "Building Limes",
-    "description": "cement, and IS 6932 (Part 2): 1973 Methods of tests for building limes. For detailed information, refer to IS 4098:1983 Specification for lime pozzolana mixture (first revision)",
+    "description": "cement, and IS 6932 (Part 2): 1973 Methods of tests for building limes. For detailed information, refer to IS 4098:1983 Specification for lime pozzolana mixture (first revision) SUMMARY OF",
     "keywords": [
       "cement",
       "lime",
@@ -1344,7 +1436,7 @@
     "title": "1995Polished building stones : Part 1 Granite",
     "section": "3. STONES",
     "category": "Stones",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "description": "SUMMARY OF",
     "keywords": [
       "granite",
       "polish",
@@ -1359,7 +1451,7 @@
     "standardNumber": "IS 1077: 1992",
     "title": "Common burnt clay building bricks (fifth revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1374,7 +1466,7 @@
     "standardNumber": "IS 2180: 1988",
     "title": "Heavy duty burnt clay building bricks (third revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1389,7 +1481,7 @@
     "standardNumber": "IS 2222: 1991",
     "title": "Burnt clay perforated building bricks (third revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1404,7 +1496,7 @@
     "standardNumber": "IS 2691: 1988",
     "title": "Burnt clay facing bricks (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1419,7 +1511,7 @@
     "standardNumber": "IS 3583: 1988",
     "title": "Burnt clay paving bricks (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1434,7 +1526,7 @@
     "standardNumber": "IS 3952: 1988",
     "title": "Burnt clay hollow bricks for walls and partitions (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1451,7 +1543,7 @@
     "standardNumber": "IS 4885: 1988",
     "title": "Sewer bricks (first revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick"
@@ -1465,7 +1557,7 @@
     "standardNumber": "IS 5779: 1986",
     "title": "Burnt clay soling bricks (first revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1480,7 +1572,7 @@
     "standardNumber": "IS 6165: 1992",
     "title": "Dimensions of special shapes of clay bricks (first revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "brick",
@@ -1495,7 +1587,7 @@
     "standardNumber": "IS 13757: 1993",
     "title": "Burnt clay fly ash building bricks",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "BURNT CLAY JALLIES",
     "keywords": [
       "brick",
@@ -1510,7 +1602,7 @@
     "standardNumber": "IS 7556: 1988",
     "title": "Burnt clay jallies (first revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "TILES",
     "keywords": [
       "clay",
@@ -1525,7 +1617,7 @@
     "standardNumber": "IS 654: 1992",
     "title": "Clay roofing tiles, mangalore pattern (third revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "clay",
@@ -1541,7 +1633,7 @@
     "standardNumber": "IS 1464: 1992",
     "title": "Clay ridge and ceiling tiles (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "clay",
@@ -1556,7 +1648,7 @@
     "standardNumber": "IS 1478: 1992",
     "title": "Clay flooring tiles (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "clay",
@@ -1572,7 +1664,7 @@
     "standardNumber": "IS 2690 (Part 1): 1993",
     "title": "Burnt clay flat terracing tiles - Machine-made (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "(Part 2) : 1992 Hand made (second revision) 4.18",
     "keywords": [
       "clay",
@@ -1588,7 +1680,7 @@
     "standardNumber": "IS 2690 (Part 2): 1992",
     "title": "Burnt clay flat terracing tiles - Hand made (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "clay",
@@ -1604,7 +1696,7 @@
     "standardNumber": "IS 3367: 1993",
     "title": "Burnt clay tiles for use in lining irrigation and drainage works (second revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "clay",
@@ -1619,7 +1711,7 @@
     "standardNumber": "IS 3951 (Part 1): 1975",
     "title": "Hollow clay tiles for floors and roofs - Filler type (first revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "(Part 2) : 1975 Structural type (first revision) 4.21",
     "keywords": [
       "clay",
@@ -1637,7 +1729,7 @@
     "standardNumber": "IS 3951 (Part 2): 1975",
     "title": "Hollow clay tiles for floors and roofs - Structural type (first revision)",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
+    "category": "Clay Products",
     "description": "",
     "keywords": [
       "clay",
@@ -1653,10 +1745,10 @@
   {
     "id": "is-is-13317--1992",
     "standardNumber": "IS 13317: 1992",
-    "title": "Clay roofing country tiles – half round and flat tiles.",
+    "title": "Clay roofing country tiles \u2013 half round and flat tiles.",
     "section": "4. CLAY PRODUCTS FOR",
-    "category": "Gypsum Products",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Clay Products",
+    "description": "SUMMARY OF",
     "keywords": [
       "clay",
       "flat",
@@ -1664,7 +1756,7 @@
       "tile"
     ],
     "contextChunks": [
-      "IS 13317: 1992: Clay roofing country tiles – half round and flat tiles."
+      "IS 13317: 1992: Clay roofing country tiles \u2013 half round and flat tiles."
     ]
   },
   {
@@ -1672,7 +1764,7 @@
     "standardNumber": "IS 2095 (Part 3): 1996",
     "title": "Gypsum plaster boards - Reinforced gypsum plaster boards (second revision)",
     "section": "5. GYPSUM BUILDING",
-    "category": "Wood & Timber",
+    "category": "Gypsum Products",
     "description": "",
     "keywords": [
       "board",
@@ -1689,7 +1781,7 @@
     "standardNumber": "IS 2547 (Part 2): 1976",
     "title": "Gypsum building plaster - Premixed light weight plaster (first revision)",
     "section": "5. GYPSUM BUILDING",
-    "category": "Wood & Timber",
+    "category": "Gypsum Products",
     "description": "",
     "keywords": [
       "gypsum",
@@ -1704,7 +1796,7 @@
     "standardNumber": "IS 2849: 1983",
     "title": "Non load bearing gypsum partition blocks",
     "section": "5. GYPSUM BUILDING",
-    "category": "Wood & Timber",
+    "category": "Gypsum Products",
     "description": "(Solid and hollow types)",
     "keywords": [
       "block",
@@ -1721,8 +1813,8 @@
     "standardNumber": "IS 8272: 1984",
     "title": "Gypsum plaster for use in the manufacture of fibrous",
     "section": "5. GYPSUM BUILDING",
-    "category": "Wood & Timber",
-    "description": "plaster boards (first revision) SP 21 : 2005 SUMMARY OF",
+    "category": "Gypsum Products",
+    "description": "plaster boards (first revision) SUMMARY OF",
     "keywords": [
       "board",
       "gypsum",
@@ -1737,8 +1829,8 @@
     "standardNumber": "IS 2547 (Part 1)",
     "title": "1976*. By product gypsum conforming and board.",
     "section": "5. GYPSUM BUILDING",
-    "category": "Wood & Timber",
-    "description": "to IS 12679:1987+ shall be used for the preparation of plaster. TABLE 1 DIMENSIONS OF GYPSUM PLASTER BOARDS",
+    "category": "Gypsum Products",
+    "description": "to IS 12679:1987+ shall be used for the preparation of plaster. TABLE 1 DIMENSIONS OF GYPSUM PLASTER BOARDS Type of Width Length Thickness",
     "keywords": [
       "board",
       "gypsum",
@@ -1754,8 +1846,8 @@
     "standardNumber": "IS 399: 1963",
     "title": "Classification of commercial timber and their zonal distribution(revised)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
-    "description": "IS : 12896 : 1990 Indian timber for door and window shutters and frames—Classification 6.5 CONVERSION AND GRADING",
+    "category": "Wood & Timber",
+    "description": "IS : 12896 : 1990 Indian timber for door and window shutters and frames\u2014Classification 6.5 CONVERSION AND GRADING",
     "keywords": [
       "door",
       "shutter",
@@ -1771,7 +1863,7 @@
     "standardNumber": "IS 190: 1991",
     "title": "Coniferous sawn timber (baulks and scantling) (fourth revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "timber"
@@ -1785,7 +1877,7 @@
     "standardNumber": "IS 876: 1992",
     "title": "Wood poles for overhead power and telecommunication lines (third revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "wood"
@@ -1799,7 +1891,7 @@
     "standardNumber": "IS 1326: 1992",
     "title": "Non-coniferous sawn timber (baulks and scantling) (second revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "timber"
@@ -1813,7 +1905,7 @@
     "standardNumber": "IS 1331: 1971",
     "title": "Cut sizes of timber (second revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "timber"
@@ -1827,7 +1919,7 @@
     "standardNumber": "IS 2372: 2004",
     "title": "Timber for cooling towers (Second revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "timber"
@@ -1841,7 +1933,7 @@
     "standardNumber": "IS 3337: 1978",
     "title": "Ballies for general purposes (first revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -1853,7 +1945,7 @@
     "standardNumber": "IS 3629: 1986",
     "title": "Structural timber in buildings (first revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "structural",
@@ -1868,7 +1960,7 @@
     "standardNumber": "IS 3731: 1985",
     "title": "Teak squares (first revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -1880,7 +1972,7 @@
     "standardNumber": "IS 4891: 1988",
     "title": "Preferred cut sizes of sturctral timber (first revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "timber"
@@ -1894,7 +1986,7 @@
     "standardNumber": "IS 4895: 1985",
     "title": "Teak logs (first revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -1906,7 +1998,7 @@
     "standardNumber": "IS 5246: 2000",
     "title": "Coniferous logs (first revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -1918,7 +2010,7 @@
     "standardNumber": "IS 6056: 1970",
     "title": "Jointed wood poles for over head power and telecommunication lines",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [
       "wood"
@@ -1932,7 +2024,7 @@
     "standardNumber": "IS 7308: 1999",
     "title": "Non-coniferous logs (first revision)",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
+    "category": "Wood & Timber",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -1944,8 +2036,8 @@
     "standardNumber": "IS 10394: 1982",
     "title": "Wooden sleepers for railway track",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Wood & Timber",
+    "description": "SUMMARY OF",
     "keywords": [
       "wood"
     ],
@@ -1958,8 +2050,8 @@
     "standardNumber": "IS 12896: 1990",
     "title": "INDIAN TIMBERS FOR DOOR AND",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
-    "description": "WINDOW SHUTTERS AND FRAMES – CLASSIFICATION 1. Scope – Covers the general classification of Indian 3.1.2 Group I — timber species suitable for door and window shutters and Strength coefficient : More than or equal to 80",
+    "category": "Wood & Timber",
+    "description": "WINDOW SHUTTERS AND FRAMES \u2013 CLASSIFICATION 1. Scope \u2013 Covers the general classification of Indian 3.1.2 Group I \u2014 timber species suitable for door and window shutters and Strength coefficient : More than or equal to 80 frames. It also lays down the general requirements of Weight \u2013 Between 75-115",
     "keywords": [
       "door",
       "shutter",
@@ -1976,8 +2068,8 @@
     "standardNumber": "IS 883: 1994",
     "title": "shall be multiplied by",
     "section": "6. TIMBER",
-    "category": "Bitumen & Tar",
-    "description": "treatement with preservatives. Note — All such species which can be adequately treated to a) For select grade timber 1.16 desired retention of preservative may be used.",
+    "category": "Wood & Timber",
+    "description": "treatement with preservatives. Note \u2014 All such species which can be adequately treated to a) For select grade timber 1.16 desired retention of preservative may be used. b) For Grade II timber 0.84",
     "keywords": [
       "grade",
       "timber"
@@ -1991,7 +2083,7 @@
     "standardNumber": "IS 73: 1992",
     "title": "Paving bitumen (second revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "bitumen"
@@ -2005,7 +2097,7 @@
     "standardNumber": "IS 212: 1983",
     "title": "Crude coal tar for general use (second revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "tar"
@@ -2019,7 +2111,7 @@
     "standardNumber": "IS 215: 1995",
     "title": "Road tar (third revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "tar"
@@ -2033,7 +2125,7 @@
     "standardNumber": "IS 216: 1961",
     "title": "Coal tar pitch (revised)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "tar"
@@ -2047,7 +2139,7 @@
     "standardNumber": "IS 218: 1983",
     "title": "Creosote oil for use as wood preservatives (second revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "wood"
@@ -2061,7 +2153,7 @@
     "standardNumber": "IS 454: 1994",
     "title": "Cutback bitumen from waxy crude (second revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "bitumen"
@@ -2075,7 +2167,7 @@
     "standardNumber": "IS 702: 1988",
     "title": "Industrial bitumen (second revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "bitumen"
@@ -2089,7 +2181,7 @@
     "standardNumber": "IS 3117: 2004",
     "title": "Bitumen emulsion for roads and allied application (anionic type) (first revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "bitumen"
@@ -2103,7 +2195,7 @@
     "standardNumber": "IS 8887: 2004",
     "title": "Bitumen emulsion for roads (cationic type) (second revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "bitumen"
@@ -2117,8 +2209,8 @@
     "standardNumber": "IS 9912: 1981",
     "title": "Coal tar based coating materials and suitable primers for protecting",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
-    "description": "iron or steel pipe lines. SP 21 : 2005 SUMMARY OF",
+    "category": "Bitumen & Tar",
+    "description": "iron or steel pipe lines. SUMMARY OF",
     "keywords": [
       "iron",
       "pipe",
@@ -2135,7 +2227,7 @@
     "standardNumber": "IS 1202: 1978",
     "title": "Methods of testing tar and bituminous material: Determination of specific gravity (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "tar"
@@ -2149,7 +2241,7 @@
     "standardNumber": "IS 1203: 1978",
     "title": "Determination of penetration (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2161,7 +2253,7 @@
     "standardNumber": "IS 1205: 1978",
     "title": "Determination of softening point (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2173,7 +2265,7 @@
     "standardNumber": "IS 1206 (Part 2): 1978",
     "title": "Determination of viscosity, Part 2 Absolute viscosity (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2185,7 +2277,7 @@
     "standardNumber": "IS 1206 (Part 3): 1978",
     "title": "Determination of viscosity Part 3 Kinematric viscosity (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2197,7 +2289,7 @@
     "standardNumber": "IS 1208: 1978",
     "title": "Determination of ductility (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2209,7 +2301,7 @@
     "standardNumber": "IS 1211: 1978",
     "title": "Determination of water content (dean and Stark method) (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "tar",
@@ -2224,7 +2316,7 @@
     "standardNumber": "IS 1212: 1978",
     "title": "Determination of loss on heating (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2236,7 +2328,7 @@
     "standardNumber": "IS 1216: 1978",
     "title": "Determination of solubility in carbon disulphide trichloroethylene (first revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2248,7 +2340,7 @@
     "standardNumber": "IS 1448 (Part 69): 1969",
     "title": "Methods of tests for petroleum and its products Part 69: Flash and fire point by Cleveland (open) cup",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "fire",
@@ -2263,7 +2355,7 @@
     "standardNumber": "IS 9381: 1979",
     "title": "Methods of testing tar and bituminous materials: Determination of FRAASS breaking point of bitumen.",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "bitumen",
@@ -2278,7 +2370,7 @@
     "standardNumber": "IS 9382: 1979",
     "title": "Determination of effect of heat and air by thin film oven tests.",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2290,8 +2382,8 @@
     "standardNumber": "IS 10512: 1983",
     "title": "Methods for determination of wax content in bitumen.",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
-    "description": "For detailed information, refer to IS 73:1992. Specification for paving bitumen (second revision). SP 21 : 2005 SUMMARY OF",
+    "category": "Bitumen & Tar",
+    "description": "For detailed information, refer to IS 73:1992. Specification for paving bitumen (second revision). SUMMARY OF",
     "keywords": [
       "bitumen",
       "specification"
@@ -2305,7 +2397,7 @@
     "standardNumber": "IS 1213: 1978",
     "title": "Distillation test (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2317,7 +2409,7 @@
     "standardNumber": "IS 1214: 1978",
     "title": "Determination matter insoluble in benzene (first revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2329,8 +2421,8 @@
     "standardNumber": "IS 1217: 1978",
     "title": "Determination of mineral matter (ASH) (first revision)",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
-    "description": "For detailed information, refer to IS 212:1983 Specification for crude coal tar for general use (second revision). SP 21 : 2005",
+    "category": "Bitumen & Tar",
+    "description": "For detailed information, refer to IS 212:1983 Specification for crude coal tar for general use (second revision). SUMMARY OF",
     "keywords": [
       "specification",
       "tar"
@@ -2344,7 +2436,7 @@
     "standardNumber": "IS 1206(Part 1): 1978",
     "title": "Determination of viscosity: Part 1 Industrial viscosity (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2356,7 +2448,7 @@
     "standardNumber": "IS 1207: 1978",
     "title": "Determination of equiriscous temperature (EVT) (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2368,7 +2460,7 @@
     "standardNumber": "IS 1215: 1978",
     "title": "Determination of matter insoluble in toluene (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2380,7 +2472,7 @@
     "standardNumber": "IS 1218: 1978",
     "title": "Determination of phenols (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2392,8 +2484,8 @@
     "standardNumber": "IS 1219: 1978",
     "title": "Determination of naphthalene (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
-    "description": "For detailed information, refer to IS 215 : 1995 Specification for road tar (third revision). SP 21 : 2005 SUMMARY OF",
+    "category": "Bitumen & Tar",
+    "description": "For detailed information, refer to IS 215 : 1995 Specification for road tar (third revision). SUMMARY OF",
     "keywords": [
       "specification",
       "tar"
@@ -2407,7 +2499,7 @@
     "standardNumber": "IS 1206 (Part 1): 1978",
     "title": "Determination of viscosity Part 1 Industrial viscosity (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -2419,7 +2511,7 @@
     "standardNumber": "IS 1209: 1978",
     "title": "Determination of flash point and fire point (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "fire"
@@ -2433,7 +2525,7 @@
     "standardNumber": "IS 82: 1973",
     "title": "Methods of sampling and test for thinners and solvent for paints (first revision).",
     "section": "7. BITUMEN AND TAR PRODUCTS",
-    "category": "Paints & Coatings",
+    "category": "Bitumen & Tar",
     "description": "",
     "keywords": [
       "paint"
@@ -2540,7 +2632,7 @@
     "title": "Acid Resistant bricks",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
-    "description": ">",
+    "description": "",
     "keywords": [
       "brick"
     ],
@@ -2568,7 +2660,7 @@
   {
     "id": "is-is-13754--1993",
     "standardNumber": "IS 13754: 1993",
-    "title": "Dust pressed ceramic tiles with water absorption of 6<E ≤ 10 percent Group (B IIb)8.15",
+    "title": "Dust pressed ceramic tiles with water absorption of 6<E \u2264 10 percent Group (B IIb)8.15",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
     "description": "",
@@ -2579,7 +2671,7 @@
       "water"
     ],
     "contextChunks": [
-      "IS 13754: 1993: Dust pressed ceramic tiles with water absorption of 6<E ≤ 10 percent Group (B IIb)8.15"
+      "IS 13754: 1993: Dust pressed ceramic tiles with water absorption of 6<E \u2264 10 percent Group (B IIb)8.15"
     ]
   },
   {
@@ -2602,7 +2694,7 @@
   {
     "id": "is-is-13756--1993",
     "standardNumber": "IS 13756: 1993",
-    "title": "Dust pressed ceramic tiles with Low water absorption of E ≤3 percent Group (B I)8.21",
+    "title": "Dust pressed ceramic tiles with Low water absorption of E \u22643 percent Group (B I)8.21",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
     "description": "",
@@ -2613,7 +2705,7 @@
       "water"
     ],
     "contextChunks": [
-      "IS 13756: 1993: Dust pressed ceramic tiles with Low water absorption of E ≤3 percent Group (B I)8.21"
+      "IS 13756: 1993: Dust pressed ceramic tiles with Low water absorption of E \u22643 percent Group (B I)8.21"
     ]
   },
   {
@@ -2665,7 +2757,7 @@
   {
     "id": "is-is-8374--1977",
     "standardNumber": "IS 8374: 1977",
-    "title": "Bitumen mastic, anti–static and electrically conducting grade",
+    "title": "Bitumen mastic, anti\u2013static and electrically conducting grade",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
     "description": "",
@@ -2674,13 +2766,13 @@
       "grade"
     ],
     "contextChunks": [
-      "IS 8374: 1977: Bitumen mastic, anti–static and electrically conducting grade"
+      "IS 8374: 1977: Bitumen mastic, anti\u2013static and electrically conducting grade"
     ]
   },
   {
     "id": "is-is-9510--1980",
     "standardNumber": "IS 9510: 1980",
-    "title": "Bitumen mastic acid–resisting grade",
+    "title": "Bitumen mastic acid\u2013resisting grade",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
     "description": "",
@@ -2689,7 +2781,7 @@
       "grade"
     ],
     "contextChunks": [
-      "IS 9510: 1980: Bitumen mastic acid–resisting grade"
+      "IS 9510: 1980: Bitumen mastic acid\u2013resisting grade"
     ]
   },
   {
@@ -2750,7 +2842,7 @@
     "title": "PVC asbestos floor tiles (first revision)",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
-    "description": "SP 21 : 2005 Title Page",
+    "description": "Title Page",
     "keywords": [
       "asbestos",
       "floor",
@@ -2830,7 +2922,7 @@
     "title": "Rubber flooring materials for general purposes (second revision)",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "description": "SUMMARY OF",
     "keywords": [
       "floor",
       "rubber"
@@ -2845,7 +2937,7 @@
     "title": "Code of practice for preparation and use of masonry mortars (first revision).",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
-    "description": "For detailed information refer to IS 1542:1992 Specificaion for sand for plaster (second revision). SP 21 : 2005 SUMMARY OF",
+    "description": "For detailed information refer to IS 1542:1992 Specificaion for sand for plaster (second revision). SUMMARY OF",
     "keywords": [
       "masonry",
       "mortar",
@@ -2863,7 +2955,7 @@
     "title": "PRODUCTS IN FIBRE REINFORCED",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
-    "description": "CEMENT—LONG CORRUGATED OR ASYMMETRICAL SECTION SHEETS AND FITTINGS FOR ROOFING AND CLADDING 1. Scope be gradually of smooth finish. Variations of the surface",
+    "description": "CEMENT\u2014LONG CORRUGATED OR ASYMMETRICAL SECTION SHEETS AND FITTINGS FOR ROOFING AND CLADDING 1. Scope be gradually of smooth finish. Variations of the surface appearance, due to the method of manufacture, which",
     "keywords": [
       "cement",
       "corrugated",
@@ -2885,7 +2977,7 @@
     "title": "830 3",
     "section": "8. FLOOR, WALL, ROOF COVERINGS",
     "category": "Flooring & Finishes",
-    "description": "iii)Corrugated 5 19 — 75 +5 650 ± 25 1.1 +0.15 1 800 aluminum sheets 800 ± 25 2 400 0.5% profile in of length",
+    "description": "iii)Corrugated 5 19 \u2014 75 +5 650 \u00b1 25 1.1 +0.15 1 800 aluminum sheets 800 \u00b1 25 2 400 0.5% profile in of length accordance with 6 38 \u2014 125 \u00b1 5 795 +25 3 000",
     "keywords": [
       "aluminum",
       "corrugated",
@@ -2900,7 +2992,7 @@
     "standardNumber": "IS 1322: 1993",
     "title": "Bitumen felts for water-proofing and damp-proofing (fourth revision)",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "",
     "keywords": [
       "bitumen",
@@ -2917,7 +3009,7 @@
     "standardNumber": "IS 1580: 1991",
     "title": "Bituminous compounds for water-proofing and caulking purposes",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "(second revision)",
     "keywords": [
       "roofing",
@@ -2932,7 +3024,7 @@
     "standardNumber": "IS 2645: 2003",
     "title": "Integral cement water-proofing compounds (second revision)",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "",
     "keywords": [
       "cement",
@@ -2948,7 +3040,7 @@
     "standardNumber": "IS 3037: 1986",
     "title": "Bitumen mastic for use in water-proofing of roofs (first revision)",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "",
     "keywords": [
       "bitumen",
@@ -2964,7 +3056,7 @@
     "standardNumber": "IS 3384: 1986",
     "title": "Bitumen primer for use in water-proofing and damp proofing (first revision)",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "",
     "keywords": [
       "bitumen",
@@ -2981,7 +3073,7 @@
     "standardNumber": "IS 5871: 1987",
     "title": "Bitumen mastic for tanking and damp proofing (first revision)",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "",
     "keywords": [
       "bitumen",
@@ -2997,7 +3089,7 @@
     "standardNumber": "IS 7193: 1994",
     "title": "Glass fibre base bitumen felts.(first revision)",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "",
     "keywords": [
       "bitumen",
@@ -3014,7 +3106,7 @@
     "standardNumber": "IS 12027: 1987",
     "title": "Silicone-based water repellents.",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
+    "category": "Waterproofing",
     "description": "",
     "keywords": [
       "water"
@@ -3028,8 +3120,8 @@
     "standardNumber": "IS 14695: 1999",
     "title": "Glass fibre base coal tar pitch outer wraps",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Waterproofing",
+    "description": "SUMMARY OF",
     "keywords": [
       "fibre",
       "glass",
@@ -3044,8 +3136,8 @@
     "standardNumber": "IS 7193: 1974",
     "title": "GLASS FIBRE BASE BITUMEN FELTS",
     "section": "9. WATERPROOFING AND DAMP - PROOFING",
-    "category": "Doors & Windows",
-    "description": "(First Revision) 1. Scope — Requirements for self finished glass fibre fibre base bitumen felts for damp-proofing. bitumen felts used for waterproofing and damp proofing.",
+    "category": "Waterproofing",
+    "description": "(First Revision) 1. Scope \u2014 Requirements for self finished glass fibre fibre base bitumen felts for damp-proofing. bitumen felts used for waterproofing and damp proofing. 3. Dimensions \u2014 Bitumen felts in width of one metre",
     "keywords": [
       "bitumen",
       "felt",
@@ -3148,7 +3240,7 @@
   {
     "id": "is-is-5219-part-1--1969",
     "standardNumber": "IS 5219 (Part 1): 1969",
-    "title": "Cast copper alloy traps Part1 - ‘P’ and ‘S‘ traps.",
+    "title": "Cast copper alloy traps Part1 - \u2018P\u2019 and \u2018S\u2018 traps.",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
     "description": "",
@@ -3157,7 +3249,7 @@
       "copper"
     ],
     "contextChunks": [
-      "IS 5219 (Part 1): 1969: Cast copper alloy traps Part1 - ‘P’ and ‘S‘ traps."
+      "IS 5219 (Part 1): 1969: Cast copper alloy traps Part1 - \u2018P\u2019 and \u2018S\u2018 traps."
     ]
   },
   {
@@ -3254,7 +3346,7 @@
     "title": "Solid drawn copper tubes for general engineering purposes (third revision)",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "g Cast - Iron IS: 1230 : 1979 Cast iron rain water pipes and fittings (second revision). 10.32",
+    "description": "Cast - Iron IS: 1230 : 1979 Cast iron rain water pipes and fittings (second revision). 10.32",
     "keywords": [
       "copper",
       "fitting",
@@ -3385,7 +3477,7 @@
     "title": "Cast iron specials for asbestos-cement pressure pipes for water, gas and",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "sewage (first revision) 10.50 SP 21 : 2005 Title Page",
+    "description": "sewage (first revision) 10.50 Title Page",
     "keywords": [
       "asbestos",
       "cement",
@@ -3687,7 +3779,7 @@
     "title": "Injection moulded PVC fittings with solvent cement joints for water supplies",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "(first revision) Part I General requirements 10.78 Part 2 Specific requirement for 450 elbows 10.80",
+    "description": "(first revision) Part I General requirements 10.78 Part 2 Specific requirement for 450 elbows 10.80 Title Page",
     "keywords": [
       "cement",
       "fitting",
@@ -3704,7 +3796,7 @@
     "title": "Injection moulded HDPE fitting for potable water supplies (first revision)",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "Part I General requirements for fittings 10.87 Part 2 Specific requirements for 90° bends 10.88 Part 3 Specific requirements for 90° tees. 10.89",
+    "description": "Part I General requirements for fittings 10.87 Part 2 Specific requirements for 90\u00b0 bends 10.88 Part 3 Specific requirements for 90\u00b0 tees. 10.89 Part 4 Specific requirements for reducers 10.90",
     "keywords": [
       "fitting",
       "water"
@@ -3719,7 +3811,7 @@
     "title": "Fabricated high density polyethylene (HDPE) fitting for potable water supplies",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "Part I General requirements 10.94 Part 2 Specific requirements for 90° tees 10.95 Part 3 Specific requirements for 90° bends 10.96",
+    "description": "Part I General requirements 10.94 Part 2 Specific requirements for 90\u00b0 tees 10.95 Part 3 Specific requirements for 90\u00b0 bends 10.96",
     "keywords": [
       "density",
       "fitting",
@@ -3736,7 +3828,7 @@
     "title": "Specification for fabricated PVC fitting water supplies (first revision)",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "Part I General requirements 10.97 Part 2 Specific requirements for sockets. 10.98 Part 3 Specific requirements for straight reducers 10.99",
+    "description": "Part I General requirements 10.97 Part 2 Specific requirements for sockets. 10.98 Part 3 Specific requirements for straight reducers 10.99 Part 4 Specific requirements for caps 10.101",
     "keywords": [
       "fitting",
       "pvc",
@@ -3773,7 +3865,7 @@
     "title": "Unplasticised PVC screens and casting pipes for bore / tubewell supplyuse",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "(first revision). SP 21 : 2005 Title Page",
+    "description": "(first revision). Title Page",
     "keywords": [
       "pipe",
       "plastic",
@@ -3935,7 +4027,7 @@
     "title": "Chemically resistant glazed stoneware pipes and fittings (first revision)",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "Note— Asbestos, cement and concrete pipes have been covered in Section 1 On cement and concrete SANITARY APPLIANCES",
+    "description": "Note\u2014 Asbestos, cement and concrete pipes have been covered in Section 1 On cement and concrete SANITARY APPLIANCES",
     "keywords": [
       "asbestos",
       "cement",
@@ -3958,7 +4050,7 @@
     "title": "General requirements of enamelled cast iron sanitary appliances (second revision)",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "SP 21 : 2005 Title Page",
+    "description": "Title Page",
     "keywords": [
       "enamel",
       "iron",
@@ -4162,7 +4254,7 @@
     "title": "Water fittings copper alloy float valves (horizontal plunger type) for water",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "supply fittings (fourth revision) 10.204 SP 21 : 2005 Title Page",
+    "description": "supply fittings (fourth revision) 10.204 Title Page",
     "keywords": [
       "alloy",
       "copper",
@@ -4480,7 +4572,7 @@
     "title": "Water meters (bulk type) (third revision)",
     "section": "10. SANITARY APPLIANCES AND WATER FITTINGS",
     "category": "Plumbing & Water",
-    "description": "Note— IS 638 : 1979 Sheet rubber jointing and rubber insertion jointing (second revision)is covered in",
+    "description": "Note\u2014 IS 638 : 1979 Sheet rubber jointing and rubber insertion jointing (second revision)is covered in",
     "keywords": [
       "rubber",
       "sheet",
@@ -4496,7 +4588,7 @@
     "title": "CAST COPPER ALLOYS TRAPS",
     "section": "8. Floor Covering and Finishing.",
     "category": "Flooring & Finishes",
-    "description": "PART 1 P AND S TRAPS 1. Scope – Covers copper alloy cast traps P and S either with plain ends suitable for conection to lead types and their associated components of nominal sizes pipe or with external parallel pipe threads of fastening",
+    "description": "PART 1 P AND S TRAPS 1. Scope \u2013 Covers copper alloy cast traps P and S either with plain ends suitable for conection to lead types and their associated components of nominal sizes pipe or with external parallel pipe threads of fastening 32 mm, 40 mm and 50 mm for use in wash\u2013basins, sinks, type.",
     "keywords": [
       "alloy",
       "copper",
@@ -4513,7 +4605,7 @@
     "title": "CAST IRON RAINWATER PIPES AND FITTINGS",
     "section": "8. Floor Covering and Finishing.",
     "category": "Flooring & Finishes",
-    "description": "(Second Revision) 1. Scope 2. Dimensions and Mass 2.1 Pipes and Fittings",
+    "description": "(Second Revision) 1. Scope 2. Dimensions and Mass 2.1 Pipes and Fittings 1.1 Requirements for cast iron rainwater pipes, half-",
     "keywords": [
       "fitting",
       "iron",
@@ -4530,7 +4622,7 @@
     "title": "SAND CAST IRON SPIGOT AND SOCKET SOIL,",
     "section": "8. Floor Covering and Finishing.",
     "category": "Flooring & Finishes",
-    "description": "WASTE AND VENTILATING PIPES, FITTINGS AND ACCESSORIES (Second Revision) 1. Scope 2.3 Hydraulic Test— Pipes and fittings shall withstand",
+    "description": "WASTE AND VENTILATING PIPES, FITTINGS AND ACCESSORIES (Second Revision) 1. Scope 2.3 Hydraulic Test\u2014 Pipes and fittings shall withstand a hydrostatic pressure of 0.07 N/mm2 for minimum 15",
     "keywords": [
       "fitting",
       "iron",
@@ -4547,7 +4639,7 @@
     "title": "1988*.",
     "section": "2. = ( Tables 5 to10) of the standard.",
     "category": "Building Limes",
-    "description": "Note—This figure is only intended to define the terms used C—minimum length of spigot portion (plain end) in Table 1 and is not intended to illustrate specific design",
+    "description": "Note\u2014This figure is only intended to define the terms used C\u2014minimum length of spigot portion (plain end) in Table 1 and is not intended to illustrate specific design calculated from 0.5 d +10mm where d is features.",
     "keywords": [],
     "contextChunks": [
       "IS 10124 (Part 1): 1988*."
@@ -4559,7 +4651,7 @@
     "title": "Methods of test for unplasticized PVC pipes for potable water supplies Part 6 Stress relef test: Part 7 resistance",
     "section": "2. = ( Tables 5 to10) of the standard.",
     "category": "Building Limes",
-    "description": "to Sulphuric acid. For detailed information, refer to IS 14735 :1999 Specification for unplasticized polyvinyl chloride (UPVC) injection moulded fittings for soil and waste discharge system for inside and",
+    "description": "to Sulphuric acid. For detailed information, refer to IS 14735 :1999 Specification for unplasticized polyvinyl chloride (UPVC) injection moulded fittings for soil and waste discharge system for inside and outside buildings including ventilation and rain water system.",
     "keywords": [
       "fitting",
       "pipe",
@@ -4579,7 +4671,7 @@
     "title": "Methods of bend test on metallic tubes (in full section) (first revision).",
     "section": "2. = ( Tables 5 to10) of the standard.",
     "category": "Building Limes",
-    "description": "For detailed information, refer to IS:1239 (Part 1) : 2004 Specification for steel tubes, tubulars and other wrought steel fittings Part 1 Steel tubes (sixth revision). SP 21 : 2005",
+    "description": "For detailed information, refer to IS:1239 (Part 1) : 2004 Specification for steel tubes, tubulars and other wrought steel fittings Part 1 Steel tubes (sixth revision). 10.135 SUMMARY OF",
     "keywords": [
       "fitting",
       "section",
@@ -4595,7 +4687,7 @@
     "standardNumber": "IS 204 (Part 1): 1991",
     "title": "Tower bolts : Part 1 Ferrous metal (fifth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt"
@@ -4609,7 +4701,7 @@
     "standardNumber": "IS 204 (Part 2): 1992",
     "title": "Tower bolts : Part 2 Non - Ferrous metals (fifth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt"
@@ -4623,7 +4715,7 @@
     "standardNumber": "IS 205: 1992",
     "title": "Non-ferrous metal butt hinges (fourth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge"
@@ -4637,7 +4729,7 @@
     "standardNumber": "IS 206: 1992",
     "title": "Tee and strap hinges (fourth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge"
@@ -4651,7 +4743,7 @@
     "standardNumber": "IS 208: 1996",
     "title": "Door handles (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door",
@@ -4666,7 +4758,7 @@
     "standardNumber": "IS 281: 1991",
     "title": "Mild steel sliding door bolts for use with padlocks (third revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt",
@@ -4683,7 +4775,7 @@
     "standardNumber": "IS 362: 1991",
     "title": "Parliament hinges (fifth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge"
@@ -4697,7 +4789,7 @@
     "standardNumber": "IS 363: 1993",
     "title": "Hasps and staples (fourth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -4709,7 +4801,7 @@
     "standardNumber": "IS 364: 1993",
     "title": "Fan light catch (third revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -4721,7 +4813,7 @@
     "standardNumber": "IS 452: 1973",
     "title": "Door springs, Rat-tail type (second revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door"
@@ -4735,7 +4827,7 @@
     "standardNumber": "IS 453: 1993",
     "title": "Double acting spring hinges (third revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge"
@@ -4749,7 +4841,7 @@
     "standardNumber": "IS 1019: 1974",
     "title": "Rim latches (second revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -4761,7 +4853,7 @@
     "standardNumber": "IS 1341: 1992",
     "title": "Steel butt hinges (sixth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge",
@@ -4776,7 +4868,7 @@
     "standardNumber": "IS 1823: 1980",
     "title": "Floor door stoppers (third revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door",
@@ -4791,7 +4883,7 @@
     "standardNumber": "IS 1837: 1966",
     "title": "Fan light pivots (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -4803,7 +4895,7 @@
     "standardNumber": "IS 2209: 1976",
     "title": "Mortice locks (vertical type) (third revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "IS: 2681 : 1993 Non-ferrous metal sliding door bolts (aldrops) for use with pad locks (third revision) 11.20",
     "keywords": [
       "bolt",
@@ -4819,7 +4911,7 @@
     "standardNumber": "IS 3564: 1995",
     "title": "Hydraulically regulated door closers (fourth revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door"
@@ -4833,7 +4925,7 @@
     "standardNumber": "IS 3818: 1992",
     "title": "Continuous (piano) hinges (third revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge"
@@ -4847,7 +4939,7 @@
     "standardNumber": "IS 3828: 1966",
     "title": "Ventilator chains",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "chain"
@@ -4861,7 +4953,7 @@
     "standardNumber": "IS 3843: 1995",
     "title": "Steel back flap hinges (Second revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge",
@@ -4876,7 +4968,7 @@
     "standardNumber": "IS 3847: 1992",
     "title": "Mortice night latches (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -4888,7 +4980,7 @@
     "standardNumber": "IS 4621: 1975",
     "title": "Indicating bolts for use in public baths and lavatories (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt"
@@ -4902,7 +4994,7 @@
     "standardNumber": "IS 4948: 2002",
     "title": "Welded steel wire fabric for general use (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "steel",
@@ -4917,7 +5009,7 @@
     "standardNumber": "IS 4992: 1975",
     "title": "Door handles for mortice locks (vertical type) (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door",
@@ -4933,7 +5025,7 @@
     "standardNumber": "IS 5187: 1972",
     "title": "Flush bolts (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt"
@@ -4947,7 +5039,7 @@
     "standardNumber": "IS 5899: 1970",
     "title": "Bathroom latches",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -4959,7 +5051,7 @@
     "standardNumber": "IS 5930: 1970",
     "title": "Mortice latch (vertical type)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -4971,7 +5063,7 @@
     "standardNumber": "IS 6315: 1992",
     "title": "Floor springs (hydraulically regulated) for heavy doors (second revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door",
@@ -4986,8 +5078,8 @@
     "standardNumber": "IS 6318: 1971",
     "title": "Plastic window stays and fasteners.",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
-    "description": "SP 21 : 2005 Title Page",
+    "category": "Hardware & Fasteners",
+    "description": "Title Page",
     "keywords": [
       "fastener",
       "plastic",
@@ -5002,7 +5094,7 @@
     "standardNumber": "IS 6343: 1982",
     "title": "Door closers (pneumatically regulated) for light doors weighing",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "up to 40 kg (first revision) 11.34",
     "keywords": [
       "door"
@@ -5016,7 +5108,7 @@
     "standardNumber": "IS 6607: 1972",
     "title": "Rebated mortice locks (vertical type)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "lock"
@@ -5030,7 +5122,7 @@
     "standardNumber": "IS 7196: 1974",
     "title": "Hold fast",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -5042,7 +5134,7 @@
     "standardNumber": "IS 7197: 1974",
     "title": "Double action floor springs (without oil check) for heavy doors",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door",
@@ -5057,7 +5149,7 @@
     "standardNumber": "IS 7534: 1985",
     "title": "Sliding locking bolts for use with padlocks (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt",
@@ -5072,7 +5164,7 @@
     "standardNumber": "IS 7540: 1974",
     "title": "Mortice dead locks",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "lock"
@@ -5086,7 +5178,7 @@
     "standardNumber": "IS 8760: 1978",
     "title": "Mortice sliding door locks, with lever mechanism",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "door",
@@ -5101,7 +5193,7 @@
     "standardNumber": "IS 9106: 1979",
     "title": "Rising butt hinges",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge"
@@ -5115,7 +5207,7 @@
     "standardNumber": "IS 9131: 1979",
     "title": "Rim locks",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "lock"
@@ -5129,7 +5221,7 @@
     "standardNumber": "IS 10019: 1981",
     "title": "Mild steel stays and fasteners.",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "fastener",
@@ -5144,7 +5236,7 @@
     "standardNumber": "IS 10090: 1982",
     "title": "Numericals",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -5156,7 +5248,7 @@
     "standardNumber": "IS 10342: 1982",
     "title": "Curtain rail system",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -5168,7 +5260,7 @@
     "standardNumber": "IS 12817: 1997",
     "title": "Stainless steel butt hinges (first revision)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "hinge",
@@ -5183,7 +5275,7 @@
     "standardNumber": "IS 12867: 1989",
     "title": "PVC hand rail covers",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "pvc"
@@ -5197,8 +5289,8 @@
     "standardNumber": "IS 14912: 2001",
     "title": "Door closers, concealed type (hydraulically operated)",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Hardware & Fasteners",
+    "description": "SUMMARY OF",
     "keywords": [
       "door"
     ],
@@ -5211,8 +5303,8 @@
     "standardNumber": "IS 2681: 1993",
     "title": "NON-FERROUS METAL SLIDING DOOR BOLTS",
     "section": "11. BUILDERS HARDWARE",
-    "category": "Sanitary",
-    "description": "(ALDROPS) FOR USE WITH PADLOCKS (Third Revision) 1. Scope – Requirement for non-ferrous metal sliding 3. Materials – Shall comply with the requirements",
+    "category": "Hardware & Fasteners",
+    "description": "(ALDROPS) FOR USE WITH PADLOCKS (Third Revision) 1. Scope \u2013 Requirement for non-ferrous metal sliding 3. Materials \u2013 Shall comply with the requirements door bolts (aldrops) commonly used in general building given in Table 1 of the standard.",
     "keywords": [
       "bolt",
       "door",
@@ -5227,7 +5319,7 @@
     "standardNumber": "IS 12049: 1987",
     "title": "Dimensions and tolerances relating to wood based panel materials.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "ADHESIVES",
     "keywords": [
       "adhesive",
@@ -5243,7 +5335,7 @@
     "standardNumber": "IS 849: 1994",
     "title": "Cold setting casein glue for wood (first revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "wood"
@@ -5257,7 +5349,7 @@
     "standardNumber": "IS 851: 1978",
     "title": "Synthetic resin adhesives for construction work (non-structural) in wood",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "(first revision)",
     "keywords": [
       "adhesive",
@@ -5273,7 +5365,7 @@
     "standardNumber": "IS 852: 1994",
     "title": "Animal glue for general wood-working purposes (second revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "PLYWOOD",
     "keywords": [
       "plywood",
@@ -5288,7 +5380,7 @@
     "standardNumber": "IS 303: 1989",
     "title": "Plywood for general purposes (third revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "plywood",
@@ -5303,7 +5395,7 @@
     "standardNumber": "IS 1328: 1996",
     "title": "Veneered decorative plywood (third revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "decorative",
@@ -5320,7 +5412,7 @@
     "standardNumber": "IS 4990: 1993",
     "title": "Plywood for concrete shuttering work (second revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "concrete",
@@ -5337,7 +5429,7 @@
     "standardNumber": "IS 5509: 2000",
     "title": "Fire retardant plywood (second revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "fire",
@@ -5354,7 +5446,7 @@
     "standardNumber": "IS 7316: 1974",
     "title": "Decorative plywood using plurality of veneers for decorative faces",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "decorative",
@@ -5371,7 +5463,7 @@
     "standardNumber": "IS 10701: 1983",
     "title": "Structural plywood",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "plywood",
@@ -5387,7 +5479,7 @@
     "standardNumber": "IS 13957: 1994",
     "title": "Metal faced plywood.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "PARTICLE BOARDS AND FIBRE BOARDS",
     "keywords": [
       "board",
@@ -5405,7 +5497,7 @@
     "standardNumber": "IS 1658: 1977",
     "title": "Fibre hardboards (second revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5420,7 +5512,7 @@
     "standardNumber": "IS 1659: 2004",
     "title": "Block boards (third revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "block",
@@ -5436,7 +5528,7 @@
     "standardNumber": "IS 3087: 1985",
     "title": "Wood particle boards (medium density) for general purposes (first revision)12.25",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5453,7 +5545,7 @@
     "standardNumber": "IS 3097: 1980",
     "title": "Veneered particle boards (first revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5469,7 +5561,7 @@
     "standardNumber": "IS 3129: 1985",
     "title": "Low density particle boards (first revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5485,7 +5577,7 @@
     "standardNumber": "IS 3308: 1981",
     "title": "Wood wool building slabs (first revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "wood"
@@ -5499,7 +5591,7 @@
     "standardNumber": "IS 3348: 1965",
     "title": "Fibre insulation boards",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5515,7 +5607,7 @@
     "standardNumber": "IS 3478: 1966",
     "title": "High density wood particle boards",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5532,7 +5624,7 @@
     "standardNumber": "IS 12406: 2003",
     "title": "Medium density fibre boards for general purposes. (first revision)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5548,7 +5640,7 @@
     "standardNumber": "IS 12823: 1990",
     "title": "Prelaminated particle boards.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5563,7 +5655,7 @@
     "standardNumber": "IS 14276: 1995",
     "title": "Cement bonded particle boards.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5579,8 +5671,8 @@
     "standardNumber": "IS 14587: 1998",
     "title": "Prelaminated medium density fibre board.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
-    "description": "SP 21 : 2005 Title Page WOOD BASED LAMINATES",
+    "category": "Wood Products",
+    "description": "Title Page WOOD BASED LAMINATES",
     "keywords": [
       "board",
       "density",
@@ -5596,9 +5688,10 @@
     "standardNumber": "IS 3513: 1989",
     "title": "Resin treated compressed wood laminates. (compregs)",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
-    "description": "Part I For Electrical purposes (first revision) 12.42 Part 2 For chemical purposes (first revision) 12.45 Part 3 for general purposes (first revision) 12.48",
+    "category": "Wood Products",
+    "description": "Part I For Electrical purposes (first revision) 12.42 Part 2 For chemical purposes (first revision) 12.45 Part 3 for general purposes (first revision) 12.48 IS: 14616 : 1999 Laminated veneer lumber 12.51",
     "keywords": [
+      "veneer",
       "wood"
     ],
     "contextChunks": [
@@ -5610,7 +5703,7 @@
     "standardNumber": "IS 13958: 1994",
     "title": "Bamboo mat board for general purposes.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "bamboo",
@@ -5625,7 +5718,7 @@
     "standardNumber": "IS 14588: 1999",
     "title": "Bamboo mat veneer composite for general purposes.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "bamboo",
@@ -5640,7 +5733,7 @@
     "standardNumber": "IS 14842: 2000",
     "title": "Coir Veneer board for general purposes",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "board",
@@ -5653,9 +5746,9 @@
   {
     "id": "is-is-15476--2004",
     "standardNumber": "IS 15476: 2004",
-    "title": "Bamboo mat corrugated sheets – Specification",
+    "title": "Bamboo mat corrugated sheets \u2013 Specification",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
+    "category": "Wood Products",
     "description": "",
     "keywords": [
       "bamboo",
@@ -5664,23 +5757,23 @@
       "specification"
     ],
     "contextChunks": [
-      "IS 15476: 2004: Bamboo mat corrugated sheets – Specification"
+      "IS 15476: 2004: Bamboo mat corrugated sheets \u2013 Specification"
     ]
   },
   {
     "id": "is-is-15491--2004",
     "standardNumber": "IS 15491: 2004",
-    "title": "Medium density coirboards for general purposes – Specification",
+    "title": "Medium density coirboards for general purposes \u2013 Specification",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Wood Products",
+    "description": "SUMMARY OF",
     "keywords": [
       "board",
       "density",
       "specification"
     ],
     "contextChunks": [
-      "IS 15491: 2004: Medium density coirboards for general purposes – Specification"
+      "IS 15491: 2004: Medium density coirboards for general purposes \u2013 Specification"
     ]
   },
   {
@@ -5688,9 +5781,10 @@
     "standardNumber": "IS 5539: 1969",
     "title": "PRESERVATIVE TREATED PLYWOOD",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
-    "description": "1. Scope – Treatment of plywood for protection 4. Choice of Treatment – This is governed by the against fungi, termites and other insects and marine timber species in the plywood, sapwood content and borers and requiremments of preservatives treated use after treatment. Recommended practice on choice",
+    "category": "Wood Products",
+    "description": "1. Scope \u2013 Treatment of plywood for protection 4. Choice of Treatment \u2013 This is governed by the against fungi, termites and other insects and marine timber species in the plywood, sapwood content and borers and requiremments of preservatives treated use after treatment. Recommended practice on choice plywood. of preservative and amount of absorption and service",
     "keywords": [
+      "absorption",
       "marine",
       "plywood",
       "timber",
@@ -5705,8 +5799,8 @@
     "standardNumber": "IS 14616: 1999",
     "title": "LAMINATED VENEER LUMBER",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
-    "description": "1. Scope—Covers laminated veneer lumber (LVL) 3.3.2 Only fixed type of water soluble preservatives, of density range 0.6 to 0.75 in which most natural CCA or CCB, or non-leachable, solvent soluble structural wood fall. Its applications include all the end preservatives as per IS 401: 1982 ++ shall be used for",
+    "category": "Wood Products",
+    "description": "1. Scope\u2014Covers laminated veneer lumber (LVL) 3.3.2 Only fixed type of water soluble preservatives, of density range 0.6 to 0.75 in which most natural CCA or CCB, or non-leachable, solvent soluble structural wood fall. Its applications include all the end preservatives as per IS 401: 1982 ++ shall be used for uses to which structural wood has been traditionally treating the veneers.",
     "keywords": [
       "density",
       "structural",
@@ -5723,8 +5817,8 @@
     "standardNumber": "IS 848: 1974",
     "title": "+ shall be used for making LVL.",
     "section": "12. WOOD PRODUCTS",
-    "category": "Hardware & Fasteners",
-    "description": "6.1 Moisture Content —Between 5 to 15 percent. 3.3 Preservatives 3.3.1 Veneers used for LVL shall be given suitable",
+    "category": "Wood Products",
+    "description": "6.1 Moisture Content \u2014Between 5 to 15 percent. 3.3 Preservatives 3.3.1 Veneers used for LVL shall be given suitable preservative treatment before lamination, with a",
     "keywords": [
       "veneer"
     ],
@@ -5737,8 +5831,8 @@
     "standardNumber": "IS 1003: 2003",
     "title": "Timber panelled and glazed shutters",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "Part 1– Door shutters (fourth revision) 13.3",
+    "category": "Doors & Windows",
+    "description": "Part 1\u2013 Door shutters (fourth revision) 13.3",
     "keywords": [
       "door",
       "panel",
@@ -5754,8 +5848,8 @@
     "standardNumber": "IS 1003: 1994",
     "title": "Timber panelled and glazed shutters",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "Part 2– window and ventilator shutters (third revision) 13.5",
+    "category": "Doors & Windows",
+    "description": "Part 2\u2013 window and ventilator shutters (third revision) 13.5",
     "keywords": [
       "panel",
       "shutter",
@@ -5771,7 +5865,7 @@
     "standardNumber": "IS 1826: 1961",
     "title": "Venetian blinds for windows",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
+    "category": "Doors & Windows",
     "description": "",
     "keywords": [
       "window"
@@ -5785,8 +5879,8 @@
     "standardNumber": "IS 2191 (Part 1): 1983",
     "title": "Wooden flush door shutters (cellular and hollow core type)",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "Part 1– Plywood face panels (fourth revision) 13.9",
+    "category": "Doors & Windows",
+    "description": "Part 1\u2013 Plywood face panels (fourth revision) 13.9",
     "keywords": [
       "door",
       "hollow",
@@ -5802,10 +5896,10 @@
   {
     "id": "is-is-2202-part-1--1999",
     "standardNumber": "IS 2202 (Part 1): 1999",
-    "title": "Wooden flush door shutters (solid core type) - Part 1– (Plywood face panels) (sixth revision)",
+    "title": "Wooden flush door shutters (solid core type) - Part 1\u2013 (Plywood face panels) (sixth revision)",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "(Part 2) : 1983 Part 2– Particle board and hard boards face panels (third revision) 13.14 IS4021 : 1995 Timber door, window and ventilator frames (third revision) 13.15 IS4962 : 1968 Wooden side sliding doors 13.17",
+    "category": "Doors & Windows",
+    "description": "(Part 2) : 1983 Part 2\u2013 Particle board and hard boards face panels (third revision) 13.14 IS4021 : 1995 Timber door, window and ventilator frames (third revision) 13.15 IS4962 : 1968 Wooden side sliding doors 13.17 IS6198 : 1992 Ledged, braced and battened timber door shutters (second revision) 13.18",
     "keywords": [
       "board",
       "door",
@@ -5818,15 +5912,15 @@
       "wood"
     ],
     "contextChunks": [
-      "IS 2202 (Part 1): 1999: Wooden flush door shutters (solid core type) - Part 1– (Plywood face panels) (sixth revision)"
+      "IS 2202 (Part 1): 1999: Wooden flush door shutters (solid core type) - Part 1\u2013 (Plywood face panels) (sixth revision)"
     ]
   },
   {
     "id": "is-is-2202-part-2--1983",
     "standardNumber": "IS 2202 (Part 2): 1983",
-    "title": "Wooden flush door shutters (solid core type) - Part 2– Particle board and hard boards face panels (third revision)",
+    "title": "Wooden flush door shutters (solid core type) - Part 2\u2013 Particle board and hard boards face panels (third revision)",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
+    "category": "Doors & Windows",
     "description": "IS4021 : 1995 Timber door, window and ventilator frames (third revision) 13.15 IS4962 : 1968 Wooden side sliding doors 13.17 IS6198 : 1992 Ledged, braced and battened timber door shutters (second revision) 13.18",
     "keywords": [
       "board",
@@ -5839,7 +5933,7 @@
       "wood"
     ],
     "contextChunks": [
-      "IS 2202 (Part 2): 1983: Wooden flush door shutters (solid core type) - Part 2– Particle board and hard boards face panels (third revision)"
+      "IS 2202 (Part 2): 1983: Wooden flush door shutters (solid core type) - Part 2\u2013 Particle board and hard boards face panels (third revision)"
     ]
   },
   {
@@ -5847,9 +5941,10 @@
     "standardNumber": "IS 15380: 2003",
     "title": "Moulded Raised High Density Fibre (HDF) Panel doors.",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "METAL DOORS AND WINDOWS-FRAMES AND SHUTTERS IS1038 : 1983 Steel doors,windows and ventilators (third revision) 13.21 IS1361 : 1978 Steel windows for industrial buildings (first revision) 13.23",
+    "category": "Doors & Windows",
+    "description": "METAL DOORS AND WINDOWS-FRAMES AND SHUTTERS IS1038 : 1983 Steel doors,windows and ventilators (third revision) 13.21 IS1361 : 1978 Steel windows for industrial buildings (first revision) 13.23 IS1948 : 1961 Aluminium doors, windows and ventilators 13.25",
     "keywords": [
+      "aluminium",
       "density",
       "door",
       "fibre",
@@ -5867,8 +5962,8 @@
     "standardNumber": "IS 4021: 1995",
     "title": "TIMBER DOOR, WINDOW AND VENTILATOR",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "FRAMES (Third Revision) 1. Scope – Requirements regarding material, second grade on the basis of permissible defects as",
+    "category": "Doors & Windows",
+    "description": "FRAMES (Third Revision) 1. Scope \u2013 Requirements regarding material, second grade on the basis of permissible defects as construction, workmanship and sizes of timber door, given in Table 1 of the standard.",
     "keywords": [
       "door",
       "grade",
@@ -5884,8 +5979,8 @@
     "standardNumber": "IS 4962: 1968",
     "title": "WOODEN SIDE SLIDING DOORS",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "1. Scope — Requirements regarding material, type, 3.2 Tracks – Made of 2 mm thick structural steel sheet, shape fabrication, assembly and finish of wooden side galvanized. sliding doors (of the straight sliding type), its gear",
+    "category": "Doors & Windows",
+    "description": "1. Scope \u2014 Requirements regarding material, type, 3.2 Tracks \u2013 Made of 2 mm thick structural steel sheet, shape fabrication, assembly and finish of wooden side galvanized. sliding doors (of the straight sliding type), its gear 3.3 Roller \u2013 Shall conform to the prescribed standard.",
     "keywords": [
       "door",
       "galvanized",
@@ -5903,10 +5998,11 @@
     "standardNumber": "IS 6198: 1992",
     "title": "LEDGED, BRACED AND BATTENED TIMBER DOOR",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "SHUTTERS (Second Revision) 1. Scope – Requirements regarding material, sizes, Note – In arriving at the standard widths and heights,and allowance",
+    "category": "Doors & Windows",
+    "description": "SHUTTERS (Second Revision) 1. Scope \u2013 Requirements regarding material, sizes, Note \u2013 In arriving at the standard widths and heights,and allowance construction, workmanship and finish of ledged, braced has been made of 60 mm for door frames, 40 mm forfloor",
     "keywords": [
       "door",
+      "floor",
       "shutter",
       "timber"
     ],
@@ -5919,8 +6015,8 @@
     "standardNumber": "IS 1038: 1983",
     "title": "STEEL DOOR, WINDOWS AND VENTILATORS",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "(Fifth Revision) 1. Scope – Requirements regarding material, Note 1– Doors, windows and ventilators without horizontal fabrication and finish of steel doors, windows, glazing bars shall be designated by ‘N’ in place of ‘H’ in the",
+    "category": "Doors & Windows",
+    "description": "(Fifth Revision) 1. Scope \u2013 Requirements regarding material, Note 1\u2013 Doors, windows and ventilators without horizontal fabrication and finish of steel doors, windows, glazing bars shall be designated by \u2018N\u2019 in place of \u2018H\u2019 in the range shown.",
     "keywords": [
       "bar",
       "door",
@@ -5936,8 +6032,8 @@
     "standardNumber": "IS 1361: 1978",
     "title": "STEEL WINDOWS FOR INDUSTRIAL BUILDINGS",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "(First Revision) 1. Scope – Deals with steel windows suitable for use b) Ventilator (Opening part of a Sash) – Shall be of in industrial buildings and designed to suit openings one size and designed to fit into outer frame of IN",
+    "category": "Doors & Windows",
+    "description": "(First Revision) 1. Scope \u2013 Deals with steel windows suitable for use b) Ventilator (Opening part of a Sash) \u2013 Shall be of in industrial buildings and designed to suit openings one size and designed to fit into outer frame of IN based on a module of 10 cm. 10 C 10 and with 1.2 mm clearance.",
     "keywords": [
       "steel",
       "window"
@@ -5951,9 +6047,10 @@
     "standardNumber": "IS 1948: 1961",
     "title": "ALUMINIUM DOORS, WINDOWS AND",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "VENTILATORS 1. Scope – Requirements regarding material, fabrication horizontally glazed side-hung window coupled and dimensions of aluminium doors, windows and side by side with two fixed glass pane ventilators",
+    "category": "Doors & Windows",
+    "description": "VENTILATORS 1. Scope \u2013 Requirements regarding material, fabrication horizontally glazed side-hung window coupled and dimensions of aluminium doors, windows and side by side with two fixed glass pane ventilators ventilators, manufactured from extruded aluminium alloy at top, each 10 module wide and 6 module high, is",
     "keywords": [
+      "alloy",
       "aluminium",
       "door",
       "glass",
@@ -5968,8 +6065,8 @@
     "standardNumber": "IS 1949: 1961",
     "title": "ALUMINIUM WINDOWS FOR",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "INDUSTRIAL BUILDINGS 1. Scope – Deals with aluminium windows suitable Note—The overall width and height of window is smaller than for use in industrial buildings and designed to suit dimension of modular opening by 2.5 cm, allowing a clearance",
+    "category": "Doors & Windows",
+    "description": "INDUSTRIAL BUILDINGS 1. Scope \u2013 Deals with aluminium windows suitable Note\u2014The overall width and height of window is smaller than for use in industrial buildings and designed to suit dimension of modular opening by 2.5 cm, allowing a clearance of 1.25 cm all round. thus, width and height of IN 10 C15 = 97.5",
     "keywords": [
       "aluminium",
       "window"
@@ -5983,8 +6080,8 @@
     "standardNumber": "IS 4351: 2003",
     "title": "STEEL DOOR FRAMES",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "(Second Revision) 1. Scope – Requirements regarding material, four for jamb with fan light. For details refer 10.1 of the dimensions and construction of steel door frames for standard.",
+    "category": "Doors & Windows",
+    "description": "(Second Revision) 1. Scope \u2013 Requirements regarding material, four for jamb with fan light. For details refer 10.1 of the dimensions and construction of steel door frames for standard. internal and external use.",
     "keywords": [
       "door",
       "steel"
@@ -5998,11 +6095,14 @@
     "standardNumber": "IS 6248: 1979",
     "title": "METAL ROLLING SHUTTERS AND ROLLING",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "GRILLS (First Revision) 1. Scope – Requirements regarding mateials, 4.2 Lock Plate – Made of mid steel sheet not less than",
+    "category": "Doors & Windows",
+    "description": "GRILLS (First Revision) 1. Scope \u2013 Requirements regarding mateials, 4.2 Lock Plate \u2013 Made of mid steel sheet not less than fabrication and finish of metal rolling shutters and rolling 3.15 mm thick, reinforced with mild steel angle section",
     "keywords": [
+      "angle",
       "lock",
       "plate",
+      "reinforced",
+      "section",
       "sheet",
       "shutter",
       "steel"
@@ -6016,8 +6116,8 @@
     "standardNumber": "IS 7452: 1990",
     "title": "HOT ROLLED STEEL SECTIONS FOR DOORS,",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "WINDOWS AND VENTILATORS (Second Revision) 1. Scope – Requirements regarding materials, nominal 4.2 Tolerances",
+    "category": "Doors & Windows",
+    "description": "WINDOWS AND VENTILATORS (Second Revision) 1. Scope \u2013 Requirements regarding materials, nominal 4.2 Tolerances dimension and mass, dimensional and mass tolerances,",
     "keywords": [
       "door",
       "section",
@@ -6033,9 +6133,10 @@
     "standardNumber": "IS 10451: 1983",
     "title": "STEEL SLIDING SHUTTERS",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "(TOP HUNG TYPE) 1. Scope – Requirements regarding materials, type, 4. Fabrication shape, fabrication, assembly and finish of the top hung",
+    "category": "Doors & Windows",
+    "description": "(TOP HUNG TYPE) 1. Scope \u2013 Requirements regarding materials, type, 4. Fabrication shape, fabrication, assembly and finish of the top hung 4.1 Angles of size not less than 50\u00d750\u00d75mm for shutter",
     "keywords": [
+      "angle",
       "shutter",
       "steel"
     ],
@@ -6048,8 +6149,8 @@
     "standardNumber": "IS 10521: 1983",
     "title": "COLLAPSIBLE GATES",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "1. Scope – Requirements regarding materials, 4. Materials fabrication and finish of different types of collapsible 4.1 Vertical Channels – Shall be hot rolled medium",
+    "category": "Doors & Windows",
+    "description": "1. Scope \u2013 Requirements regarding materials, 4. Materials fabrication and finish of different types of collapsible 4.1 Vertical Channels \u2013 Shall be hot rolled medium gates.",
     "keywords": [
       "channel"
     ],
@@ -6062,8 +6163,8 @@
     "standardNumber": "IS 14856: 2000",
     "title": "GLASS FIBRE REINFORCED PLASTIC (GRP)",
     "section": "13. DOORS, WINDOWS AND SHUTTERS",
-    "category": "Steel & Metals",
-    "description": "PANEL TYPE DOOR SHUTTERS FOR INTERNAL USE 1. Scope – Requirements regarding types, sizes, 2.8 Base Blocks – Base Blocks for fixing fixtures in material, construction, workmanship, finish, shutter with screws shall be of seasoned and treated",
+    "category": "Doors & Windows",
+    "description": "PANEL TYPE DOOR SHUTTERS FOR INTERNAL USE 1. Scope \u2013 Requirements regarding types, sizes, 2.8 Base Blocks \u2013 Base Blocks for fixing fixtures in material, construction, workmanship, finish, shutter with screws shall be of seasoned and treated performance requirements and sampling of fibre glass hard wood or any other suitable material.",
     "keywords": [
       "block",
       "door",
@@ -6075,7 +6176,8 @@
       "plastic",
       "reinforced",
       "screw",
-      "shutter"
+      "shutter",
+      "wood"
     ],
     "contextChunks": [
       "IS 14856: 2000: GLASS FIBRE REINFORCED PLASTIC (GRP)"
@@ -6102,7 +6204,7 @@
     "title": "Mild steel and medium tensile steel bars and hard drawn steel wire - Mild steel and medium tensile steel bars (third revision)",
     "section": "14. CONCRETE REINFORCEMENT",
     "category": "Steel & Metals",
-    "description": "(Part 2) : 1982 Hard – drawn steel wire (third revision) 14.6",
+    "description": "(Part 2) : 1982 Hard \u2013 drawn steel wire (third revision) 14.6",
     "keywords": [
       "bar",
       "steel",
@@ -6116,7 +6218,7 @@
   {
     "id": "is-is-432-part-2--1982",
     "standardNumber": "IS 432 (Part 2): 1982",
-    "title": "Mild steel and medium tensile steel bars and hard drawn steel wire - Hard – drawn steel wire (third revision)",
+    "title": "Mild steel and medium tensile steel bars and hard drawn steel wire - Hard \u2013 drawn steel wire (third revision)",
     "section": "14. CONCRETE REINFORCEMENT",
     "category": "Steel & Metals",
     "description": "",
@@ -6127,13 +6229,13 @@
       "wire"
     ],
     "contextChunks": [
-      "IS 432 (Part 2): 1982: Mild steel and medium tensile steel bars and hard drawn steel wire - Hard – drawn steel wire (third revision)"
+      "IS 432 (Part 2): 1982: Mild steel and medium tensile steel bars and hard drawn steel wire - Hard \u2013 drawn steel wire (third revision)"
     ]
   },
   {
     "id": "is-is-1566--1982",
     "standardNumber": "IS 1566: 1982",
-    "title": "Hard – drawn steel wire fabric for concrete reinforcement (second revision)",
+    "title": "Hard \u2013 drawn steel wire fabric for concrete reinforcement (second revision)",
     "section": "14. CONCRETE REINFORCEMENT",
     "category": "Steel & Metals",
     "description": "",
@@ -6145,7 +6247,7 @@
       "wire"
     ],
     "contextChunks": [
-      "IS 1566: 1982: Hard – drawn steel wire fabric for concrete reinforcement (second revision)"
+      "IS 1566: 1982: Hard \u2013 drawn steel wire fabric for concrete reinforcement (second revision)"
     ]
   },
   {
@@ -6288,7 +6390,7 @@
     "title": "Uncoated stress relieved low relaxation seven-ply strand for prestressed",
     "section": "14. CONCRETE REINFORCEMENT",
     "category": "Steel & Metals",
-    "description": "concrete 14.19 SP 21 : 2005 SUMMARY OF",
+    "description": "concrete 14.19 SUMMARY OF",
     "keywords": [
       "coated",
       "concrete",
@@ -6304,7 +6406,7 @@
     "title": "Method for wrapping test for metallic wire (first revision). and 8 of the standard.",
     "section": "14. CONCRETE REINFORCEMENT",
     "category": "Steel & Metals",
-    "description": "Note 2 — For chemical composition see 5 of the standard. For detailed information, refer to IS 280 : 1978. Specification for mild steel wire for general engineering purposes (third revision).",
+    "description": "Note 2 \u2014 For chemical composition see 5 of the standard. For detailed information, refer to IS 280 : 1978. Specification for mild steel wire for general engineering purposes (third revision). SUMMARY OF",
     "keywords": [
       "specification",
       "steel",
@@ -6320,13 +6422,17 @@
     "title": "Method for bend test (second revision), (IS 2062:1999 Steel for general structural purposes (fifth revision), and",
     "section": "14. CONCRETE REINFORCEMENT",
     "category": "Steel & Metals",
-    "description": "of the standard. Note 2 — For chemical composition refer to see 4 of the standard. For detailed information, refer to IS 432 (Part I) : 1982 Specification for mild steel and medium tensile steel bars",
+    "description": "of the standard. Note 2 \u2014 For chemical composition refer to see 4 of the standard. For detailed information, refer to IS 432 (Part I) : 1982 Specification for mild steel and medium tensile steel bars and hard-drawn steel wire for concrete reinforcement : Part I Mild steel and medium tensile steel bars",
     "keywords": [
       "bar",
+      "cement",
+      "concrete",
+      "reinforcement",
       "specification",
       "steel",
       "structural",
-      "tensile"
+      "tensile",
+      "wire"
     ],
     "contextChunks": [
       "IS 1599: 1985: Method for bend test (second revision), (IS 2062:1999 Steel for general structural purposes (fifth revision), and"
@@ -6366,7 +6472,7 @@
   {
     "id": "is-is-8500--1991",
     "standardNumber": "IS 8500: 1991",
-    "title": "Structural steel – micro alloyed (medium and high strength qualities)",
+    "title": "Structural steel \u2013 micro alloyed (medium and high strength qualities)",
     "section": "15. STRUCTURAL STEELS",
     "category": "Steel & Metals",
     "description": "(first revision)",
@@ -6377,7 +6483,7 @@
       "structural"
     ],
     "contextChunks": [
-      "IS 8500: 1991: Structural steel – micro alloyed (medium and high strength qualities)"
+      "IS 8500: 1991: Structural steel \u2013 micro alloyed (medium and high strength qualities)"
     ]
   },
   {
@@ -6566,7 +6672,7 @@
     "title": "Hollow steel sections for structural use (second revision)",
     "section": "15. STRUCTURAL STEELS",
     "category": "Steel & Metals",
-    "description": "Note1 – See also Section 17 Structural Shapes Note2 – IS 280 : 1978 Mild steel wire for general engineering purposes and IS 7887 : 1992. Mild steel wire rods for general engineering purposes (first revision) have been covered in Section 14 Concrete reinforcement.",
+    "description": "Note1 \u2013 See also Section 17 Structural Shapes Note2 \u2013 IS 280 : 1978 Mild steel wire for general engineering purposes and IS 7887 : 1992. Mild steel wire rods for general engineering purposes (first revision) have been covered in Section 14 Concrete reinforcement. SUMMARY OF",
     "keywords": [
       "cement",
       "concrete",
@@ -6602,7 +6708,7 @@
     "title": "Method of charpy impact test (v notch) for mettallic materials (second revision)",
     "section": "15. STRUCTURAL STEELS",
     "category": "Steel & Metals",
-    "description": "Note 2– For chemical composition refer to the standard For detailed information, refer to IS 11587 : 1986 Structural weather resistant steels. SP 21 : 2005",
+    "description": "Note 2\u2013 For chemical composition refer to the standard For detailed information, refer to IS 11587 : 1986 Structural weather resistant steels. SUMMARY OF",
     "keywords": [
       "impact",
       "steel",
@@ -6615,10 +6721,10 @@
   {
     "id": "is-is-10175-part-1--1993",
     "standardNumber": "IS 10175 (Part 1): 1993",
-    "title": "Mechanical testing of metals – Modified erichsen cupping test – Sheet and strip : Part 1 Thickness upto",
+    "title": "Mechanical testing of metals \u2013 Modified erichsen cupping test \u2013 Sheet and strip : Part 1 Thickness upto",
     "section": "15. STRUCTURAL STEELS",
     "category": "Steel & Metals",
-    "description": "2 mm (first revision). For detailed information, refer to IS 513 :1994 Specification for cold rolled low carbon steel sheets and strips (fourth revision).",
+    "description": "2 mm (first revision). For detailed information, refer to IS 513 :1994 Specification for cold rolled low carbon steel sheets and strips (fourth revision). 15.14",
     "keywords": [
       "sheet",
       "specification",
@@ -6626,23 +6732,23 @@
       "strip"
     ],
     "contextChunks": [
-      "IS 10175 (Part 1): 1993: Mechanical testing of metals – Modified erichsen cupping test – Sheet and strip : Part 1 Thickness upto"
+      "IS 10175 (Part 1): 1993: Mechanical testing of metals \u2013 Modified erichsen cupping test \u2013 Sheet and strip : Part 1 Thickness upto"
     ]
   },
   {
     "id": "is-is-10175-part-1",
     "standardNumber": "IS 10175 (Part 1)",
-    "title": "1993.Mechanical testing of metals modified erichsen cupping test-Sheet and strip,Part 1– Thickness upto 2 mm",
+    "title": "1993.Mechanical testing of metals modified erichsen cupping test-Sheet and strip,Part 1\u2013 Thickness upto 2 mm",
     "section": "15. STRUCTURAL STEELS",
     "category": "Steel & Metals",
-    "description": "(first revision). Note2— For chemical composition, refer to the standard. For detail information, refer to IS 1079 : 1994 Hot rolled carbon steel sheets and strips (fifth revision).",
+    "description": "(first revision). Note2\u2014 For chemical composition, refer to the standard. For detail information, refer to IS 1079 : 1994 Hot rolled carbon steel sheets and strips (fifth revision). 15.15",
     "keywords": [
       "sheet",
       "steel",
       "strip"
     ],
     "contextChunks": [
-      "IS 10175 (Part 1): 1993.Mechanical testing of metals modified erichsen cupping test-Sheet and strip,Part 1– Thickness upto 2 mm"
+      "IS 10175 (Part 1): 1993.Mechanical testing of metals modified erichsen cupping test-Sheet and strip,Part 1\u2013 Thickness upto 2 mm"
     ]
   },
   {
@@ -6831,7 +6937,7 @@
     "title": "Dimensions and tolerances for wrought aluminium and aluminium alloys",
     "section": "16. LIGHT METALS AND THEIR ALLOYS",
     "category": "Steel & Metals",
-    "description": "drawn round tubes (second revision) 16.15 SP 21 : 2005 SUMMARY OF",
+    "description": "drawn round tubes (second revision) 16.15 SUMMARY OF",
     "keywords": [
       "alloy",
       "aluminium"
@@ -6845,7 +6951,7 @@
     "standardNumber": "IS 3908: 1986",
     "title": "Aluminium equal leg angles (first revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "aluminium",
@@ -6860,7 +6966,7 @@
     "standardNumber": "IS 3909: 1986",
     "title": "Aluminium unequal leg angles (first revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "aluminium",
@@ -6875,7 +6981,7 @@
     "standardNumber": "IS 3921: 1985",
     "title": "Aluminium channels (first revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "aluminium",
@@ -6890,7 +6996,7 @@
     "standardNumber": "IS 5384: 1985",
     "title": "Aluminium I- beam (first revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "aluminium",
@@ -6905,7 +7011,7 @@
     "standardNumber": "IS 6445: 1985",
     "title": "Aluminium Tee-sections (first revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "STEEL SECTIONS",
     "keywords": [
       "aluminium",
@@ -6921,7 +7027,7 @@
     "standardNumber": "IS 808: 1989",
     "title": "Dimensions for hot rolled steel beam, column, channel and angle sections",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "(third revision)",
     "keywords": [
       "angle",
@@ -6940,7 +7046,7 @@
     "standardNumber": "IS 811: 1987",
     "title": "Cold formed light gauge structural steel sections (second revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "section",
@@ -6956,7 +7062,7 @@
     "standardNumber": "IS 1173: 1978",
     "title": "Hot rolled slit steel bars (second revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "bar",
@@ -6971,7 +7077,7 @@
     "standardNumber": "IS 1730: 1989",
     "title": "Dimensions for steel plates, sheet strips and flats for general engineering",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "purposes (second revision)",
     "keywords": [
       "flat",
@@ -6989,7 +7095,7 @@
     "standardNumber": "IS 1732: 1989",
     "title": "Dimensions for round and square steel bars , for structural and general",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "engineering purposes",
     "keywords": [
       "bar",
@@ -7005,7 +7111,7 @@
     "standardNumber": "IS 1863: 1979",
     "title": "Hot rolled steel bulb flats (first revision).",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "flat",
@@ -7020,7 +7126,7 @@
     "standardNumber": "IS 2314: 1986",
     "title": "Steel sheet piling sections (first revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "section",
@@ -7036,7 +7142,7 @@
     "standardNumber": "IS 3443: 1980",
     "title": "Crane rail sections (first revision)",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "section"
@@ -7050,7 +7156,7 @@
     "standardNumber": "IS 3954: 1991",
     "title": "Hotrolled steel channel sections for general engineering purpose",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "(first revision)",
     "keywords": [
       "channel",
@@ -7066,7 +7172,7 @@
     "standardNumber": "IS 3964: 1980",
     "title": "Light rails (first revision).",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -7078,10 +7184,11 @@
     "standardNumber": "IS 12778: 2004",
     "title": "Hot rolled steel parallel flange beam and column sections-dimensions.",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
-    "description": "Note – See also Section 15 Structural steel and Section 16 Light metal and their alloys. SP 21 : 2005 SUMMARY OF",
+    "category": "Steel & Metals",
+    "description": "* This covers both aluminium and steel. Note \u2013 See also Section 15 Structural steel and Section 16 Light metal and their alloys. SUMMARY OF",
     "keywords": [
       "alloy",
+      "aluminium",
       "beam",
       "column",
       "section",
@@ -7097,8 +7204,8 @@
     "standardNumber": "IS 8081: 1976",
     "title": "SLOTTED SECTIONS",
     "section": "17. STRUCTURAL SHAPES",
-    "category": "Electrical",
-    "description": "1. Scope 7. Tolerance of Dimensions – 1.1 This standard covers the requirements, such as 7.1 Flange Sectional Dimensions – The tolerance on materials, workmanship, finish, strength tests, general sum of the dimensions of all flanges shall not exceed",
+    "category": "Steel & Metals",
+    "description": "1. Scope 7. Tolerance of Dimensions \u2013 1.1 This standard covers the requirements, such as 7.1 Flange Sectional Dimensions \u2013 The tolerance on materials, workmanship, finish, strength tests, general sum of the dimensions of all flanges shall not exceed design provisions, tolerances on dimensions and the following:",
     "keywords": [
       "section",
       "strength"
@@ -7112,7 +7219,7 @@
     "standardNumber": "IS 814: 2004",
     "title": "Covered electrodes for manual metal arc welding of carbon and",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "carbon manganese steel (Sixth revision)",
     "keywords": [
       "electrode",
@@ -7129,7 +7236,7 @@
     "standardNumber": "IS 1278: 1972",
     "title": "Filler rods and wires for gas welding (second revision)",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "",
     "keywords": [
       "rod",
@@ -7145,7 +7252,7 @@
     "standardNumber": "IS 1395: 1982",
     "title": "Low and medium alloy steel covered electrodes for manual metal",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "arc welding (third revision)",
     "keywords": [
       "alloy",
@@ -7163,7 +7270,7 @@
     "standardNumber": "IS 4972: 1968",
     "title": "Resistance spot welding electrodes",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "",
     "keywords": [
       "electrode",
@@ -7180,7 +7287,7 @@
     "standardNumber": "IS 5511: 1991",
     "title": "Covered electrodes for manual metal arc welding of cast iron (first revision)",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "",
     "keywords": [
       "electrode",
@@ -7197,7 +7304,7 @@
     "standardNumber": "IS 5897: 1985",
     "title": "Aluminium and aluminium alloy welding rods and wires and",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "magnesium alloy welding rods (first revision)",
     "keywords": [
       "alloy",
@@ -7215,7 +7322,7 @@
     "standardNumber": "IS 5898: 1970",
     "title": "Copper and copper alloy bare solid welding rods and electrodes",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "",
     "keywords": [
       "alloy",
@@ -7234,7 +7341,7 @@
     "standardNumber": "IS 6419: 1996",
     "title": "Welding rods and bare electrodes for gas shielded are welding of",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "structural steel (first revision)",
     "keywords": [
       "bar",
@@ -7253,7 +7360,7 @@
     "standardNumber": "IS 6560: 1996",
     "title": "Molybdenum and chromium-molybdenum low alloy welding rods",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "and bare electrodes (first revision)",
     "keywords": [
       "alloy",
@@ -7271,7 +7378,7 @@
     "standardNumber": "IS 7280: 1974",
     "title": "Bare wire electrodes for submerged arc welding of structural steels",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
+    "category": "Welding",
     "description": "",
     "keywords": [
       "bar",
@@ -7291,8 +7398,8 @@
     "standardNumber": "IS 8363: 1976",
     "title": "Base wire electrodes for electroslag welding of steels.",
     "section": "18. WELDING ELECTRODES AND WIRES",
-    "category": "Glass",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Welding",
+    "description": "SUMMARY OF",
     "keywords": [
       "electrode",
       "rod",
@@ -7310,7 +7417,7 @@
     "standardNumber": "IS 207: 1964",
     "title": "Gate and shutter hooks eyes (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "shutter"
@@ -7324,7 +7431,7 @@
     "standardNumber": "IS 723: 1972",
     "title": "Steel countersunk head wire nails (second revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "nail",
@@ -7340,7 +7447,7 @@
     "standardNumber": "IS 724: 1964",
     "title": "Mild steel and brass cup ruler and square hooks and screw eyes (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw",
@@ -7355,7 +7462,7 @@
     "standardNumber": "IS 725: 1961",
     "title": "Copper wire nails (revised)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "copper",
@@ -7371,7 +7478,7 @@
     "standardNumber": "IS 730: 1978",
     "title": "Hook bolts for corrugated sheet roofing (second revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt",
@@ -7388,7 +7495,7 @@
     "standardNumber": "IS 1120: 1975",
     "title": "Coach screws (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw"
@@ -7402,7 +7509,7 @@
     "standardNumber": "IS 1363: 2002",
     "title": "Hexagon head bolts screws and nuts of product grade C",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "Part 1 hexagon head bolts (size range M5 to M64) (third revision) 19.10 Part 2 Hexagon head screws (size range M5 to M64) (third revision) 19.11 Part 3 Hexagon head nuts (size range M5 to M64) (third revision) 19.12",
     "keywords": [
       "bolt",
@@ -7419,8 +7526,8 @@
     "standardNumber": "IS 1364: 2002",
     "title": "Hexagon head bolts, screws and nuts of product grades A and B",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "Part 1 hexagon head bolts, (size range M1.6 to M64)(third revision) 19.13 Part 2 Hexagon head screws (size range M1.6 to M64)(third revision) 19.14 Part 3 Hexagon head nuts (size range M1.6 to M64)(third revision) 19.15",
+    "category": "Hardware & Fasteners",
+    "description": "Part 1 hexagon head bolts, (size range M1.6 to M64)(third revision) 19.13 Part 2 Hexagon head screws (size range M1.6 to M64)(third revision) 19.14 Part 3 Hexagon head nuts (size range M1.6 to M64)(third revision) 19.15 Part 4 Hexagon thin nuts (chamfered) (size range M1.6 to M64) (third revision) 19.16",
     "keywords": [
       "bolt",
       "grade",
@@ -7436,7 +7543,7 @@
     "standardNumber": "IS 1365: 1978",
     "title": "Slotted countersunk head screws (third revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw"
@@ -7450,7 +7557,7 @@
     "standardNumber": "IS 1366: 2002",
     "title": "Slotted cheese head screws (third revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw"
@@ -7464,7 +7571,7 @@
     "standardNumber": "IS 1929: 1982",
     "title": "Hot forged steel rivets for hot closing (12 to 36 mm diameter)(first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "rivet",
@@ -7479,7 +7586,7 @@
     "standardNumber": "IS 2016: 1967",
     "title": "Plain washers (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -7491,7 +7598,7 @@
     "standardNumber": "IS 2155: 1982",
     "title": "Cold forged solid steel rivets for hot closing (6 to 16 mm diameter) (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "rivet",
@@ -7506,7 +7613,7 @@
     "standardNumber": "IS 2585: 1968",
     "title": "Black square bolts and nuts (dia range 6 to 39 mm) and black",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "square screws (dia range 6 to 24 mm) (first revision) 19.24",
     "keywords": [
       "bolt",
@@ -7521,7 +7628,7 @@
     "standardNumber": "IS 2687: 1991",
     "title": "Cap nuts (second revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -7533,7 +7640,7 @@
     "standardNumber": "IS 2907: 1998",
     "title": "Non-Ferrous rivets (1.6 to 10 mm)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "rivet"
@@ -7547,7 +7654,7 @@
     "standardNumber": "IS 2998: 1982",
     "title": "Cold forged steel rivets for cold closing (1 to 16 mm diameter) (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "rivet",
@@ -7562,7 +7669,7 @@
     "standardNumber": "IS 3063: 1994",
     "title": "Fasteners-single coil rectangular section spring lock washers(second revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "fastener",
@@ -7578,7 +7685,7 @@
     "standardNumber": "IS 3121: 1989",
     "title": "Rigging screws and stretching screws (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw"
@@ -7592,7 +7699,7 @@
     "standardNumber": "IS 3468: 1991",
     "title": "Pipe nuts (second revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "pipe"
@@ -7606,7 +7713,7 @@
     "standardNumber": "IS 3757: 1985",
     "title": "High strength structural bolts (Second revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt",
@@ -7622,7 +7729,7 @@
     "standardNumber": "IS 4762: 1984",
     "title": "Worm drive hose clamps for general purposes (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -7634,8 +7741,8 @@
     "standardNumber": "IS 5369: 1975",
     "title": "General requirements for plain washers and lock washers (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "SP 21 : 2005 Title Page",
+    "category": "Hardware & Fasteners",
+    "description": "Title Page",
     "keywords": [
       "lock"
     ],
@@ -7648,7 +7755,7 @@
     "standardNumber": "IS 5372: 1975",
     "title": "Taper washers for channels (ISMC) (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "channel"
@@ -7662,7 +7769,7 @@
     "standardNumber": "IS 5373: 1969",
     "title": "Square washers for wood fastening",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "wood"
@@ -7676,7 +7783,7 @@
     "standardNumber": "IS 5374: 1975",
     "title": "Taper washers for I-Beams (ISMB) (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "beam"
@@ -7690,7 +7797,7 @@
     "standardNumber": "IS 5624: 1993",
     "title": "Foundation bolts (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt"
@@ -7704,7 +7811,7 @@
     "standardNumber": "IS 6113: 1970",
     "title": "Aluminium fasteners for building purposes",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "aluminium",
@@ -7719,7 +7826,7 @@
     "standardNumber": "IS 6610: 1972",
     "title": "Heavy washers for steel structures",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "steel"
@@ -7733,7 +7840,7 @@
     "standardNumber": "IS 6623: 2004",
     "title": "High strength structural nuts (first revision)",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "strength",
@@ -7748,7 +7855,7 @@
     "standardNumber": "IS 6639: 1972",
     "title": "Hexagonal bolts for steel structures",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt",
@@ -7763,7 +7870,7 @@
     "standardNumber": "IS 6649: 1985",
     "title": "Hardened and tempered washers for high strength structural bolts",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "and nuts (first revision) 19.42",
     "keywords": [
       "bolt",
@@ -7779,7 +7886,7 @@
     "standardNumber": "IS 6733: 1972",
     "title": "Wall and roofing nails",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "nail",
@@ -7795,7 +7902,7 @@
     "standardNumber": "IS 6736: 1972",
     "title": "Slotted raised countersunk head wood screws",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw",
@@ -7810,7 +7917,7 @@
     "standardNumber": "IS 6739: 1972",
     "title": "Slotted round head wood screws",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw",
@@ -7825,7 +7932,7 @@
     "standardNumber": "IS 6760: 1972",
     "title": "Slotted countersunk head wood screws",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "screw",
@@ -7840,7 +7947,7 @@
     "standardNumber": "IS 8033: 1976",
     "title": "Round washers with square hole for wood fastenings",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "wood"
@@ -7854,7 +7961,7 @@
     "standardNumber": "IS 8412: 1977",
     "title": "Slotted countersunk head bolts for steel structures",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt",
@@ -7869,7 +7976,7 @@
     "standardNumber": "IS 8869: 1978",
     "title": "Washers for corrugated sheet roofing",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "corrugated",
@@ -7885,7 +7992,7 @@
     "standardNumber": "IS 10238: 2001",
     "title": "Step bolts for steel structures",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
+    "category": "Hardware & Fasteners",
     "description": "",
     "keywords": [
       "bolt",
@@ -7900,8 +8007,8 @@
     "standardNumber": "IS 12427: 2001",
     "title": "Transmission tower bolts",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Hardware & Fasteners",
+    "description": "SUMMARY OF",
     "keywords": [
       "bolt"
     ],
@@ -7914,13 +8021,14 @@
     "standardNumber": "IS 1363 (Part 1): 2002",
     "title": "ISO 4016 :",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "HEXAGON HEAD BOLTS, SCREWS AND NUTS OF PRODUCT GRADE C PART 1 : HEXAGON HEAD BOLTS (SIZE RANGE M5 TO M64) (Fourth Revision)",
+    "category": "Hardware & Fasteners",
+    "description": "HEXAGON HEAD BOLTS, SCREWS AND NUTS OF PRODUCT GRADE C PART 1 : HEXAGON HEAD BOLTS (SIZE RANGE M5 TO M64) (Fourth Revision) 1. Scope \u2013 Gives specifications for hexagon head botts 2.1 Prefered threads \u2013 M5, M6 and M64",
     "keywords": [
       "bolt",
       "grade",
       "rod",
-      "screw"
+      "screw",
+      "specification"
     ],
     "contextChunks": [
       "IS 1363 (Part 1): 2002: ISO 4016 :"
@@ -7931,13 +8039,14 @@
     "standardNumber": "IS 1364 (Part 1): 2002",
     "title": "ISO 4014 :",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "HEXAGON HEAD BOLTS, SCREWS AND NUTS OF PRODUCT GRADES A AND B PART 1 : HEXAGON HEAD BOLTS (SIZE RANGE M1.6 TO M64) (Third Revision)",
+    "category": "Hardware & Fasteners",
+    "description": "HEXAGON HEAD BOLTS, SCREWS AND NUTS OF PRODUCT GRADES A AND B PART 1 : HEXAGON HEAD BOLTS (SIZE RANGE M1.6 TO M64) (Third Revision) 1. Scope \u2013 Gives specifications for hexagon head bolts 2.1 Preferred threads \u2013 M1.6, M2, M2.5, M3, M4, M5,",
     "keywords": [
       "bolt",
       "grade",
       "rod",
-      "screw"
+      "screw",
+      "specification"
     ],
     "contextChunks": [
       "IS 1364 (Part 1): 2002: ISO 4014 :"
@@ -7948,13 +8057,14 @@
     "standardNumber": "IS 1364 (Part 3): 2002",
     "title": "ISO 4032 :",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "HEXAGON HEAD BOLTS, SCREWS AND NUTS OF PRODUCT GRADES A & B PART 3 : HEXAGON NUTS (SIZE RANGE M1.6 TO M64) (Fourth Revision)",
+    "category": "Hardware & Fasteners",
+    "description": "HEXAGON HEAD BOLTS, SCREWS AND NUTS OF PRODUCT GRADES A & B PART 3 : HEXAGON NUTS (SIZE RANGE M1.6 TO M64) (Fourth Revision) 1. Scope \u2014 Gives specifications for hexagon nuts 2.2 Non - preferred threads \u2013 M3.5, M14, M18, M22,",
     "keywords": [
       "bolt",
       "grade",
       "rod",
-      "screw"
+      "screw",
+      "specification"
     ],
     "contextChunks": [
       "IS 1364 (Part 3): 2002: ISO 4032 :"
@@ -7965,8 +8075,8 @@
     "standardNumber": "IS 10102: 1982",
     "title": "Technical supply conditions of rivets.",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "Note 3 –For methods of tests, refer to IS 1500 : 1983 Method for Brinell hardness test for Metallic material (second revision) and",
+    "category": "Hardware & Fasteners",
+    "description": "Note 3 \u2013For methods of tests, refer to IS 1500 : 1983 Method for Brinell hardness test for Metallic material (second revision) and",
     "keywords": [
       "hardness",
       "rivet"
@@ -7980,8 +8090,8 @@
     "standardNumber": "IS 3121: 1981",
     "title": "RIGGING SCREWS AND STRETCHING SCREWS",
     "section": "19. THREADED FASTENERS",
-    "category": "Plastics",
-    "description": "(First Revision) 1. Scope – Requirements regarding materials, Note 1— Safe working load = 1/2 proof load components, dimensions, finishing and tests for rigging Note 2– Tolerance ±5 percent on all dimensions",
+    "category": "Hardware & Fasteners",
+    "description": "(First Revision) 1. Scope \u2013 Requirements regarding materials, Note 1\u2014 Safe working load = 1/2 proof load components, dimensions, finishing and tests for rigging Note 2\u2013 Tolerance \u00b15 percent on all dimensions Note 3\u2013 For detailed dimensions and shapes of riggings crews,",
     "keywords": [
       "screw"
     ],
@@ -7994,7 +8104,7 @@
     "standardNumber": "IS 278: 1978",
     "title": "Galvanized steel barbed wire for fencing (third revision)",
     "section": "20. WIRES ROPES AND WIRE PRODUCTS",
-    "category": "Building Materials",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "bar",
@@ -8011,7 +8121,7 @@
     "standardNumber": "IS 2140: 1978",
     "title": "Stranded galvanized steel wire for fencing (first revision)",
     "section": "20. WIRES ROPES AND WIRE PRODUCTS",
-    "category": "Building Materials",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "galvanized",
@@ -8027,7 +8137,7 @@
     "standardNumber": "IS 2365: 1977",
     "title": "Steel wire suspension ropes for lifts, elevators, and hoist (first revision)",
     "section": "20. WIRES ROPES AND WIRE PRODUCTS",
-    "category": "Building Materials",
+    "category": "Steel & Metals",
     "description": "",
     "keywords": [
       "rope",
@@ -8043,8 +8153,8 @@
     "standardNumber": "IS 2721: 2003",
     "title": "Galvanized steel chain link fence fabric (first revision)",
     "section": "20. WIRES ROPES AND WIRE PRODUCTS",
-    "category": "Building Materials",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Steel & Metals",
+    "description": "SUMMARY OF",
     "keywords": [
       "chain",
       "galvanized",
@@ -8059,8 +8169,8 @@
     "standardNumber": "IS 2721: 1979",
     "title": "GALVANIZED STEEL CHAIN LINK FENCE FABRIC",
     "section": "20. WIRES ROPES AND WIRE PRODUCTS",
-    "category": "Building Materials",
-    "description": "(First Revision) 1. Scope – Requirements for galvanized steel chain 2. Dimensions – See Table fence fabric intended for various purposes. This",
+    "category": "Steel & Metals",
+    "description": "(First Revision) 1. Scope \u2013 Requirements for galvanized steel chain 2. Dimensions \u2013 See Table fence fabric intended for various purposes. This standard does not cover the requirements pertaining to",
     "keywords": [
       "chain",
       "galvanized",
@@ -8075,7 +8185,7 @@
     "standardNumber": "IS 2835: 1987",
     "title": "Flat transparent sheet glass (third revision)",
     "section": "21. GLASS",
-    "category": "Building Materials",
+    "category": "Glass",
     "description": "",
     "keywords": [
       "flat",
@@ -8091,7 +8201,7 @@
     "standardNumber": "IS 3438: 1994",
     "title": "Silvered glass mirror for General purposes (second revision)",
     "section": "21. GLASS",
-    "category": "Building Materials",
+    "category": "Glass",
     "description": "",
     "keywords": [
       "glass"
@@ -8105,8 +8215,8 @@
     "standardNumber": "IS 5437: 1994",
     "title": "Figured rolled and wired glass (first revision)",
     "section": "21. GLASS",
-    "category": "Building Materials",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Glass",
+    "description": "SUMMARY OF",
     "keywords": [
       "glass",
       "wire"
@@ -8120,7 +8230,7 @@
     "standardNumber": "IS 110: 1983",
     "title": "Ready mixed paint, brushing, grey filler, for enamels for use over primers",
     "section": "22. FILLERS, STOPPERS AND PUTTIES",
-    "category": "Building Materials",
+    "category": "Chemical Products",
     "description": "(second revision)",
     "keywords": [
       "enamel",
@@ -8136,7 +8246,7 @@
     "standardNumber": "IS 419: 1967",
     "title": "Putty for use on window frames (first revision)",
     "section": "22. FILLERS, STOPPERS AND PUTTIES",
-    "category": "Building Materials",
+    "category": "Chemical Products",
     "description": "",
     "keywords": [
       "putty",
@@ -8151,7 +8261,7 @@
     "standardNumber": "IS 423: 1961",
     "title": "Plastic wood for joiners filler (revised)",
     "section": "22. FILLERS, STOPPERS AND PUTTIES",
-    "category": "Building Materials",
+    "category": "Chemical Products",
     "description": "",
     "keywords": [
       "plastic",
@@ -8166,8 +8276,8 @@
     "standardNumber": "IS 3709: 1966",
     "title": "Mastic cement for bedding of metal windows",
     "section": "22. FILLERS, STOPPERS AND PUTTIES",
-    "category": "Building Materials",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Chemical Products",
+    "description": "SUMMARY OF",
     "keywords": [
       "cement",
       "window"
@@ -8241,7 +8351,7 @@
   {
     "id": "is-is-8154--1993",
     "standardNumber": "IS 8154: 1993",
-    "title": "Preformed calcium silicate insulation (for temperature up to 650ºC)",
+    "title": "Preformed calcium silicate insulation (for temperature up to 650\u00baC)",
     "section": "23. THERMAL INSULATION MATERIALS",
     "category": "Building Materials",
     "description": "(first revision)",
@@ -8249,7 +8359,7 @@
       "insulation"
     ],
     "contextChunks": [
-      "IS 8154: 1993: Preformed calcium silicate insulation (for temperature up to 650ºC)"
+      "IS 8154: 1993: Preformed calcium silicate insulation (for temperature up to 650\u00baC)"
     ]
   },
   {
@@ -8267,7 +8377,7 @@
   {
     "id": "is-is-9428--1993",
     "standardNumber": "IS 9428: 1993",
-    "title": "Preformed Calcium silicate insulation (for temperatures upto 950ºC)",
+    "title": "Preformed Calcium silicate insulation (for temperatures upto 950\u00baC)",
     "section": "23. THERMAL INSULATION MATERIALS",
     "category": "Building Materials",
     "description": "(first revision)",
@@ -8275,7 +8385,7 @@
       "insulation"
     ],
     "contextChunks": [
-      "IS 9428: 1993: Preformed Calcium silicate insulation (for temperatures upto 950ºC)"
+      "IS 9428: 1993: Preformed Calcium silicate insulation (for temperatures upto 950\u00baC)"
     ]
   },
   {
@@ -8364,7 +8474,7 @@
     "title": "Hydraulic setting thermal insulating castables for temperatures",
     "section": "23. THERMAL INSULATION MATERIALS",
     "category": "Building Materials",
-    "description": "up to 1250º C.",
+    "description": "up to 1250\u00ba C.",
     "keywords": [
       "thermal"
     ],
@@ -8393,7 +8503,7 @@
     "title": "Rigid phenolic foams for thermal insulation",
     "section": "23. THERMAL INSULATION MATERIALS",
     "category": "Building Materials",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "description": "SUMMARY OF",
     "keywords": [
       "insulation",
       "thermal"
@@ -8408,7 +8518,7 @@
     "title": "Method for determination of thermal conductivity of insulation material (water calorimeter method)",
     "section": "23. THERMAL INSULATION MATERIALS",
     "category": "Building Materials",
-    "description": "For detailed information, refer to IS 7509 : 1993 Specification for thermal insulating cements (first revision). SP 21 : 2005 SUMMARY OF",
+    "description": "For detailed information, refer to IS 7509 : 1993 Specification for thermal insulating cements (first revision). SUMMARY OF",
     "keywords": [
       "cement",
       "insulation",
@@ -8425,7 +8535,7 @@
     "standardNumber": "IS 2036: 1995",
     "title": "Phenolic laminated sheets (second revision)",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "sheet"
@@ -8439,7 +8549,7 @@
     "standardNumber": "IS 2046: 1995",
     "title": "Decorative thermosetting synthetic resin bonded laminated sheets",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "(second revision)",
     "keywords": [
       "decorative",
@@ -8454,7 +8564,7 @@
     "standardNumber": "IS 2508: 1984",
     "title": "Low density polyethylene films (second revision)",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "density",
@@ -8469,7 +8579,7 @@
     "standardNumber": "IS 6307: 1985",
     "title": "Rigid PVC sheets (first revision)",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "pvc",
@@ -8484,7 +8594,7 @@
     "standardNumber": "IS 10889: 1984",
     "title": "High density polyethylene films",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "density",
@@ -8499,7 +8609,7 @@
     "standardNumber": "IS 12830: 1989",
     "title": "Rubber based adhesives for fixing PVC tiles to cement",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "adhesive",
@@ -8517,7 +8627,7 @@
     "standardNumber": "IS 12994: 1990",
     "title": "Epoxy adhesives room temperature curing, general purpose",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "adhesive"
@@ -8531,7 +8641,7 @@
     "standardNumber": "IS 14182: 1994",
     "title": "Solvent cement for use with unplasticized PVC plastic pipe fittings",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "cement",
@@ -8549,7 +8659,7 @@
     "standardNumber": "IS 14443: 1997",
     "title": "Polycarbonate sheets",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "",
     "keywords": [
       "sheet"
@@ -8563,7 +8673,7 @@
     "standardNumber": "IS 14643: 1999",
     "title": "Unsintered polytetra fluoroethylene ( PTFE) tapes for thread",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
+    "category": "Plastics",
     "description": "sealing applications",
     "keywords": [],
     "contextChunks": [
@@ -8575,8 +8685,8 @@
     "standardNumber": "IS 14753: 1999",
     "title": "Polymethyl methacrylate (PMMA) (Acrylic) sheets",
     "section": "24. PLASTICS",
-    "category": "Building Materials",
-    "description": "SP 21 : 2005 SUMMARY OF",
+    "category": "Plastics",
+    "description": "SUMMARY OF",
     "keywords": [
       "sheet"
     ],
@@ -8589,7 +8699,7 @@
     "standardNumber": "IS 694: 1990",
     "title": "PVC insulated cables for working voltages up to and including",
     "section": "25. CONDUCTORS AND CABLES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "1100 volts (third revision)",
     "keywords": [
       "cable",
@@ -8604,7 +8714,7 @@
     "standardNumber": "IS 1554 (Part 1): 1988",
     "title": "PVC insulated (heavy duty) electric cables for working voltages up to",
     "section": "25. CONDUCTORS AND CABLES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "and including1100 volts (third revision)",
     "keywords": [
       "cable",
@@ -8619,7 +8729,7 @@
     "standardNumber": "IS 7098 (Part 1): 1988",
     "title": "Cross linked polyethylene insulated PVC sheathed cables for",
     "section": "25. CONDUCTORS AND CABLES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "working voltages up to and including 1100 volts (first revision)",
     "keywords": [
       "cable",
@@ -8635,8 +8745,8 @@
     "standardNumber": "IS 9968 (Part 1): 1988",
     "title": "Elastometer insulated cables for working voltages upto and including",
     "section": "25. CONDUCTORS AND CABLES",
-    "category": "Building Materials",
-    "description": "1100 volts (first revision) SP 21 : 2005 SUMMARY OF",
+    "category": "Electrical",
+    "description": "1100 volts (first revision) SUMMARY OF",
     "keywords": [
       "cable"
     ],
@@ -8649,7 +8759,7 @@
     "standardNumber": "IS 371: 1999",
     "title": "Ceiling Roses (third revision)",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -8661,7 +8771,7 @@
     "standardNumber": "IS 1293: 1988",
     "title": "Plugs and Socket Outlets of Rated Voltage upto and Including 250 Volts and",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "Rated Current upto and Including 16 Amperes (second revision) 26.5",
     "keywords": [],
     "contextChunks": [
@@ -8673,7 +8783,7 @@
     "standardNumber": "IS 2086: 1993",
     "title": "Carriers and Bases Used in Rewirable Type Electric Fuses for Voltages upto",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "650 Volts (third revision) 26.7",
     "keywords": [],
     "contextChunks": [
@@ -8685,7 +8795,7 @@
     "standardNumber": "IS 2412: 1975",
     "title": "Link Clips for Electrical Wiring (first revision)",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -8697,7 +8807,7 @@
     "standardNumber": "IS 2667: 1988",
     "title": "Fittings for Rigid Steel Conduits for Electrical Wiring (first revision)",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [
       "fitting",
@@ -8712,7 +8822,7 @@
     "standardNumber": "IS 3419: 1989",
     "title": "Fittings for Rigid Non-Metallic Conduits (third revision)",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [
       "fitting"
@@ -8726,7 +8836,7 @@
     "standardNumber": "IS 3480: 1966",
     "title": "Flexible Steel Conduits for Electrical Wiring",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [
       "steel"
@@ -8740,7 +8850,7 @@
     "standardNumber": "IS 3837: 1976",
     "title": "Accessories for Rigid Steel Conduits for Electrical Wiring (first revision)",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [
       "steel"
@@ -8754,7 +8864,7 @@
     "standardNumber": "IS 3854: 1997",
     "title": "Switches for Domestic and Similar Purposes (second revision)",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -8766,7 +8876,7 @@
     "standardNumber": "IS 4160: 1967",
     "title": "Interlocking Switch Socket Outlet",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [
       "lock"
@@ -8780,7 +8890,7 @@
     "standardNumber": "IS 4615: 1968",
     "title": "Switch Socket Outlets (Non-Inter Locking Type)",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [
       "lock"
@@ -8794,7 +8904,7 @@
     "standardNumber": "IS 4649: 1968",
     "title": "Adaptors for Flexible Steel Conduits",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [
       "steel"
@@ -8808,7 +8918,7 @@
     "standardNumber": "IS 6538: 1971",
     "title": "Three Pin Plugs Made of Resilient Material",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "",
     "keywords": [],
     "contextChunks": [
@@ -8820,7 +8930,7 @@
     "standardNumber": "IS 8828: 1996",
     "title": "IEC 898 (1995) Circuit Breakers for Over Current Protection for House-Hold",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
+    "category": "Electrical",
     "description": "and Similar Installations (second revision) 26.24",
     "keywords": [],
     "contextChunks": [
@@ -8832,8 +8942,8 @@
     "standardNumber": "IS 14772: 2000",
     "title": "General requirements for enclosure for accessories for household",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
-    "description": "and similar fixed electrical installation. SP 21 : 2005 SUMMARY OF",
+    "category": "Electrical",
+    "description": "and similar fixed electrical installation. SUMMARY OF",
     "keywords": [],
     "contextChunks": [
       "IS 14772: 2000: General requirements for enclosure for accessories for household"
@@ -8844,8 +8954,8 @@
     "standardNumber": "IS 9537 (Part 1): 1980",
     "title": "shall apply.",
     "section": "26. WIRING ACCESSORIES",
-    "category": "Building Materials",
-    "description": "c) Conduits for medium mechanical stresses. 4. Dimensions – See Table 1. TABLE 1 DIMENSIONS OF THE CONDUITS",
+    "category": "Electrical",
+    "description": "c) Conduits for medium mechanical stresses. 4. Dimensions \u2013 See Table 1. TABLE 1 DIMENSIONS OF THE CONDUITS Nominal size Outside Diameter Tolerance on Inside Diameter, Preferred",
     "keywords": [],
     "contextChunks": [
       "IS 9537 (Part 1): 1980: shall apply."

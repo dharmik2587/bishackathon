@@ -1,0 +1,17 @@
+# Core RAG
+rank-bm25==0.2.2
+nltk==3.9.1
+numpy>=1.24.0
+
+# Typo Tolerance
+thefuzz==0.22.1
+python-Levenshtein==0.26.1
+
+# LLM Integration (DeepSeek via OpenAI-compatible client)
+openai==1.82.0
+
+# PDF Extraction
+pdfplumber>=0.10.0
+
+# Environment variable loading
+python-dotenv==1.1.0

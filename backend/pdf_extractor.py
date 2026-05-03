@@ -225,21 +225,19 @@ class BISStandardsExtractor:
         """Extract description from following lines"""
         description_lines = []
         
-        for j in range(start_idx + 1, min(start_idx + 6, len(lines))):
+        for j in range(start_idx + 1, min(start_idx + 10, len(lines))):
             line = lines[j].strip()
             
-            if not line:
+            if not line or len(line) < 5:
                 continue
             if re.match(r'^(IS\s+\d|SECTION)', line, re.IGNORECASE):
                 break
-            if line.startswith('•') or line.startswith('*'):
-                continue
-            # Skip lines that are just numbers
-            if re.match(r'^\d+(\.\d+)?\s*$', line):
+            # Skip page headers/footers
+            if "SP 21" in line or re.match(r'^\d+$', line):
                 continue
             
             description_lines.append(line)
-            if len(description_lines) >= 3:
+            if len(description_lines) >= 4:
                 break
         
         description = ' '.join(description_lines)
@@ -296,29 +294,29 @@ class BISStandardsExtractor:
             '1': 'Cement & Concrete',
             '2': 'Building Limes',
             '3': 'Stones',
-            '4': 'Gypsum Products',
-            '5': 'Wood & Timber',
-            '6': 'Bitumen & Tar',
-            '7': 'Paints & Coatings',
+            '4': 'Clay Products',
+            '5': 'Gypsum Products',
+            '6': 'Wood & Timber',
+            '7': 'Bitumen & Tar',
             '8': 'Flooring & Finishes',
-            '9': 'Doors & Windows',
+            '9': 'Waterproofing',
             '10': 'Plumbing & Water',
-            '11': 'Sanitary',
-            '12': 'Hardware & Fasteners',
-            '13': 'Steel & Metals',
+            '11': 'Hardware & Fasteners',
+            '12': 'Wood Products',
+            '13': 'Doors & Windows',
             '14': 'Steel & Metals',
             '15': 'Steel & Metals',
             '16': 'Steel & Metals',
-            '17': 'Electrical',
-            '18': 'Glass',
-            '19': 'Plastics',
-            '20': 'Building Materials',
-            '21': 'Building Materials',
-            '22': 'Building Materials',
+            '17': 'Steel & Metals',
+            '18': 'Welding',
+            '19': 'Hardware & Fasteners',
+            '20': 'Steel & Metals',
+            '21': 'Glass',
+            '22': 'Chemical Products',
             '23': 'Building Materials',
-            '24': 'Building Materials',
-            '25': 'Building Materials',
-            '26': 'Building Materials',
+            '24': 'Plastics',
+            '25': 'Electrical',
+            '26': 'Electrical',
             '27': 'Building Materials',
         }
         
