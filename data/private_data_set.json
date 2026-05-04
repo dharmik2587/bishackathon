@@ -1,52 +1,702 @@
 [
   {
-    "id": "PVT-013",
-    "query": "We produce polysulphide-based sealants for construction joints. Applicable standard?",
-    "expected_standards": ["IS 12118: 1987"]
+    "id": "PVT-101",
+    "query": "We manufacture Portland slag cement for marine structures. Which BIS standard applies?",
+    "expected_standards": [
+      "IS 455: 1989"
+    ]
   },
   {
-    "id": "PVT-024",
-    "query": "Which standard applies to asbestos cement pipes used for sewerage systems?",
-    "expected_standards": ["IS 6908: 1991"]
+    "id": "PVT-102",
+    "query": "Which BIS standard covers ordinary Portland cement 33 grade?",
+    "expected_standards": [
+      "IS 269: 2015"
+    ]
   },
   {
-    "id": "PVT-036",
-    "query": "Which standard applies to steel doors and frames?",
-    "expected_standards": ["IS 1038: 2005"]
+    "id": "PVT-103",
+    "query": "We produce low heat cement for dam construction. Applicable standard?",
+    "expected_standards": [
+      "IS 12600: 1989"
+    ]
   },
   {
-    "id": "PVT-049",
-    "query": "Looking for BIS standard for threaded fasteners.",
-    "expected_standards": ["IS 1367: 2002"]
+    "id": "PVT-104",
+    "query": "Which standard applies to masonry cement used in plastering works?",
+    "expected_standards": [
+      "IS 3466: 1988"
+    ]
   },
   {
-    "id": "PVT-064",
-    "query": "We produce building stones for construction. Which BIS standard applies?",
-    "expected_standards": ["IS 1121: 1974"]
+    "id": "PVT-105",
+    "query": "Looking for BIS standard for super sulphated cement.",
+    "expected_standards": [
+      "IS 6909: 1990"
+    ]
   },
   {
-    "id": "PVT-079",
-    "query": "Which standard applies to enamel paints?",
-    "expected_standards": ["IS 2932: 2003"]
+    "id": "PVT-106",
+    "query": "We manufacture TMT bars for earthquake resistant structures. Which BIS standard applies?",
+    "expected_standards": [
+      "IS 1786: 2008"
+    ]
   },
   {
-    "id": "PVT-094",
-    "query": "Looking for BIS standard for steel tubes used structurally.",
-    "expected_standards": ["IS 1161: 2014"]
+    "id": "PVT-107",
+    "query": "Which BIS standard governs plain mild steel bars?",
+    "expected_standards": [
+      "IS 432 (Part 1): 1982"
+    ]
+  },
+  {
+    "id": "PVT-108",
+    "query": "We produce high tensile steel wires. Applicable standard?",
+    "expected_standards": [
+      "IS 1566: 1982"
+    ]
+  },
+  {
+    "id": "PVT-109",
+    "query": "Which standard applies to cold twisted steel bars?",
+    "expected_standards": [
+      "IS 1786: 2008"
+    ]
   },
   {
     "id": "PVT-110",
     "query": "Looking for BIS standard for steel reinforcement mesh.",
-    "expected_standards": ["IS 1566: 1982"]
+    "expected_standards": [
+      "IS 1566: 1982"
+    ]
+  },
+  {
+    "id": "PVT-111",
+    "query": "Which BIS standard applies to ready mixed concrete?",
+    "expected_standards": [
+      "IS 4926: 2003"
+    ]
+  },
+  {
+    "id": "PVT-112",
+    "query": "We produce design mix concrete for buildings. Applicable standard?",
+    "expected_standards": [
+      "IS 456: 2000"
+    ]
+  },
+  {
+    "id": "PVT-113",
+    "query": "Which standard applies to concrete mix design procedures?",
+    "expected_standards": [
+      "IS 10262: 2019"
+    ]
+  },
+  {
+    "id": "PVT-114",
+    "query": "Looking for BIS standard for concrete admixtures.",
+    "expected_standards": [
+      "IS 9103: 1999"
+    ]
+  },
+  {
+    "id": "PVT-115",
+    "query": "Which standard governs concrete curing compounds?",
+    "expected_standards": [
+      "IS 9014: 1978"
+    ]
+  },
+  {
+    "id": "PVT-116",
+    "query": "We manufacture burnt clay fly ash bricks. Which BIS standard applies?",
+    "expected_standards": [
+      "IS 13757: 1993"
+    ]
+  },
+  {
+    "id": "PVT-117",
+    "query": "Which BIS standard applies to perforated clay bricks?",
+    "expected_standards": [
+      "IS 2222: 1991"
+    ]
+  },
+  {
+    "id": "PVT-118",
+    "query": "We produce facing bricks for exterior walls. Applicable standard?",
+    "expected_standards": [
+      "IS 2691: 1989"
+    ]
+  },
+  {
+    "id": "PVT-119",
+    "query": "Which standard applies to hollow clay blocks?",
+    "expected_standards": [
+      "IS 3952: 1988"
+    ]
+  },
+  {
+    "id": "PVT-120",
+    "query": "Looking for BIS standard for paving bricks.",
+    "expected_standards": [
+      "IS 3583: 1979"
+    ]
+  },
+  {
+    "id": "PVT-121",
+    "query": "Which BIS standard applies to crushed gravel aggregates?",
+    "expected_standards": [
+      "IS 383: 2016"
+    ]
+  },
+  {
+    "id": "PVT-122",
+    "query": "Looking for BIS standard for river sand in concrete.",
+    "expected_standards": [
+      "IS 383: 2016"
+    ]
+  },
+  {
+    "id": "PVT-123",
+    "query": "Which standard governs aggregates for bituminous concrete?",
+    "expected_standards": [
+      "IS 2386: 1963"
+    ]
+  },
+  {
+    "id": "PVT-124",
+    "query": "Which BIS standard applies to fine aggregate grading zones?",
+    "expected_standards": [
+      "IS 383: 2016"
+    ]
+  },
+  {
+    "id": "PVT-125",
+    "query": "Which standard governs aggregate crushing value test?",
+    "expected_standards": [
+      "IS 2386 (Part 4): 1963"
+    ]
+  },
+  {
+    "id": "PVT-126",
+    "query": "Which BIS standard applies to ceramic wall tiles?",
+    "expected_standards": [
+      "IS 15622: 2006"
+    ]
+  },
+  {
+    "id": "PVT-127",
+    "query": "Looking for BIS standard for vitrified porcelain tiles.",
+    "expected_standards": [
+      "IS 15622: 2006"
+    ]
+  },
+  {
+    "id": "PVT-128",
+    "query": "Which standard governs heavy duty floor tiles?",
+    "expected_standards": [
+      "IS 15622: 2006"
+    ]
+  },
+  {
+    "id": "PVT-129",
+    "query": "Which BIS standard applies to acid resistant tiles?",
+    "expected_standards": [
+      "IS 4457: 2007"
+    ]
+  },
+  {
+    "id": "PVT-130",
+    "query": "Which standard governs industrial flooring tiles?",
+    "expected_standards": [
+      "IS 1237: 2012"
+    ]
+  },
+  {
+    "id": "PVT-131",
+    "query": "Which BIS standard applies to sandstone blocks?",
+    "expected_standards": [
+      "IS 1121: 1974"
+    ]
+  },
+  {
+    "id": "PVT-132",
+    "query": "Looking for BIS standard for laterite stone.",
+    "expected_standards": [
+      "IS 3620: 1979"
+    ]
+  },
+  {
+    "id": "PVT-133",
+    "query": "Which standard governs basalt stone?",
+    "expected_standards": [
+      "IS 1121: 1974"
+    ]
+  },
+  {
+    "id": "PVT-134",
+    "query": "Which BIS standard applies to dimension stone testing?",
+    "expected_standards": [
+      "IS 1121: 1974"
+    ]
+  },
+  {
+    "id": "PVT-135",
+    "query": "Which standard governs stone compressive strength?",
+    "expected_standards": [
+      "IS 1121 (Part 1): 1974"
+    ]
+  },
+  {
+    "id": "PVT-136",
+    "query": "Which BIS standard applies to gypsum partition boards?",
+    "expected_standards": [
+      "IS 2095: 1982"
+    ]
+  },
+  {
+    "id": "PVT-137",
+    "query": "Looking for BIS standard for POP decorative boards.",
+    "expected_standards": [
+      "IS 2547: 1976"
+    ]
+  },
+  {
+    "id": "PVT-138",
+    "query": "Which standard governs ceiling panels?",
+    "expected_standards": [
+      "IS 12406: 1988"
+    ]
+  },
+  {
+    "id": "PVT-139",
+    "query": "Which BIS standard applies to wall plaster materials?",
+    "expected_standards": [
+      "IS 1661: 1972"
+    ]
+  },
+  {
+    "id": "PVT-140",
+    "query": "Which standard governs gypsum finishing plaster?",
+    "expected_standards": [
+      "IS 2547: 1976"
+    ]
+  },
+  {
+    "id": "PVT-141",
+    "query": "Which BIS standard applies to marine plywood?",
+    "expected_standards": [
+      "IS 710: 2010"
+    ]
+  },
+  {
+    "id": "PVT-142",
+    "query": "Looking for BIS standard for shuttering plywood.",
+    "expected_standards": [
+      "IS 4990: 2011"
+    ]
+  },
+  {
+    "id": "PVT-143",
+    "query": "Which standard governs fire retardant plywood?",
+    "expected_standards": [
+      "IS 5509: 2000"
+    ]
+  },
+  {
+    "id": "PVT-144",
+    "query": "Which BIS standard applies to decorative plywood?",
+    "expected_standards": [
+      "IS 1328: 1996"
+    ]
   },
   {
     "id": "PVT-145",
     "query": "Which standard governs blockboard materials?",
-    "expected_standards": ["IS 1659: 2004"]
+    "expected_standards": [
+      "IS 1659: 2004"
+    ]
+  },
+  {
+    "id": "PVT-146",
+    "query": "Which BIS standard applies to steel rolling shutters?",
+    "expected_standards": [
+      "IS 6248: 2007"
+    ]
+  },
+  {
+    "id": "PVT-147",
+    "query": "Looking for BIS standard for collapsible gates.",
+    "expected_standards": [
+      "IS 3414: 1968"
+    ]
+  },
+  {
+    "id": "PVT-148",
+    "query": "Which standard governs metal doors?",
+    "expected_standards": [
+      "IS 1038: 2005"
+    ]
+  },
+  {
+    "id": "PVT-149",
+    "query": "Which BIS standard applies to window fittings hardware?",
+    "expected_standards": [
+      "IS 204: 1991"
+    ]
+  },
+  {
+    "id": "PVT-150",
+    "query": "Which standard governs hinges for doors?",
+    "expected_standards": [
+      "IS 1341: 1992"
+    ]
+  },
+  {
+    "id": "PVT-151",
+    "query": "Which BIS standard applies to toughened safety glass?",
+    "expected_standards": [
+      "IS 2553 (Part 1): 1990"
+    ]
+  },
+  {
+    "id": "PVT-152",
+    "query": "Looking for BIS standard for wired glass.",
+    "expected_standards": [
+      "IS 5437: 1990"
+    ]
+  },
+  {
+    "id": "PVT-153",
+    "query": "Which standard governs insulating glass units?",
+    "expected_standards": [
+      "IS 16231: 2014"
+    ]
+  },
+  {
+    "id": "PVT-154",
+    "query": "Which BIS standard applies to reflective coated glass?",
+    "expected_standards": [
+      "IS 14900: 2000"
+    ]
+  },
+  {
+    "id": "PVT-155",
+    "query": "Which standard governs bullet resistant glazing?",
+    "expected_standards": [
+      "IS 17051: 2018"
+    ]
+  },
+  {
+    "id": "PVT-156",
+    "query": "Which BIS standard applies to HDPE pipes for sewerage?",
+    "expected_standards": [
+      "IS 14333: 1996"
+    ]
+  },
+  {
+    "id": "PVT-157",
+    "query": "Looking for BIS standard for CPVC pipes.",
+    "expected_standards": [
+      "IS 15778: 2007"
+    ]
+  },
+  {
+    "id": "PVT-158",
+    "query": "Which standard governs plastic pipe joints?",
+    "expected_standards": [
+      "IS 7834: 1987"
+    ]
+  },
+  {
+    "id": "PVT-159",
+    "query": "Which BIS standard applies to irrigation PVC pipes?",
+    "expected_standards": [
+      "IS 4985: 2000"
+    ]
+  },
+  {
+    "id": "PVT-160",
+    "query": "Which standard governs underground drainage pipes?",
+    "expected_standards": [
+      "IS 16098 (Part 2): 2013"
+    ]
+  },
+  {
+    "id": "PVT-161",
+    "query": "Which BIS standard applies to stainless steel kitchen sinks?",
+    "expected_standards": [
+      "IS 13983: 1994"
+    ]
+  },
+  {
+    "id": "PVT-162",
+    "query": "Looking for BIS standard for bath tubs.",
+    "expected_standards": [
+      "IS 2556: 1974"
+    ]
+  },
+  {
+    "id": "PVT-163",
+    "query": "Which standard governs flushing systems?",
+    "expected_standards": [
+      "IS 7231: 1994"
+    ]
+  },
+  {
+    "id": "PVT-164",
+    "query": "Which BIS standard applies to bathroom fittings?",
+    "expected_standards": [
+      "IS 8931: 1978"
+    ]
+  },
+  {
+    "id": "PVT-165",
+    "query": "Which standard governs sanitary installation materials?",
+    "expected_standards": [
+      "IS 1172: 1993"
+    ]
+  },
+  {
+    "id": "PVT-166",
+    "query": "Which BIS standard applies to XLPE cables?",
+    "expected_standards": [
+      "IS 7098 (Part 1): 1988"
+    ]
+  },
+  {
+    "id": "PVT-167",
+    "query": "Looking for BIS standard for fire survival cables.",
+    "expected_standards": [
+      "IS 17505: 2021"
+    ]
+  },
+  {
+    "id": "PVT-168",
+    "query": "Which standard governs earthing systems?",
+    "expected_standards": [
+      "IS 3043: 2018"
+    ]
+  },
+  {
+    "id": "PVT-169",
+    "query": "Which BIS standard applies to cable trays?",
+    "expected_standards": [
+      "IS 1255: 1983"
+    ]
+  },
+  {
+    "id": "PVT-170",
+    "query": "Which standard governs electrical conduits PVC?",
+    "expected_standards": [
+      "IS 9537: 1983"
+    ]
+  },
+  {
+    "id": "PVT-171",
+    "query": "Which BIS standard applies to high tensile bolts?",
+    "expected_standards": [
+      "IS 3757: 1985"
+    ]
+  },
+  {
+    "id": "PVT-172",
+    "query": "Looking for BIS standard for hex bolts.",
+    "expected_standards": [
+      "IS 1363: 2002"
+    ]
+  },
+  {
+    "id": "PVT-173",
+    "query": "Which standard governs nuts and washers?",
+    "expected_standards": [
+      "IS 1364: 2002"
+    ]
+  },
+  {
+    "id": "PVT-174",
+    "query": "Which BIS standard applies to anchor fasteners?",
+    "expected_standards": [
+      "IS 5624: 1993"
+    ]
+  },
+  {
+    "id": "PVT-175",
+    "query": "Which standard governs threaded rods?",
+    "expected_standards": [
+      "IS 1367: 2002"
+    ]
+  },
+  {
+    "id": "PVT-176",
+    "query": "Which BIS standard applies to acrylic emulsion paints?",
+    "expected_standards": [
+      "IS 15489: 2004"
+    ]
+  },
+  {
+    "id": "PVT-177",
+    "query": "Looking for BIS standard for anti-fungal paints.",
+    "expected_standards": [
+      "IS 15489: 2004"
+    ]
+  },
+  {
+    "id": "PVT-178",
+    "query": "Which standard governs cement primer?",
+    "expected_standards": [
+      "IS 109: 2006"
+    ]
+  },
+  {
+    "id": "PVT-179",
+    "query": "Which BIS standard applies to bituminous paints?",
+    "expected_standards": [
+      "IS 158: 1981"
+    ]
+  },
+  {
+    "id": "PVT-180",
+    "query": "Which standard governs wood coatings?",
+    "expected_standards": [
+      "IS 132: 1982"
+    ]
+  },
+  {
+    "id": "PVT-181",
+    "query": "Which BIS standard applies to APP modified bitumen membranes?",
+    "expected_standards": [
+      "IS 16544: 2016"
+    ]
+  },
+  {
+    "id": "PVT-182",
+    "query": "Looking for BIS standard for SBS membranes.",
+    "expected_standards": [
+      "IS 16544: 2016"
+    ]
+  },
+  {
+    "id": "PVT-183",
+    "query": "Which standard governs liquid waterproofing systems?",
+    "expected_standards": [
+      "IS 15814: 2019"
+    ]
+  },
+  {
+    "id": "PVT-184",
+    "query": "Which BIS standard applies to damp proof courses?",
+    "expected_standards": [
+      "IS 3067: 1988"
+    ]
+  },
+  {
+    "id": "PVT-185",
+    "query": "Which standard governs waterproofing chemicals?",
+    "expected_standards": [
+      "IS 2645: 2003"
+    ]
+  },
+  {
+    "id": "PVT-186",
+    "query": "Which BIS standard applies to glass wool insulation?",
+    "expected_standards": [
+      "IS 8183: 1993"
+    ]
+  },
+  {
+    "id": "PVT-187",
+    "query": "Looking for BIS standard for rock wool insulation.",
+    "expected_standards": [
+      "IS 8183: 1993"
+    ]
+  },
+  {
+    "id": "PVT-188",
+    "query": "Which standard governs EPS insulation boards?",
+    "expected_standards": [
+      "IS 4671: 1984"
+    ]
+  },
+  {
+    "id": "PVT-189",
+    "query": "Which BIS standard applies to acoustic ceiling panels?",
+    "expected_standards": [
+      "IS 8225: 1987"
+    ]
+  },
+  {
+    "id": "PVT-190",
+    "query": "Which standard governs thermal insulation slabs?",
+    "expected_standards": [
+      "IS 8183: 1993"
+    ]
+  },
+  {
+    "id": "PVT-191",
+    "query": "Which BIS standard applies to prefabricated structures?",
+    "expected_standards": [
+      "IS 15916: 2010"
+    ]
+  },
+  {
+    "id": "PVT-192",
+    "query": "Looking for BIS standard for modular construction systems.",
+    "expected_standards": [
+      "IS 15916: 2010"
+    ]
+  },
+  {
+    "id": "PVT-193",
+    "query": "Which standard governs precast panel construction?",
+    "expected_standards": [
+      "IS 15916: 2010"
+    ]
+  },
+  {
+    "id": "PVT-194",
+    "query": "Which BIS standard applies to industrial steel sheds?",
+    "expected_standards": [
+      "IS 800: 2007"
+    ]
   },
   {
     "id": "PVT-195",
     "query": "Which standard governs structural steel design?",
-    "expected_standards": ["IS 800: 2007"]
+    "expected_standards": [
+      "IS 800: 2007"
+    ]
+  },
+  {
+    "id": "PVT-196",
+    "query": "Which BIS standard applies to reflective road marking paints?",
+    "expected_standards": [
+      "IS 164: 1986"
+    ]
+  },
+  {
+    "id": "PVT-197",
+    "query": "Looking for BIS standard for thermoplastic road marking.",
+    "expected_standards": [
+      "IS 164: 1986"
+    ]
+  },
+  {
+    "id": "PVT-198",
+    "query": "Which standard governs traffic paints?",
+    "expected_standards": [
+      "IS 164: 1986"
+    ]
+  },
+  {
+    "id": "PVT-199",
+    "query": "Which BIS standard applies to pavement marking materials?",
+    "expected_standards": [
+      "IS 164: 1986"
+    ]
+  },
+  {
+    "id": "PVT-200",
+    "query": "Which standard governs highway surface coatings?",
+    "expected_standards": [
+      "IS 164: 1986"
+    ]
   }
 ]

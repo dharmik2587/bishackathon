@@ -94,6 +94,17 @@ Thumbs.db
 dist
 dist-ssr
 *.local
+.vite/
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+env/
 .ipynb_checkpoints/
 .pytest_cache/
+
+# Gemini
+.gemini/
