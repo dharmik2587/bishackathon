@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { API_ENDPOINTS } from '../config/api';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -60,7 +61,7 @@ export default function SearchDemo() {
     setRationale(null);
 
     try {
-      const response = await fetch('http://localhost:8000/api/query', {
+      const response = await fetch(API_ENDPOINTS.query, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query: searchQuery, top_k: 5 }),

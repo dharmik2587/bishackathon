@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { API_ENDPOINTS } from '../config/api';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,7 +36,7 @@ export default function EvaluationDashboard() {
       setIsLoading(true);
       setError(null);
       try {
-        const response = await fetch('http://localhost:8000/api/results');
+        const response = await fetch(API_ENDPOINTS.results);
         if (!response.ok) throw new Error('Failed to fetch results');
         const result = await response.json();
         if (result.results && result.results.length > 0) {
@@ -62,7 +63,7 @@ export default function EvaluationDashboard() {
     }, 200);
 
     try {
-      const response = await fetch('http://localhost:8000/api/evaluate', { method: 'POST' });
+      const response = await fetch(API_ENDPOINTS.evaluate, { method: 'POST' });
       if (!response.ok) throw new Error('Evaluation failed');
       const result = await response.json();
       
