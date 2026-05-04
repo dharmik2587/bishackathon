@@ -1,0 +1,52 @@
+[
+  {
+    "id": "PVT-013",
+    "query": "We produce polysulphide-based sealants for construction joints. Applicable standard?",
+    "expected_standards": ["IS 12118: 1987"]
+  },
+  {
+    "id": "PVT-024",
+    "query": "Which standard applies to asbestos cement pipes used for sewerage systems?",
+    "expected_standards": ["IS 6908: 1991"]
+  },
+  {
+    "id": "PVT-036",
+    "query": "Which standard applies to steel doors and frames?",
+    "expected_standards": ["IS 1038: 2005"]
+  },
+  {
+    "id": "PVT-049",
+    "query": "Looking for BIS standard for threaded fasteners.",
+    "expected_standards": ["IS 1367: 2002"]
+  },
+  {
+    "id": "PVT-064",
+    "query": "We produce building stones for construction. Which BIS standard applies?",
+    "expected_standards": ["IS 1121: 1974"]
+  },
+  {
+    "id": "PVT-079",
+    "query": "Which standard applies to enamel paints?",
+    "expected_standards": ["IS 2932: 2003"]
+  },
+  {
+    "id": "PVT-094",
+    "query": "Looking for BIS standard for steel tubes used structurally.",
+    "expected_standards": ["IS 1161: 2014"]
+  },
+  {
+    "id": "PVT-110",
+    "query": "Looking for BIS standard for steel reinforcement mesh.",
+    "expected_standards": ["IS 1566: 1982"]
+  },
+  {
+    "id": "PVT-145",
+    "query": "Which standard governs blockboard materials?",
+    "expected_standards": ["IS 1659: 2004"]
+  },
+  {
+    "id": "PVT-195",
+    "query": "Which standard governs structural steel design?",
+    "expected_standards": ["IS 800: 2007"]
+  }
+]

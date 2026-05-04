@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "PUB-11",
+    "query": "Which Indian Standard defines the specifications for Rim Latches used in building construction?",
+    "expected_standards": [
+      "IS 1019: 1974"
+    ]
+  },
+  {
+    "id": "PUB-12",
+    "query": "Which IS standard defines the specifications and testing requirements for Switches For Domestic And Similar Purposes?",
+    "expected_standards": [
+      "IS 3854: 1997"
+    ]
+  },
+  {
+    "id": "PUB-13",
+    "query": "What BIS standard specifies quick setting lime pozzolana mixtures used for soil stabilisation and construction?",
+    "expected_standards": [
+      "IS 10772: 1983"
+    ]
+  },
+  {
+    "id": "PUB-14",
+    "query": "Which BIS standard covers 'Wooden Flush Door Shutters (Cellular And Hollow Core Type) Part 2 – Particle Board And Hardboard Face Panels' and what are its key specifications?",
+    "expected_standards": [
+      "IS 2191 (Part 2): 1983"
+    ]
+  },
+  {
+    "id": "PUB-15",
+    "query": "Looking for the Indian Standard that governs Mild Steel And Brass Cup, Ruler And Square Hooks And Screw Eyes 1. Scope – Requirements For Mild Steel And Brass Cup, 2.1 Screw Eyes Shall Be Of One Type Only. used in building construction.",
+    "expected_standards": [
+      "IS 724: 1964"
+    ]
+  },
+  {
+    "id": "PUB-16",
+    "query": "Which Indian Standard defines the specifications for Covered Electrodes For Manual Metal Arc Welding Of Cast Iron used in building construction?",
+    "expected_standards": [
+      "IS 5511: 1991"
+    ]
+  },
+  {
+    "id": "PUB-17",
+    "query": "Which Indian Standard defines the specifications for Crane Rail Section used in building construction?",
+    "expected_standards": [
+      "IS 3443: 1980"
+    ]
+  },
+  {
+    "id": "PUB-18",
+    "query": "We manufacture Jointed Wood Poles For Overhead Power Telecommunication Lines for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 6056: 1970"
+    ]
+  },
+  {
+    "id": "PUB-19",
+    "query": "Looking for the Indian Standard that governs Solvent Cement For Use With Unplasticized Polyvinyl Chloride Plastic Pipe And Fittings used in building construction.",
+    "expected_standards": [
+      "IS 14182: 1994"
+    ]
+  },
+  {
+    "id": "PUB-20",
+    "query": "Which Indian Standard defines the specifications for Specials For Steel Cylinder Reinforced Concrete Pipes used in building construction?",
+    "expected_standards": [
+      "IS 7322: 1985"
+    ]
+  },
+  {
+    "id": "PUB-21",
+    "query": "We treat our external masonry with silicone water repellents. Which IS standard governs such products?",
+    "expected_standards": [
+      "IS 12027: 1987"
+    ]
+  },
+  {
+    "id": "PUB-22",
+    "query": "Looking for the BIS standard that covers the manufacture, dimensions, and testing requirements for Lime Based Blocks.",
+    "expected_standards": [
+      "IS 3115: 1992"
+    ]
+  },
+  {
+    "id": "PUB-23",
+    "query": "Our project requires compliance with specifications for Low And Medium Alloy Steel Covered Electrodes For Manual Metal Arc Welding. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 1395: 1982"
+    ]
+  },
+  {
+    "id": "PUB-24",
+    "query": "Our project requires compliance with specifications for Parliament Hinges. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 362: 1991"
+    ]
+  },
+  {
+    "id": "PUB-25",
+    "query": "Looking for the Indian Standard that governs Bitumen Mastic, Acid – Resisting Grade used in building construction.",
+    "expected_standards": [
+      "IS 9510: 1980"
+    ]
+  },
+  {
+    "id": "PUB-26",
+    "query": "Which IS standard defines the specifications and testing requirements for Switch Socket-Outlets?",
+    "expected_standards": [
+      "IS 4615: 1968"
+    ]
+  },
+  {
+    "id": "PUB-27",
+    "query": "Looking for the Indian Standard that governs Aluminium Doors, Windows And Ventilators used in building construction.",
+    "expected_standards": [
+      "IS 1948: 1961"
+    ]
+  },
+  {
+    "id": "PUB-28",
+    "query": "Which Indian Standard defines the specifications for Stranded Galvanized Steel Wire For Fencing used in building construction?",
+    "expected_standards": [
+      "IS 2140: 1978"
+    ]
+  },
+  {
+    "id": "PUB-29",
+    "query": "Looking for the Indian Standard that governs Sand Cast Iron Spigot And Socket Soil, Waste And Ventilating Pipes, Fittings And Accessories used in building construction.",
+    "expected_standards": [
+      "IS 2002: 1979"
+    ]
+  },
+  {
+    "id": "PUB-30",
+    "query": "Which IS standard defines the specifications and testing requirements for Plastic Seats And Covers For Water-Closets, Part 2 – Thermoplastic Seats And Covers?",
+    "expected_standards": [
+      "IS 2548 (Part 2): 1996"
+    ]
+  },
+  {
+    "id": "PUB-31",
+    "query": "Our project requires compliance with specifications for Stainless Steel Butt Hinges. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 12817: 1997"
+    ]
+  },
+  {
+    "id": "PUB-32",
+    "query": "Which IS standard covers wired glass used in fire-resistant glazing and overhead roof lights?",
+    "expected_standards": [
+      "IS 5437: 1994"
+    ]
+  },
+  {
+    "id": "PUB-33",
+    "query": "What IS standard covers hollow burnt clay bricks for use in walls and partition construction?",
+    "expected_standards": [
+      "IS 3952: 1988"
+    ]
+  },
+  {
+    "id": "PUB-34",
+    "query": "We need the BIS specification for Fabricated Pvc Fittings For Portable Water Supplies Part 5 Specific Requirement For Equal Tees. Which IS standard and part number should we reference?",
+    "expected_standards": [
+      "IS 10124 (Part 5): 1988"
+    ]
+  },
+  {
+    "id": "PUB-35",
+    "query": "Looking for the BIS standard that covers the manufacture, dimensions, and testing requirements for Ductile Iron Fittings For Pressure Pipes For Water, Gas And Sewage.",
+    "expected_standards": [
+      "IS 9523: 2000"
+    ]
+  },
+  {
+    "id": "PUB-36",
+    "query": "Our plant produces galvanized corrugated steel sheets for industrial roofing. Which IS standard applies?",
+    "expected_standards": [
+      "IS 277: 2003"
+    ]
+  },
+  {
+    "id": "PUB-37",
+    "query": "What IS standard specifies the dimensional requirements for rubber sealing rings used in cast iron pipe joints?",
+    "expected_standards": [
+      "IS 12988: 1991"
+    ]
+  },
+  {
+    "id": "PUB-38",
+    "query": "What BIS standard specifies requirements for gypsum plaster used in interior wall finishing?",
+    "expected_standards": [
+      "IS 2547 (Part 2): 1976"
+    ]
+  },
+  {
+    "id": "PUB-39",
+    "query": "Which standard applies to structural granite used as a building stone in construction and cladding?",
+    "expected_standards": [
+      "IS 3316: 1974"
+    ]
+  },
+  {
+    "id": "PUB-40",
+    "query": "We need the BIS specification for Mild Steel And Medium Tensile Steel Bars And Hard-Drawn Steel Wire For Concrete Reinforcement Part 1 Mild Steel And Medium Tensile Steel Bars. Which IS standard and part number should we reference?",
+    "expected_standards": [
+      "IS 432 (Part 1): 1982"
+    ]
+  },
+  {
+    "id": "PUB-41",
+    "query": "Which IS standard defines the preferred cut dimensions of structural timber sections used in building frames and carpentry?",
+    "expected_standards": [
+      "IS 4891: 1988"
+    ]
+  },
+  {
+    "id": "PUB-42",
+    "query": "Which IS standard defines the specifications and testing requirements for Timber Panelled And Glazed Shutters Part 1 Door Shutters?",
+    "expected_standards": [
+      "IS 1003 (Part 1): 2003"
+    ]
+  },
+  {
+    "id": "PUB-43",
+    "query": "Which IS standard specifies the quality requirements for Fasteners-Single Coil Rectangular Section Spring Lock Washers used in building projects?",
+    "expected_standards": [
+      "IS 3063: 1994"
+    ]
+  },
+  {
+    "id": "PUB-44",
+    "query": "We manufacture Taper Washers For Channels for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 5372: 1975"
+    ]
+  },
+  {
+    "id": "PUB-45",
+    "query": "We need the BIS standard covering Aluminium Equal Leg Angles. Which IS specification applies?",
+    "expected_standards": [
+      "IS 3908: 1986"
+    ]
+  },
+  {
+    "id": "PUB-46",
+    "query": "Which Indian Standard defines the specifications for Classification Of Commercial Timbers And Their Zonal Distribution used in building construction?",
+    "expected_standards": [
+      "IS 399: 1963"
+    ]
+  },
+  {
+    "id": "PUB-47",
+    "query": "Which IS standard specifies the quality requirements for Rubber Flooring Materials For General Purpose used in building projects?",
+    "expected_standards": [
+      "IS 809: 1992"
+    ]
+  },
+  {
+    "id": "PUB-48",
+    "query": "Which BIS standard covers sandstone slabs and tiles for use as flooring and wall stone in buildings?",
+    "expected_standards": [
+      "IS 3622: 1977"
+    ]
+  },
+  {
+    "id": "PUB-49",
+    "query": "Which standard applies to asbestos cement pipes and fittings used specifically in sewerage applications?",
+    "expected_standards": [
+      "IS 6908: 1991"
+    ]
+  },
+  {
+    "id": "PUB-50",
+    "query": "We manufacture Caulking Lead for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 782: 1978"
+    ]
+  },
+  {
+    "id": "PUB-51",
+    "query": "We need the BIS standard covering Ready Mixed Paint, Brushing, Grey Filler, For Enamels For Use Over Primers. Which IS specification applies?",
+    "expected_standards": [
+      "IS 110: 1983"
+    ]
+  },
+  {
+    "id": "PUB-52",
+    "query": "Our factory produces calcium silicate bricks using sand-lime process. Which IS standard governs their specifications?",
+    "expected_standards": [
+      "IS 4139: 1989"
+    ]
+  },
+  {
+    "id": "PUB-53",
+    "query": "We manufacture Laminated Veneer Lumber for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 14616: 1999"
+    ]
+  },
+  {
+    "id": "PUB-54",
+    "query": "Which IS standard covers gypsum boards used as partition and ceiling linings in building interiors?",
+    "expected_standards": [
+      "IS 2095 (Part 3): 1996"
+    ]
+  },
+  {
+    "id": "PUB-55",
+    "query": "Which IS standard defines the specifications and testing requirements for Diaphragm Type Float Operated Valves For Cold Water Services?",
+    "expected_standards": [
+      "IS 13049: 1991"
+    ]
+  },
+  {
+    "id": "PUB-56",
+    "query": "What IS standard covers the specifications for precast concrete stone masonry blocks used in load-bearing wall construction?",
+    "expected_standards": [
+      "IS 12440: 1988"
+    ]
+  },
+  {
+    "id": "PUB-57",
+    "query": "Which IS standard defines the specifications and testing requirements for Fabricated High Density Polyethylene Fittings For Potable Water Supplies Part 2 Specific Requirements For 90O Tees?",
+    "expected_standards": [
+      "IS 8360 (Part 2): 1977"
+    ]
+  },
+  {
+    "id": "PUB-58",
+    "query": "What IS standard covers hollow clay tiles used as filler units in filler slab floors and reinforced concrete roof construction?",
+    "expected_standards": [
+      "IS 3951 (Part 1): 1975"
+    ]
+  },
+  {
+    "id": "PUB-59",
+    "query": "Which Indian Standard defines the specifications for High Tensile Steel Bars Used In Prestressed Concrete used in building construction?",
+    "expected_standards": [
+      "IS 2090: 1983"
+    ]
+  },
+  {
+    "id": "PUB-60",
+    "query": "We supply marble blocks, slabs, and tiles for building interiors. Which IS standard covers their specifications?",
+    "expected_standards": [
+      "IS 1130: 1969"
+    ]
+  },
+  {
+    "id": "PUB-61",
+    "query": "Which IS standard specifies the dimensions and workmanship requirements for natural building stones used in masonry?",
+    "expected_standards": [
+      "IS 1127: 1970"
+    ]
+  },
+  {
+    "id": "PUB-62",
+    "query": "We're waterproofing a bridge deck and need to specify bitumen mastic. Which IS standard covers bridge decking applications?",
+    "expected_standards": [
+      "IS 5317: 2002"
+    ]
+  },
+  {
+    "id": "PUB-63",
+    "query": "We need the BIS standard covering Cellular Concrete For Thermal Insulation. Which IS specification applies?",
+    "expected_standards": [
+      "IS 6598: 1972"
+    ]
+  },
+  {
+    "id": "PUB-64",
+    "query": "We need the BIS standard covering Plywood For Concrete Shuttering Work. Which IS specification applies?",
+    "expected_standards": [
+      "IS 4990: 1993"
+    ]
+  },
+  {
+    "id": "PUB-65",
+    "query": "Which standard covers cast iron special fittings with mechanical and push-on joints for connection to pressure water mains?",
+    "expected_standards": [
+      "IS 13382: 2004"
+    ]
+  },
+  {
+    "id": "PUB-66",
+    "query": "Our project requires compliance with specifications for Numericals. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 10090: 1982"
+    ]
+  },
+  {
+    "id": "PUB-67",
+    "query": "Which Indian Standard defines the specifications for Heavy Washers For Steel Structures used in building construction?",
+    "expected_standards": [
+      "IS 6610: 1972"
+    ]
+  },
+  {
+    "id": "PUB-68",
+    "query": "We need the BIS standard covering Cold Formed Light Gauge Structural Steel Sections. Which IS specification applies?",
+    "expected_standards": [
+      "IS 811: 1987"
+    ]
+  },
+  {
+    "id": "PUB-69",
+    "query": "Looking for the IS specification for precast concrete cable covers used to protect underground electrical cables.",
+    "expected_standards": [
+      "IS 5820: 1970"
+    ]
+  },
+  {
+    "id": "PUB-70",
+    "query": "Which IS standard covers hardboard sheets used as backing for wall cladding and furniture panels?",
+    "expected_standards": [
+      "IS 2202 (Part 2): 1983"
+    ]
+  },
+  {
+    "id": "PUB-71",
+    "query": "We need the BIS standard covering Black Square Bolts And Nuts And Black Square Screws. Which IS specification applies?",
+    "expected_standards": [
+      "IS 2585: 1968"
+    ]
+  },
+  {
+    "id": "PUB-72",
+    "query": "Looking for the Indian Standard that governs Vitreous Sanitary Aplliances Part 4 Specific Requirements Of Wash Basins used in building construction.",
+    "expected_standards": [
+      "IS 2556 (Part 4): 1994"
+    ]
+  },
+  {
+    "id": "PUB-73",
+    "query": "We manufacture Rubber Based Adhesive For Fixing Pvc Tiles To Cement for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 12830: 1989"
+    ]
+  },
+  {
+    "id": "PUB-74",
+    "query": "Which IS standard defines the specifications and testing requirements for Interlocking Switch Socket Outlet?",
+    "expected_standards": [
+      "IS 4160: 1967"
+    ]
+  },
+  {
+    "id": "PUB-75",
+    "query": "We manufacture Hollow Steel Sections For Structural Use for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 4923: 1997"
+    ]
+  },
+  {
+    "id": "PUB-76",
+    "query": "Which IS standard defines the specifications and testing requirements for Venetian Blinds For Windows?",
+    "expected_standards": [
+      "IS 1826: 1961"
+    ]
+  },
+  {
+    "id": "PUB-77",
+    "query": "We need the BIS standard covering Industrial Bitumen. Which IS specification applies?",
+    "expected_standards": [
+      "IS 702: 1988"
+    ]
+  },
+  {
+    "id": "PUB-78",
+    "query": "We need the BIS standard covering Wooden Flush Door Shutters Part 1 Plywood Face Panels. Which IS specification applies?",
+    "expected_standards": [
+      "IS 2202 (Part 1): 1999"
+    ]
+  },
+  {
+    "id": "PUB-79",
+    "query": "We manufacture Structural Weather Resistance Steels for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 11587: 1986"
+    ]
+  },
+  {
+    "id": "PUB-80",
+    "query": "We need the BIS standard covering Preformed Fillers For Expansion Joint In Concrete Pavement And Structures Part 2 Cnsl Aldehyde Resin And Coconut Pith. Which IS specification applies?",
+    "expected_standards": [
+      "IS 1838 (Part 2): 1984"
+    ]
+  },
+  {
+    "id": "PUB-81",
+    "query": "Our project requires compliance with specifications for Copper Alloy Fancy Single Taps Combination Tap Assembly And Stop Valves For Water Services. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 8931: 1993"
+    ]
+  },
+  {
+    "id": "PUB-82",
+    "query": "We need the BIS standard covering Broken Brick Fine Aggregate For Use In Lime Mortar. Which IS specification applies?",
+    "expected_standards": [
+      "IS 3182: 1986"
+    ]
+  },
+  {
+    "id": "PUB-83",
+    "query": "Our project requires compliance with specifications for Mortice Night Latches. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 3847: 1992"
+    ]
+  },
+  {
+    "id": "PUB-84",
+    "query": "Looking for the BIS standard that covers the manufacture, dimensions, and testing requirements for Cement Concrete Flooring Tiles.",
+    "expected_standards": [
+      "IS 1237: 1980"
+    ]
+  },
+  {
+    "id": "PUB-85",
+    "query": "Which IS standard defines the specifications and testing requirements for Wrought Aluminium And Aluminium Alloy Plate For General Engineering Purposes?",
+    "expected_standards": [
+      "IS 736: 1986"
+    ]
+  },
+  {
+    "id": "PUB-86",
+    "query": "Our hardware line includes slotted raised countersunk head wood screws. Which IS standard governs their dimensions?",
+    "expected_standards": [
+      "IS 6736: 1972"
+    ]
+  },
+  {
+    "id": "PUB-87",
+    "query": "Our project requires compliance with specifications for Galvanized Steel Chain Link Fence Fabric. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 2721: 1979"
+    ]
+  },
+  {
+    "id": "PUB-88",
+    "query": "We need the BIS standard covering Coal Tar Pitch. Which IS specification applies?",
+    "expected_standards": [
+      "IS 216: 1961"
+    ]
+  },
+  {
+    "id": "PUB-89",
+    "query": "Which BIS standard covers 'Gypsum Plaster For Use In The Manufacture Of Fibrous Plaster Boards' and what are its key specifications?",
+    "expected_standards": [
+      "IS 8272: 1984"
+    ]
+  },
+  {
+    "id": "PUB-90",
+    "query": "We're installing asbestos cement roofing sheets and ridges. Which IS standard (Part 1) covers their specifications?",
+    "expected_standards": [
+      "IS 1626 (Part 1): 1994"
+    ]
+  },
+  {
+    "id": "PUB-91",
+    "query": "We need the BIS specification for Burnt Clay Flat Terracing Tiles Part 2 Hand – Made. Which IS standard and part number should we reference?",
+    "expected_standards": [
+      "IS 2690 (Part 2): 1992"
+    ]
+  },
+  {
+    "id": "PUB-92",
+    "query": "We're specifying non-return (reflux) valves for a pumping main. Which IS standard covers swing check type valves for water works?",
+    "expected_standards": [
+      "IS 5312 (Part 1): 2004"
+    ]
+  },
+  {
+    "id": "PUB-93",
+    "query": "We need the BIS standard covering Wrought Aluminium And Aluminium Alloy Extruded Round Tube And Hollow Sections For General Engineering Purposes. Which IS specification applies?",
+    "expected_standards": [
+      "IS 1285: 2002"
+    ]
+  },
+  {
+    "id": "PUB-94",
+    "query": "We manufacture Bituminous Compounds For Water-Proofing And Caulking Purposes for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 1580: 1991"
+    ]
+  },
+  {
+    "id": "PUB-95",
+    "query": "Which IS standard specifies the nominal dimensions and sectional properties for hot rolled steel beams, columns, channels, and angles?",
+    "expected_standards": [
+      "IS 808: 1989"
+    ]
+  },
+  {
+    "id": "PUB-96",
+    "query": "Which IS standard specifies the quality requirements for Malleable Cast Iron Pipe Fittings used in building projects?",
+    "expected_standards": [
+      "IS 1879: 1987"
+    ]
+  },
+  {
+    "id": "PUB-97",
+    "query": "Which IS standard defines the specifications and testing requirements for Mortice Sliding Door Locks With Lever Mechanism?",
+    "expected_standards": [
+      "IS 8760: 1978"
+    ]
+  },
+  {
+    "id": "PUB-98",
+    "query": "Which IS standard specifies the quality requirements for Non Ferrous Metal Butt Hinges used in building projects?",
+    "expected_standards": [
+      "IS 205: 1992"
+    ]
+  },
+  {
+    "id": "PUB-99",
+    "query": "Looking for the BIS standard that covers the manufacture, dimensions, and testing requirements for Ferrules For Water Services.",
+    "expected_standards": [
+      "IS 2692: 1989"
+    ]
+  },
+  {
+    "id": "PUB-100",
+    "query": "Which IS standard covers dust pressed ceramic tiles with water absorption in the 3 to 6 percent range (Group BIIa)?",
+    "expected_standards": [
+      "IS 13755: 1993"
+    ]
+  },
+  {
+    "id": "PUB-101",
+    "query": "What IS standard covers fibreboard or insulation board used in building construction?",
+    "expected_standards": [
+      "IS 14587: 1998"
+    ]
+  },
+  {
+    "id": "PUB-102",
+    "query": "What standard covers autoclaved reinforced cellular concrete wall slabs used in lightweight prefabricated construction?",
+    "expected_standards": [
+      "IS 6072: 1971"
+    ]
+  },
+  {
+    "id": "PUB-103",
+    "query": "Which Indian Standard defines the specifications for Epoxy Adhesives, Room Temperature Curing, General Purpose used in building construction?",
+    "expected_standards": [
+      "IS 12994: 1990"
+    ]
+  },
+  {
+    "id": "PUB-104",
+    "query": "Our project requires compliance with specifications for Hard - Drawn Steel Wire Fabric For Con- Crete Reinforcement. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 1566: 1982"
+    ]
+  },
+  {
+    "id": "PUB-105",
+    "query": "We manufacture Mortice Latch for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 5930: 1970"
+    ]
+  },
+  {
+    "id": "PUB-106",
+    "query": "We need the BIS standard covering Plastic Wood For Joiners Filler. Which IS specification applies?",
+    "expected_standards": [
+      "IS 423: 1961"
+    ]
+  },
+  {
+    "id": "PUB-107",
+    "query": "We need steel pipes for a cold storage refrigerant line. Which IS standard covers pipes suitable for sub-zero temperature service?",
+    "expected_standards": [
+      "IS 6286: 1971"
+    ]
+  },
+  {
+    "id": "PUB-108",
+    "query": "Which IS standard specifies the quality requirements for Rim Locks used in building projects?",
+    "expected_standards": [
+      "IS 9131: 1979"
+    ]
+  },
+  {
+    "id": "PUB-109",
+    "query": "We produce PVC equal tee fittings for potable water supply piping. Which part of the fabricated PVC fittings standard covers these?",
+    "expected_standards": [
+      "IS 10124 (Part 13): 1988"
+    ]
+  },
+  {
+    "id": "PUB-110",
+    "query": "Which IS standard specifies the quality requirements for Sheet Rubber Jointing And Rubber Insertion Jointing used in building projects?",
+    "expected_standards": [
+      "IS 638: 1979"
+    ]
+  },
+  {
+    "id": "PUB-111",
+    "query": "Our project requires compliance with specifications for Steel Plates Sheets Strips And Flats, For Structural And General Engineering Purposes. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 1730: 1989"
+    ]
+  },
+  {
+    "id": "PUB-112",
+    "query": "Which IS standard specifies the quality requirements for Wooden Sleepers For Railway Track used in building projects?",
+    "expected_standards": [
+      "IS 10394: 1982"
+    ]
+  },
+  {
+    "id": "PUB-113",
+    "query": "Our project requires compliance with specifications for Steel For General Structural Purposes. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 2062: 1999"
+    ]
+  },
+  {
+    "id": "PUB-114",
+    "query": "We need the BIS standard covering Silvered Glass Mirrors For General Purposes. Which IS specification applies?",
+    "expected_standards": [
+      "IS 3438: 1994"
+    ]
+  },
+  {
+    "id": "PUB-115",
+    "query": "We manufacture Hot–Dip Terne Coated Carbon Steel Sheets for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 12313: 1988"
+    ]
+  },
+  {
+    "id": "PUB-116",
+    "query": "We manufacture Fibre Hard Boards for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 1658: 1977"
+    ]
+  },
+  {
+    "id": "PUB-117",
+    "query": "We install concealed hydraulic floor springs for heavy entrance doors. Which IS standard governs their force and performance requirements?",
+    "expected_standards": [
+      "IS 6315: 1992"
+    ]
+  },
+  {
+    "id": "PUB-118",
+    "query": "Which BIS standard covers silica asbestos cement products with improved thermal resistance for building use?",
+    "expected_standards": [
+      "IS 13000: 1990"
+    ]
+  },
+  {
+    "id": "PUB-119",
+    "query": "Which IS standard specifies the quality requirements for Steel Bars, Round And Square For Structural And General Engiineering Purposes-Dimensions used in building projects?",
+    "expected_standards": [
+      "IS 1732: 1989"
+    ]
+  },
+  {
+    "id": "PUB-120",
+    "query": "We're fixing roofing sheets and interior wall boards. Which IS standard covers wall and roofing nails used for this purpose?",
+    "expected_standards": [
+      "IS 6733: 1972"
+    ]
+  },
+  {
+    "id": "PUB-121",
+    "query": "We need the BIS specification for 1989 : Resin Treated Compressed Wood Laminates Part 1 – For Electrical Purpose. Which IS standard and part number should we reference?",
+    "expected_standards": [
+      "IS 3513 (Part 1)"
+    ]
+  },
+  {
+    "id": "PUB-122",
+    "query": "We manufacture Vitreous Enamelled Steel Wash–Basins for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 8727: 1978"
+    ]
+  },
+  {
+    "id": "PUB-123",
+    "query": "Which IS standard covers chemical resistant mortars used for joints in acid-resistant brick flooring in industrial plants?",
+    "expected_standards": [
+      "IS 4832 (Part 2): 1969"
+    ]
+  },
+  {
+    "id": "PUB-124",
+    "query": "We're importing vitrified floor tiles with very low water absorption under 3 percent. Which IS standard (Group BI) applies?",
+    "expected_standards": [
+      "IS 13756: 1993"
+    ]
+  },
+  {
+    "id": "PUB-125",
+    "query": "We need the BIS standard covering Door Handles. Which IS specification applies?",
+    "expected_standards": [
+      "IS 208: 1996"
+    ]
+  },
+  {
+    "id": "PUB-126",
+    "query": "Our project requires compliance with specifications for Hexagon Bolts For Steel Structures. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 6639: 1972"
+    ]
+  },
+  {
+    "id": "PUB-127",
+    "query": "Which Indian Standard defines the specifications for Molybdenum And Chromium-Molybdenum Low Alloy Steel Welding Rods And Bare Electrodes For Gas Shielded Arc Welding used in building construction?",
+    "expected_standards": [
+      "IS 6560: 1996"
+    ]
+  },
+  {
+    "id": "PUB-128",
+    "query": "What BIS standard specifies the grading and quality requirements for sand to be used in masonry mortars?",
+    "expected_standards": [
+      "IS 2116: 1980"
+    ]
+  },
+  {
+    "id": "PUB-129",
+    "query": "Which Indian Standard defines the specifications for Mild Steel Wire For General Engineering Purposes used in building construction?",
+    "expected_standards": [
+      "IS 280: 1978"
+    ]
+  },
+  {
+    "id": "PUB-130",
+    "query": "Which IS standard specifies the quality requirements for Three-Pin Plugs Made Of Resilientmaterial used in building projects?",
+    "expected_standards": [
+      "IS 6538: 1971"
+    ]
+  },
+  {
+    "id": "PUB-131",
+    "query": "We manufacture standard clay building bricks for residential construction. Which BIS standard specifies their dimensions and strength?",
+    "expected_standards": [
+      "IS 1077: 1992"
+    ]
+  },
+  {
+    "id": "PUB-132",
+    "query": "Our project requires compliance with specifications for Wood Wool Building Slabs. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 3308: 1981"
+    ]
+  },
+  {
+    "id": "PUB-133",
+    "query": "Looking for the Indian Standard that governs Glazed Fire–Clay Sanitary Appliances Part 1 General Requirements used in building construction.",
+    "expected_standards": [
+      "IS 771 (Part 1): 1979"
+    ]
+  },
+  {
+    "id": "PUB-134",
+    "query": "Which Indian Standard defines the specifications for Hook Bolts For Corrugated Sheet Roofing used in building construction?",
+    "expected_standards": [
+      "IS 730: 1978"
+    ]
+  },
+  {
+    "id": "PUB-135",
+    "query": "What standard covers burnt clay perforated bricks intended for use in cavity wall construction to reduce weight?",
+    "expected_standards": [
+      "IS 2222: 1991"
+    ]
+  },
+  {
+    "id": "PUB-136",
+    "query": "Which IS standard defines the specifications and testing requirements for Conduits For Electrical Installations Part 4 – Pliable Self Recovering Conduits Of Insulating Materials?",
+    "expected_standards": [
+      "IS 9537 (Part 4): 1983"
+    ]
+  },
+  {
+    "id": "PUB-137",
+    "query": "Which IS standard defines the specifications and testing requirements for Fabricated Pvc Fitting For Potable Water Supplies Part 9 Specific Requirements For 60O Bends.?",
+    "expected_standards": [
+      "IS 10124 (Part 9): 1988"
+    ]
+  },
+  {
+    "id": "PUB-138",
+    "query": "We need the BIS standard covering Injection Moulded Pvc Socket Fittings With Solvent Cement Joints For Water Supplies Part – 1 General Requirement. Which IS specification applies?",
+    "expected_standards": [
+      "IS 7834: 1987"
+    ]
+  },
+  {
+    "id": "PUB-139",
+    "query": "Which IS standard defines the specifications and testing requirements for Low Tensile Structural Steel?",
+    "expected_standards": [
+      "IS 1977: 1996"
+    ]
+  },
+  {
+    "id": "PUB-140",
+    "query": "Which BIS standard covers 'Hot Rolled Parallel Flange Steel Section For Beams, Columns And Bearing Piles Dimensions And Section Properties' and what are its key specifications?",
+    "expected_standards": [
+      "IS 12778: 2004"
+    ]
+  },
+  {
+    "id": "PUB-141",
+    "query": "We procure coniferous logs for sawmill processing. Which IS standard specifies their grading and defect limits?",
+    "expected_standards": [
+      "IS 7308: 1999"
+    ]
+  },
+  {
+    "id": "PUB-142",
+    "query": "Our plant uses fly ash from thermal power plants to make building bricks. Which IS standard governs fly ash clay bricks?",
+    "expected_standards": [
+      "IS 13757: 1993"
+    ]
+  },
+  {
+    "id": "PUB-143",
+    "query": "Which IS standard covers anionic bitumen emulsion for road surface dressing and tack coat applications?",
+    "expected_standards": [
+      "IS 3117: 2004"
+    ]
+  },
+  {
+    "id": "PUB-144",
+    "query": "Looking for the Indian Standard that governs Glass Fibre Reinforced Plastics Pipes, Joints And Fittings For Use For Potable Water Supply used in building construction.",
+    "expected_standards": [
+      "IS 12709: 1994"
+    ]
+  },
+  {
+    "id": "PUB-145",
+    "query": "We need the BIS standard covering Pvc Insulated Cable For Working Voltages Up To And Including 1100 Volts. Which IS specification applies?",
+    "expected_standards": [
+      "IS 694: 1990"
+    ]
+  },
+  {
+    "id": "PUB-146",
+    "query": "Looking for the Indian Standard that governs Preformed Rigid Polyurethane And Polyisocyanurate Foams For Thermal Insulation used in building construction.",
+    "expected_standards": [
+      "IS 12436: 1988"
+    ]
+  },
+  {
+    "id": "PUB-147",
+    "query": "We need the BIS standard covering Gate And Shutter Hooks And Eyes. Which IS specification applies?",
+    "expected_standards": [
+      "IS 207: 1964"
+    ]
+  },
+  {
+    "id": "PUB-148",
+    "query": "Which IS standard specifies the quality requirements for Steel Butt Hinges used in building projects?",
+    "expected_standards": [
+      "IS 1341: 1992"
+    ]
+  },
+  {
+    "id": "PUB-149",
+    "query": "Looking for the Indian Standard that governs Metal Faced Plywood 1. Scope – Covers Manufacture And Requirements Of used in building construction.",
+    "expected_standards": [
+      "IS 13957: 1994"
+    ]
+  },
+  {
+    "id": "PUB-150",
+    "query": "Which IS standard defines the specifications and testing requirements for Iso 4014 : 1999 Hexagon Head Bolts, Screws And Nuts Of Product Grades A And B Part 1 : Hexagon Head Bolts?",
+    "expected_standards": [
+      "IS 1364 (Part 1): 2002"
+    ]
+  },
+  {
+    "id": "PUB-151",
+    "query": "Which BIS standard specifies clay country roofing tiles including Mangalore-pattern half round and flat types?",
+    "expected_standards": [
+      "IS 13317: 1992"
+    ]
+  },
+  {
+    "id": "PUB-152",
+    "query": "Our structural aluminium fabrication work uses I-beam sections. Which IS standard defines the dimensions and sectional properties of aluminium I-beams?",
+    "expected_standards": [
+      "IS 5384: 1985"
+    ]
+  },
+  {
+    "id": "PUB-153",
+    "query": "What IS standard applies to shallow corrugated asbestos cement sheets used for industrial shed roofing?",
+    "expected_standards": [
+      "IS 13008: 1990"
+    ]
+  },
+  {
+    "id": "PUB-154",
+    "query": "We manufacture Centrifugally Cast Ductile Iron Pressure Pipes For Water, Gas And Sewage for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 8329: 2000"
+    ]
+  },
+  {
+    "id": "PUB-155",
+    "query": "Which IS standard covers pitch impregnated fibre pipes and fittings for below-ground drainage applications?",
+    "expected_standards": [
+      "IS 11925: 1986"
+    ]
+  },
+  {
+    "id": "PUB-156",
+    "query": "Which standard specifies coarse aggregate requirements for water bound macadam road construction?",
+    "expected_standards": [
+      "IS 6579: 1981"
+    ]
+  },
+  {
+    "id": "PUB-157",
+    "query": "We need threaded PVC adapters to connect plastic pipes to metal fittings in a drinking water system. Which IS standard covers them?",
+    "expected_standards": [
+      "IS 10124 (Part 7): 1988"
+    ]
+  },
+  {
+    "id": "PUB-158",
+    "query": "Our project uses glazed stoneware pipes for chemical drainage. Which IS standard governs their manufacture and testing?",
+    "expected_standards": [
+      "IS 3006: 1979"
+    ]
+  },
+  {
+    "id": "PUB-159",
+    "query": "What IS standard covers the design and load requirements for precast concrete manhole covers and frames used in roads and footpaths?",
+    "expected_standards": [
+      "IS 1726: 1991"
+    ]
+  },
+  {
+    "id": "PUB-160",
+    "query": "Looking for the Indian Standard that governs Elastomer Insulated Cables, Part1 For Working Voltages Upto And Including 1 100 Volts used in building construction.",
+    "expected_standards": [
+      "IS 9968 (Part 1): 1998"
+    ]
+  },
+  {
+    "id": "PUB-161",
+    "query": "Our project requires compliance with specifications for Precast Reinforced Concrete Planks And Joists For Roofing And Flooring. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 13990: 1994"
+    ]
+  },
+  {
+    "id": "PUB-162",
+    "query": "Which IS standard covers the specific dimensions and tolerances for vitreous china washdown water closet pans (Part 2 of the vitreous sanitary appliances series)?",
+    "expected_standards": [
+      "IS 2556 (Part 2): 1994"
+    ]
+  },
+  {
+    "id": "PUB-163",
+    "query": "Looking for the Indian Standard that governs Ledged, Braced And Battened Timber Door Shutters used in building construction.",
+    "expected_standards": [
+      "IS 6198: 1992"
+    ]
+  },
+  {
+    "id": "PUB-164",
+    "query": "We need the BIS standard covering Accessories For Rigid Steel Conduits For Electrical Wiring. Which IS specification applies?",
+    "expected_standards": [
+      "IS 3837: 1976"
+    ]
+  },
+  {
+    "id": "PUB-165",
+    "query": "Our project requires compliance with specifications for Square Washers For Wood Fastenings. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 5373: 1969"
+    ]
+  },
+  {
+    "id": "PUB-166",
+    "query": "Which Indian Standard defines the specifications for Washers For Use With Fittings For Water Services used in building construction?",
+    "expected_standards": [
+      "IS 4346: 1982"
+    ]
+  },
+  {
+    "id": "PUB-167",
+    "query": "Our project requires compliance with specifications for High Strength Structural Nuts. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 6623: 2004"
+    ]
+  },
+  {
+    "id": "PUB-168",
+    "query": "We manufacture Cold Rolled Low Carbon Steel Sheets And Strips for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 513: 1994"
+    ]
+  },
+  {
+    "id": "PUB-169",
+    "query": "Which BIS standard covers 'Medium Density Fibre Boards For General Purposes' and what are its key specifications?",
+    "expected_standards": [
+      "IS 12406: 2003"
+    ]
+  },
+  {
+    "id": "PUB-170",
+    "query": "We need the BIS standard covering Floor Door Stoppers. Which IS specification applies?",
+    "expected_standards": [
+      "IS 1823: 1980"
+    ]
+  },
+  {
+    "id": "PUB-171",
+    "query": "We need the BIS standard covering Timber Panelled And Glazed Shutters Part 2 – Window And Ventilator Shutters. Which IS specification applies?",
+    "expected_standards": [
+      "IS 1003 (Part 2): 1994"
+    ]
+  },
+  {
+    "id": "PUB-172",
+    "query": "Looking for the Indian Standard that governs Double Action Floor Springs For Heavy Doors used in building construction.",
+    "expected_standards": [
+      "IS 7197: 1974"
+    ]
+  },
+  {
+    "id": "PUB-173",
+    "query": "Which IS standard covers fire retardant treated plywood for use in building interiors?",
+    "expected_standards": [
+      "IS 5509: 2000"
+    ]
+  },
+  {
+    "id": "PUB-174",
+    "query": "We manufacture Vertically Cast Iron Pressure Pipes For Water, Gas And Sewage for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 1537: 1976"
+    ]
+  },
+  {
+    "id": "PUB-175",
+    "query": "Which IS standard covers burnt clay jallies used as decorative lattice screens and ventilation panels in buildings?",
+    "expected_standards": [
+      "IS 7556: 1988"
+    ]
+  },
+  {
+    "id": "PUB-176",
+    "query": "Which Indian Standard defines the specifications for Washers With Square Hole For Wood Fastenings used in building construction?",
+    "expected_standards": [
+      "IS 8033: 1976"
+    ]
+  },
+  {
+    "id": "PUB-177",
+    "query": "We use PTFE thread seal tape for pipe joints in plumbing. Which IS standard applies to unsintered PTFE tape?",
+    "expected_standards": [
+      "IS 14643: 1999"
+    ]
+  },
+  {
+    "id": "PUB-178",
+    "query": "We apply coal tar based coatings to protect buried steel structures from corrosion. Which IS standard governs this product?",
+    "expected_standards": [
+      "IS 9912: 1981"
+    ]
+  },
+  {
+    "id": "PUB-179",
+    "query": "Our project requires compliance with specifications for Rebated Mortice Locks. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 6607: 1972"
+    ]
+  },
+  {
+    "id": "PUB-180",
+    "query": "Looking for the Indian Standard that governs Thermal Insulation Finishing Cements used in building construction.",
+    "expected_standards": [
+      "IS 9743: 1990"
+    ]
+  },
+  {
+    "id": "PUB-181",
+    "query": "Which IS standard covers GRP squatting pans for use in sanitary installations in rural and urban facilities?",
+    "expected_standards": [
+      "IS 11246: 1992"
+    ]
+  },
+  {
+    "id": "PUB-182",
+    "query": "We manufacture HDPE elbow fittings for potable water pipelines using injection moulding. Which IS standard (Part 5) covers their dimensional requirements?",
+    "expected_standards": [
+      "IS 8008 (Part 5): 2003"
+    ]
+  },
+  {
+    "id": "PUB-183",
+    "query": "Our project requires compliance with specifications for Bath Room Latches. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 5899: 1970"
+    ]
+  },
+  {
+    "id": "PUB-184",
+    "query": "We need the BIS standard covering Mastic Cement For Bedding Of Metal Window. Which IS specification applies?",
+    "expected_standards": [
+      "IS 3709: 1966"
+    ]
+  },
+  {
+    "id": "PUB-185",
+    "query": "Which IS standard specifies dimensions for hot rolled steel sections including beams, columns, channels, and angles?",
+    "expected_standards": [
+      "IS 8081: 1976"
+    ]
+  },
+  {
+    "id": "PUB-186",
+    "query": "Looking for the Indian Standard that governs Injection Moulding Pvc Socket Fittings With Solvent Cement Joints For Water Supplies Part 6 Specific Requirements For Sockets used in building construction.",
+    "expected_standards": [
+      "IS 7834 (PART6): 1987"
+    ]
+  },
+  {
+    "id": "PUB-187",
+    "query": "Which IS standard specifies the quality requirements for Ceramic Unglazed Vitreous Acid Resisting Tiles used in building projects?",
+    "expected_standards": [
+      "IS 4457: 1982"
+    ]
+  },
+  {
+    "id": "PUB-188",
+    "query": "What standard covers hollow and solid concrete blocks (non-autoclaved) for general masonry construction?",
+    "expected_standards": [
+      "IS 2185 (Part 1): 1979"
+    ]
+  },
+  {
+    "id": "PUB-189",
+    "query": "We need the BIS standard covering Vitreous Sanitary Appliances Part 9 Specific Requirements Ofpedastal Type Bidets. Which IS specification applies?",
+    "expected_standards": [
+      "IS 2556 (Part 9): 1994"
+    ]
+  },
+  {
+    "id": "PUB-190",
+    "query": "Looking for the BIS standard that covers the manufacture, dimensions, and testing requirements for Taper Washers For I-Beams.",
+    "expected_standards": [
+      "IS 5374: 1975"
+    ]
+  },
+  {
+    "id": "PUB-191",
+    "query": "We manufacture Rolled Steel Bulb Flats for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 1863: 1979"
+    ]
+  },
+  {
+    "id": "PUB-192",
+    "query": "Looking for the BIS standard that covers the manufacture, dimensions, and testing requirements for High Density Polythylene Film.",
+    "expected_standards": [
+      "IS 10889: 1984"
+    ]
+  },
+  {
+    "id": "PUB-193",
+    "query": "We manufacture Teak Logs for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 4895: 1985"
+    ]
+  },
+  {
+    "id": "PUB-194",
+    "query": "We need the BIS standard covering Stainless Steelsinks For Domestic Purposes 1. Scope — Requirements Regarding Material 4.5. Which IS specification applies?",
+    "expected_standards": [
+      "IS 13983: 1994"
+    ]
+  },
+  {
+    "id": "PUB-195",
+    "query": "Which IS standard specifies the quality requirements for Flush Bolts used in building projects?",
+    "expected_standards": [
+      "IS 5187: 1972"
+    ]
+  },
+  {
+    "id": "PUB-196",
+    "query": "We need the BIS specification for Tower Bolts Part 2 Non Ferrous Metals. Which IS standard and part number should we reference?",
+    "expected_standards": [
+      "IS 204 (Part 2): 1992"
+    ]
+  },
+  {
+    "id": "PUB-197",
+    "query": "Which Indian Standard defines the specifications for Sliding Locking Bolts For Use With Padlocks used in building construction?",
+    "expected_standards": [
+      "IS 7534: 1985"
+    ]
+  },
+  {
+    "id": "PUB-198",
+    "query": "What IS standard governs flat asbestos cement sheets used as building boards for ceiling and partition work?",
+    "expected_standards": [
+      "IS 2096: 1992"
+    ]
+  },
+  {
+    "id": "PUB-199",
+    "query": "Our project requires compliance with specifications for Collapsible Gates. Which Indian Standard should we follow?",
+    "expected_standards": [
+      "IS 10521: 1983"
+    ]
+  },
+  {
+    "id": "PUB-200",
+    "query": "Looking for the Indian Standard that defines species selection, dimensions, and workmanship requirements for timber door, window, and ventilator frames.",
+    "expected_standards": [
+      "IS 4021: 1995"
+    ]
+  },
+  {
+    "id": "PUB-201",
+    "query": "Which IS standard specifies the quality requirements for Indented Wire For Prestressed Concrete used in building projects?",
+    "expected_standards": [
+      "IS 6003: 1983"
+    ]
+  },
+  {
+    "id": "PUB-202",
+    "query": "Which Indian Standard defines the specifications for Self–Closing Taps For Water Supply Purposes used in building construction?",
+    "expected_standards": [
+      "IS 1711: 1984"
+    ]
+  },
+  {
+    "id": "PUB-203",
+    "query": "Looking for the Indian Standard that governs Structural Steel- Micro Alloyed used in building construction.",
+    "expected_standards": [
+      "IS 8500: 1991"
+    ]
+  },
+  {
+    "id": "PUB-204",
+    "query": "We manufacture Structural Timber In Buildings for the construction industry. Which BIS standard governs the product?",
+    "expected_standards": [
+      "IS 3629: 1986"
+    ]
+  },
+  {
+    "id": "PUB-205",
+    "query": "Which IS standard defines the specifications and testing requirements for Fabricated Pvc Fittings For Potable Water Supplies Part 1 General Requirements?",
+    "expected_standards": [
+      "IS 10124 (Part 1 ): 1988"
+    ]
+  },
+  {
+    "id": "PUB-206",
+    "query": "We need the BIS standard covering Portland Pozzolana Cement Part 1 Fly Ash Based 1. Scope — Covers The Manufacture, Physical And 4. Physical Requirements. Which IS specification applies?",
+    "expected_standards": [
+      "IS 1489 (PART1): 1991"
+    ]
+  },
+  {
+    "id": "PUB-207",
+    "query": "Which IS standard defines the specifications and testing requirements for Fabricated Pvc Fittings For Potable Water Supplies Part 2 Specific Requirements For Sockets?",
+    "expected_standards": [
+      "IS 10124 (PART2): 1988"
+    ]
+  },
+  {
+    "id": "PUB-208",
+    "query": "Which IS standard defines the specifications and testing requirements for Glazed Fire – Clay Sanitary Appliances Part 2 Specific Requirements Of Kitchen And Laboratory Sinks?",
+    "expected_standards": [
+      "IS 771 (Part 2): 1985"
+    ]
+  },
+  {
+    "id": "PUB-209",
+    "query": "We need the BIS standard covering High Tensile Steel Rivets Bars For Structural Purposes. Which IS specification applies?",
+    "expected_standards": [
+      "IS 1149: 1982"
+    ]
+  },
+  {
+    "id": "PUB-210",
+    "query": "Which BIS standard covers curtain rail systems installed in residential and commercial buildings?",
+    "expected_standards": [
+      "IS 10342: 1982"
+    ]
+  }
+]

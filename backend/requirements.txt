@@ -1,0 +1,16 @@
+# Core RAG
+rank-bm25==0.2.2
+nltk==3.9.1
+numpy>=1.24.0
+
+# Typo Tolerance
+thefuzz==0.22.1
+python-Levenshtein==0.26.1
+
+# Web API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# Environment variable loading
+python-dotenv==1.1.0

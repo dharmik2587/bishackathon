@@ -1,0 +1,15 @@
+services:
+  web:
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && python api.py"
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: PORT
+        value: 8000
+  frontend:
+    buildCommand: "cd FRONTEND-UP && npm install && npm run build"
+    startCommand: "cd FRONTEND-UP && npm run preview -- --port $PORT --host 0.0.0.0"
+    envVars:
+      - key: VITE_API_URL
+        value: "https://your-backend-url.onrender.com"

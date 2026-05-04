@@ -1,0 +1,140 @@
+[
+  {
+    "id": "PVT-016",
+    "query": "Which standard applies to autoclaved aerated concrete blocks?",
+    "expected_standards": [
+      "IS 2185 (Part 3): 1984"
+    ]
+  },
+  {
+    "id": "PVT-028",
+    "query": "Which standard covers testing of deleterious materials in aggregates?",
+    "expected_standards": [
+      "IS 2386 (Part 2): 1963"
+    ]
+  },
+  {
+    "id": "PVT-046",
+    "query": "Which standard applies to galvanized iron pipes?",
+    "expected_standards": [
+      "IS 1239 (Part 1): 2004"
+    ]
+  },
+  {
+    "id": "PVT-060",
+    "query": "We manufacture floor tiles made of cement concrete. Which BIS standard applies?",
+    "expected_standards": [
+      "IS 1237: 2012"
+    ]
+  },
+  {
+    "id": "PVT-073",
+    "query": "Which standard governs insulation boards?",
+    "expected_standards": [
+      "IS 3346: 1980"
+    ]
+  },
+  {
+    "id": "PVT-088",
+    "query": "We manufacture PVC insulation for cables. Which BIS standard applies?",
+    "expected_standards": [
+      "IS 5831: 1984"
+    ]
+  },
+  {
+    "id": "PVT-099",
+    "query": "Which standard applies to structural welding consumables?",
+    "expected_standards": [
+      "IS 814: 2004"
+    ]
+  },
+  {
+    "id": "PVT-104",
+    "query": "Which standard applies to masonry cement used in plastering works?",
+    "expected_standards": [
+      "IS 3466: 1988"
+    ]
+  },
+  {
+    "id": "PVT-115",
+    "query": "Which standard governs concrete curing compounds?",
+    "expected_standards": [
+      "IS 9014: 1978"
+    ]
+  },
+  {
+    "id": "PVT-123",
+    "query": "Which standard governs aggregates for bituminous concrete?",
+    "expected_standards": [
+      "IS 2386: 1963"
+    ]
+  },
+  {
+    "id": "PVT-133",
+    "query": "Which standard governs basalt stone?",
+    "expected_standards": [
+      "IS 1121: 1974"
+    ]
+  },
+  {
+    "id": "PVT-139",
+    "query": "Which BIS standard applies to wall plaster materials?",
+    "expected_standards": [
+      "IS 1661: 1972"
+    ]
+  },
+  {
+    "id": "PVT-147",
+    "query": "Looking for BIS standard for collapsible gates.",
+    "expected_standards": [
+      "IS 3414: 1968"
+    ]
+  },
+  {
+    "id": "PVT-154",
+    "query": "Which BIS standard applies to reflective coated glass?",
+    "expected_standards": [
+      "IS 14900: 2000"
+    ]
+  },
+  {
+    "id": "PVT-162",
+    "query": "Looking for BIS standard for bath tubs.",
+    "expected_standards": [
+      "IS 2556: 1974"
+    ]
+  },
+  {
+    "id": "PVT-170",
+    "query": "Which standard governs electrical conduits PVC?",
+    "expected_standards": [
+      "IS 9537: 1983"
+    ]
+  },
+  {
+    "id": "PVT-175",
+    "query": "Which standard governs threaded rods?",
+    "expected_standards": [
+      "IS 1367: 2002"
+    ]
+  },
+  {
+    "id": "PVT-183",
+    "query": "Which standard governs liquid waterproofing systems?",
+    "expected_standards": [
+      "IS 15814: 2019"
+    ]
+  },
+  {
+    "id": "PVT-192",
+    "query": "Looking for BIS standard for modular construction systems.",
+    "expected_standards": [
+      "IS 15916: 2010"
+    ]
+  },
+  {
+    "id": "PVT-203",
+    "query": "Looking for BIS standard for cement used in mass concrete structures.",
+    "expected_standards": []
+  }
+]
