@@ -1,19 +1,10 @@
 {
   "version": 2,
-  "buildCommand": "cd frontend && npm install && npm run build",
+  "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist",
   "framework": "vite",
+  "regions": ["iad1"],
   "env": {
-    "VITE_API_URL": {
-      "description": "Backend API URL for the frontend",
-      "required": false,
-      "default": "https://bis-rag-backend.onrender.com"
-    }
-  },
-  "redirects": [
-    {
-      "source": "/api/:path*",
-      "destination": "https://bis-rag-backend.onrender.com/api/:path*"
-    }
-  ]
+    "VITE_API_URL": "https://bis-rag-backend.onrender.com"
+  }
 }

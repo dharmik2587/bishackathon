@@ -1,53 +1,50 @@
 # Deploy to Vercel (Fast)
 
+## ✅ vercel.json is Required
+
+The `vercel.json` file in the root directory tells Vercel how to build and deploy your project. It's already configured - just commit and push it.
+
+---
+
 ## Option 1: Frontend on Vercel + Backend on Render (Recommended - Fastest)
 
-### Step 1: Deploy Frontend to Vercel (5 minutes)
+### Step 1: Deploy Frontend to Vercel (2-3 minutes)
+
+**Method A: Automatic (Vercel reads vercel.json)**
 
 1. Go to https://vercel.com/new
 2. **Sign in with GitHub** (if not already)
 3. **Import Project** → Select `bishackathon` repo
-4. **Framework Preset**: Vite
-5. **Root Directory**: `frontend/`
-6. **Build Command**: `npm run build`
-7. **Output Directory**: `dist`
-8. **Environment Variables**:
+4. Vercel will automatically detect `vercel.json` and configure:
+   - ✅ Framework: Vite (auto-detected)
+   - ✅ Root Directory: `frontend/` 
+   - ✅ Build Command: `cd frontend && npm run build`
+   - ✅ Output Directory: `frontend/dist`
+5. **Add Environment Variable**:
    ```
    VITE_API_URL = https://bis-rag-backend.onrender.com
    ```
-9. Click **Deploy** → Done in ~2 minutes ✅
+   (Click "Environment Variables" → Add)
+6. Click **Deploy** → Done in ~1-2 minutes ✅
 
 **Your frontend is now live at**: `https://bishackathon.vercel.app`
+
+**Method B: Manual (if auto-detect doesn't work)**
+
+1. In Vercel dashboard, click "Edit Project Settings"
+2. Override with:
+   - **Root Directory**: `frontend/`
+   - **Build Command**: `npm run build`
+   - **Output Directory**: `dist`
+3. Save and trigger redeploy
 
 ### Step 2: Deploy Backend to Render (Already Done)
 
 Backend is on Render → `https://bis-rag-backend.onrender.com`
 
-**Total Time**: ~7 minutes for both
+**Total Time**: ~5 minutes for both
 
 ---
-
-## Option 2: Serverless Backend on Vercel (Advanced)
-
-> ⚠️ Requires converting FastAPI to Vercel Functions (more complex, but free tier works)
-
-### Step 1: Create Vercel Python Function for Backend
-
-Create `api/query.py`:
-```python
-from http.server import BaseHTTPRequestHandler
-from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
-import json
-
-app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
 )
 
 class handler(BaseHTTPRequestHandler):
