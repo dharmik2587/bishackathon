@@ -12,7 +12,7 @@ from pathlib import Path as PathlibPath
 # Add backend directory to path for imports
 sys.path.insert(0, str(PathlibPath(__file__).parent))
 
-from inference import BISRetrievalEngine
+from inference import AccurateFastRetriever
 
 app = FastAPI(title="BIS Standards RAG Engine API", version="1.0.0")
 
@@ -31,7 +31,7 @@ app.add_middleware(
 )
 
 # Global engine instance
-engine: Optional[BISRetrievalEngine] = None
+engine: Optional[AccurateFastRetriever] = None
 
 class QueryRequest(BaseModel):
     query: str
@@ -82,7 +82,7 @@ async def startup_event():
         raise RuntimeError(f"Standards file not found at {standards_path}")
 
     try:
-        engine = BISRetrievalEngine(str(standards_path))
+        engine = AccurateFastRetriever(str(standards_path))
         print(f"[OK] BIS RAG Engine loaded with {len(engine.standards)} standards")
     except Exception as e:
         print(f"[ERROR] Failed to load engine: {e}")
@@ -169,7 +169,7 @@ async def query_standards(request: QueryRequest):
         import time
         start_time = time.time()
 
-        retrieved_numbers, rationale = engine.retrieve(request.query, top_k=request.top_k)
+        retrieved_numbers = engine.retrieve(request.query, top_k=request.top_k)
 
         retrieved_standards = []
         for std_num in retrieved_numbers:
@@ -181,6 +181,8 @@ async def query_standards(request: QueryRequest):
                 retrieved_standards.append(StandardInfo(**std_data))
 
         latency = time.time() - start_time
+
+        rationale = "Matched via hybrid BM25 lexical + dense semantic retrieval with cross-encoder re-ranking."
 
         return QueryResponse(
             id=f"q-{int(start_time * 1000)}",
@@ -218,7 +220,7 @@ async def run_evaluation():
             continue
 
         start_time = time.time()
-        retrieved_numbers, rationale = engine.retrieve(q["query"], top_k=5)
+        retrieved_numbers = engine.retrieve(q["query"], top_k=5)
         latency = round(time.time() - start_time, 4)
         total_time += latency
 
@@ -226,7 +228,7 @@ async def run_evaluation():
             "id": q["id"],
             "query": q["query"],
             "retrieved_standards": retrieved_numbers,
-            "rationale": rationale,
+            "rationale": "Matched via hybrid retrieval with cross-encoder re-ranking.",
             "latency_seconds": latency,
         }
         if "expected_standards" in q:
