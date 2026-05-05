@@ -6,8 +6,7 @@ sentence-transformers>=2.2.0
 requests>=2.28.0
 
 # Typo Tolerance
-thefuzz==0.22.1
-python-Levenshtein==0.26.1
+rapidfuzz>=3.0.0
 
 # Web API
 fastapi==0.104.1
