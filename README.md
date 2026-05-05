@@ -335,6 +335,7 @@ Best for frontend UI development and testing.
 
 ```bash
 cd frontend
+npm install
 npm run dev
 ```
 
@@ -363,6 +364,7 @@ python api.py
 **Terminal 2 — Frontend:**
 ```bash
 cd frontend
+npm install
 npm run dev
 # Visit http://localhost:5173
 ```
