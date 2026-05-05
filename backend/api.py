@@ -6,7 +6,13 @@ import json
 import os
 import time
 from pathlib import Path
-from backend.inference import BISRetrievalEngine
+import sys
+from pathlib import Path as PathlibPath
+
+# Add backend directory to path for imports
+sys.path.insert(0, str(PathlibPath(__file__).parent))
+
+from inference import BISRetrievalEngine
 
 app = FastAPI(title="BIS Standards RAG Engine API", version="1.0.0")
 
@@ -77,9 +83,9 @@ async def startup_event():
 
     try:
         engine = BISRetrievalEngine(str(standards_path))
-        print(f"✅ BIS RAG Engine loaded with {len(engine.standards)} standards")
+        print(f"[OK] BIS RAG Engine loaded with {len(engine.standards)} standards")
     except Exception as e:
-        print(f"❌ Failed to load engine: {e}")
+        print(f"[ERROR] Failed to load engine: {e}")
         raise
 
 
